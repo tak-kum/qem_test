@@ -3,7 +3,7 @@
 	<Kit>
 		<KitName>MCK-RA6T2_</KitName>
 		<DeviceName>RA6T2</DeviceName>
-		<KitImageUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/BoardPictures/MCK-RA6T2.png</KitImageUrl>
+		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardPictures/MCK-RA6T2.png</KitImageUrl>
 		<CpuName>RA6T2</CpuName>
 		<KitPartNumber>RTK0EMA270S00020BJ</KitPartNumber>
 		<CpuInfoUrl>/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra6t2-240mhz-arm-cortex-m33-trustzone-high-real-time-engine-motor-control</CpuInfoUrl>
@@ -15,30 +15,30 @@
 		<Project>
 			<ProjectFolderName>RA6T2_MCILV1_SPM_LESS_FOC_E2S_V101</ProjectFolderName>
 			<ProjectFolderName>RA6T2_MCILV1_SPM_LESS_FOC_TUNER_E2S_V101</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an6206xx0101-motor.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6206xx0101-motor.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T2_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V101</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an6207xx0101-motor.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6207xx0101-motor.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T2_MCILV1_SPM_ENCD_FOC_E2S_V101</ProjectFolderName>
 			<ProjectFolderName>RA6T2_MCILV1_SPM_ENCD_FOC_TUNER_E2S_V101</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an6208xx0101-motor.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6208xx0101-motor.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T2_MCILV1_SPM_HALL_120_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an6209xx0100-motor.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6209xx0100-motor.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T2_MCILV1_SPM_LESS_120_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an6210xx0100-motor.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6210xx0100-motor.xml</ProjectUrl>
 		</Project>
 	</Kit>
 	<Kit>
 		<KitName>RSSK-RA6T1</KitName>
 		<DeviceName>RA6T1</DeviceName>
-		<KitImageUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/d003e1ed0f80f6fdacefcd223b6bb5d896f95dea/BoardPictures/RSSK-RA6T1.png</KitImageUrl>
+		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/d003e1ed0f80f6fdacefcd223b6bb5d896f95dea/BoardPictures/RSSK-RA6T1.png</KitImageUrl>
 		<CpuName>RA6T1</CpuName>
 		<KitPartNumber>RTK0EMA170S00020BJ</KitPartNumber>
 		<CpuInfoUrl>/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra6t1-120mhz-arm-cortex-m4-assp-ra6-motor-control</CpuInfoUrl>
@@ -46,32 +46,32 @@
 		<KitDescription>The Motor Control Evaluation System for RA Family - RA6T1 Group is a low-voltage permanent magnet synchronous motor (brushless DC motor) solution that allows anyone to easily evaluate motor control.</KitDescription>
 		<Motor>Brushless DC Mortor (TG-55L-KA 24V)</Motor>
 		<CommunicationBoard>None</CommunicationBoard>
-		<HardwareInfo>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/BoardHardwareInfo/RSSK-RA6T1-HardareInfo.html</HardwareInfo>
+		<HardwareInfo>https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/RSSK-RA6T1-HardareInfo.html</HardwareInfo>
 		<Project>
 			<ProjectFolderName>RA6T1_ESB_SPM_LESS_FOC_E2S_V101</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an5558xx0111-motor.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an5558xx0111-motor.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T1_ESB_SPM_ENCD_FOC_E2S_V101</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an5923xx0111-motor.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an5923xx0111-motor.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T1_ESB_SPM_LESS_FOC_1SHUNT_E2S_V101</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an6256xx0101-motor.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6256xx0101-motor.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T1_ESB_SPM_HALL_120_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an6258xx0100-motor.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6258xx0100-motor.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T1_ESB_SPM_LESS_120_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an6259xx0100-motor.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6259xx0100-motor.xml</ProjectUrl>
 		</Project>
 	</Kit>
 	<Kit>
 		<KitName>RSK-RX23T</KitName>
 		<DeviceName>RX23T</DeviceName>
-		<KitImageUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/d003e1ed0f80f6fdacefcd223b6bb5d896f95dea/BoardPictures/RSK-RX23T.jpg</KitImageUrl>
+		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/d003e1ed0f80f6fdacefcd223b6bb5d896f95dea/BoardPictures/RSK-RX23T.jpg</KitImageUrl>
 		<CpuName>RX23T</CpuName>
 		<KitPartNumber>RTK500523TS90000BE</KitPartNumber>
 		<CpuInfoUrl>/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx23t-32-bit-microcontroller-floating-point-unit-fpu-ideal-controlling-single-inverter</CpuInfoUrl>
@@ -79,10 +79,10 @@
 		<KitDescription>The kit includes an LCD display module, on-chip debugging emulator, and integrated development environment so you can start evaluating the RX23T immediately after opening the box.</KitDescription>
 		<Motor>None</Motor>
 		<CommunicationBoard>None</CommunicationBoard>
-		<HardwareInfo>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/BoardHardwareInfo/RSK-RX23T-HardwareInfo.html</HardwareInfo>
+		<HardwareInfo>https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/RSK-RX23T-HardwareInfo.html</HardwareInfo>
 		<Project>
 			<ProjectFolderName>RX23T_ESB_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an6187xx0100-rx-encoderFOC.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6187xx0100-rx-encoderFOC.xml</ProjectUrl>
 		</Project>
 	</Kit>
 </Kits>
