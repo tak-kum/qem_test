@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZipFile>
+	<Category>Sensorless feedback</Category>
+	<Category>Hall feedback</Category>
+	<Category>120 degree control</Category>
+	<ZipDownloadUrl>/document/scd/rl78g1f-120-degree-conducting-control-permanent-magnetic-synchronous-motor-implementation-sample/r01an5114xx0200-rl78g1f-motor.zip</ZipDownloadUrl>
+	<SampleProject>
+		<DeviceName>RL78/G1F</DeviceName>
+		<ProjectFolderName>RL78G1F_MRSSK_120_E2S_CC_V200</ProjectFolderName>
+		<ProjectName>RL78/G1F 120-degree conducting control of permanent magnetic synchronous motor</ProjectName>
+		<Description>This project is specific for RL78/G1F permanent magnet synchronous motor with sensorless/hall feedback and 120 Degree conducting control</Description>
+	</SampleProject>
+</ZipFile>

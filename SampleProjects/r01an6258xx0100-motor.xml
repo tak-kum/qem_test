@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZipFile>
+	<Category>Hall feedback</Category>
+	<Category>120 degree control</Category>
+	<ZipDownloadUrl>/document/scd/ra6t1-120-degree-conducting-control-permanent-magnetic-synchronous-motor-using-hall-sensors/r01an6258xx0100-motor.zip</ZipDownloadUrl>
+	<SampleProject>
+		<DeviceName>RA6T1</DeviceName>
+		<ProjectFolderName>RA6T1_ESB_SPM_HALL_120_E2S_V100</ProjectFolderName>
+		<ProjectName>RA6T1 120-degree conducting control of permanent magnetic synchronous motor using hall sensors</ProjectName>
+		<Description>This project is specific for RA6T1 permanent magnet synchronous motor with hall sensor feedback and 120 Degree conducting control</Description>
+	</SampleProject>
+</ZipFile>

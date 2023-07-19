@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZipFile>
+	<Category>Sensorless feedback</Category>
+	<Category>120 degree control</Category>
+	<ZipDownloadUrl>/document/scd/ra6t1-sensorless-120-degree-conducting-control-permanent-magnetic-synchronous-motor-implementation/r01an6259xx0100-motor.zip</ZipDownloadUrl>
+	<SampleProject>
+		<DeviceName>RA6T1</DeviceName>
+		<ProjectFolderName>RA6T1_ESB_SPM_LESS_120_E2S_V100</ProjectFolderName>
+		<ProjectName>RA6T1 Sensorless 120-degree conducting control of permanent magnetic synchronous motor</ProjectName>
+		<Description>This project is specific for RA6T1 permanent magnet synchronous motor with sensorless feedback and 120 Degree conducting control</Description>
+	</SampleProject>
+</ZipFile>
