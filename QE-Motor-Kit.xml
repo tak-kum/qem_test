@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Kits>
 	<Kit>
-		<KitName>MCK-RA6T2_</KitName>
+		<KitName>MCK-RA6T2 Renesas Flexible Motor Control Kit for RA6T2 MCU Group</KitName>
 		<DeviceName>RA6T2</DeviceName>
 		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardPictures/MCK-RA6T2.png</KitImageUrl>
 		<CpuName>RA6T2</CpuName>
@@ -36,7 +36,7 @@
 		</Project>
 	</Kit>
 	<Kit>
-		<KitName>RSSK-RA6T1</KitName>
+		<KitName>Motor Control Evaluation System for RA Family - RA6T1 Group</KitName>
 		<DeviceName>RA6T1</DeviceName>
 		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/d003e1ed0f80f6fdacefcd223b6bb5d896f95dea/BoardPictures/RSSK-RA6T1.png</KitImageUrl>
 		<CpuName>RA6T1</CpuName>
@@ -69,20 +69,27 @@
 		</Project>
 	</Kit>
 	<Kit>
-		<KitName>RSK-RX23T</KitName>
-		<DeviceName>RX23T</DeviceName>
-		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/d003e1ed0f80f6fdacefcd223b6bb5d896f95dea/BoardPictures/RSK-RX23T.jpg</KitImageUrl>
-		<CpuName>RX23T</CpuName>
-		<KitPartNumber>RTK500523TS90000BE</KitPartNumber>
-		<CpuInfoUrl>/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx23t-32-bit-microcontroller-floating-point-unit-fpu-ideal-controlling-single-inverter</CpuInfoUrl>
-		<InverterInfoUrl>/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx23t-starter-kit-renesas-starter-kit-rx23t</InverterInfoUrl>
-		<KitDescription>The kit includes an LCD display module, on-chip debugging emulator, and integrated development environment so you can start evaluating the RX23T immediately after opening the box.</KitDescription>
-		<Motor>None</Motor>
-		<CommunicationBoard>None</CommunicationBoard>
-		<HardwareInfo>https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/RSK-RX23T-HardwareInfo.html</HardwareInfo>
+		<KitName>MCK-RX26T Renesas Flexible Motor Control Kit for RX26T MCU Group</KitName>
+		<DeviceName>RX26T</DeviceName>
+		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/d003e1ed0f80f6fdacefcd223b6bb5d896f95dea/BoardPictures/RSK-RX26T.jpg</KitImageUrl>
+		<CpuName>RX26T</CpuName>
+		<KitPartNumber>RTK0EMXE70S00020BJ</KitPartNumber>
+		<CpuInfoUrl>products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx26t-32-bit-microcontroller-optimized-dual-motor-and-pfc-control</CpuInfoUrl>
+		<InverterInfoUrl>products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxe70s00020bj-mck-rx26t-renesas-flexible-motor-control-kit-rx26t-mcu-group</InverterInfoUrl>
+		<KitDescription>The MCK-RX26T is a development kit that enables easy evaluation of motor control using permanent magnet synchronous motors (brushless DC motors). With this product and the sample code and QE for Motor that can be downloaded from the website, you can start evaluating motor control using the RX26T right away.</KitDescription>
+		<Motor>Brushless DC Mortor (R42BLD30L3)</Motor>
+		<CommunicationBoard>RTK0EMXC90Z00000BJ</CommunicationBoard>
+		<HardwareInfo>https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/MCK-RX26T-HardwareInfo.html</HardwareInfo>
 		<Project>
-			<ProjectFolderName>RX23T_ESB_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6187xx0100-rx-encoderFOC.xml</ProjectUrl>
+			<ProjectFolderName>RX26T_MCILV1_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
+			<ProjectFolderName>RX26T_MCILV1_SPM_ENCD_FOC_TUNER_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6857xx0100-rx-encoderFOC.xml</ProjectUrl>
+		</Project>
+		<Project>
+			<ProjectFolderName>RX26T_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V100</ProjectFolderName>
+			<ProjectFolderName>RX26T_MCILV1_SPM_LESS_FOC_E2S_V100</ProjectFolderName>
+			<ProjectFolderName>RX26T_MCILV1_SPM_LESS_FOC_TUNER_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6858xx0100-rx-sensorlessFOC.xml</ProjectUrl>
 		</Project>
 	</Kit>
 </Kits>

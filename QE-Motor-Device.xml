@@ -25,10 +25,11 @@
 	<DeviceFamily>
 		<DeviceFamilyName>RX</DeviceFamilyName>
 		<DeviceSeries>
-			<DeviceSeriesName>23T</DeviceSeriesName>
+			<DeviceSeriesName>RX200</DeviceSeriesName>
 			<Device>
-				<DeviceName>RX23T</DeviceName>
-				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6187xx0100-rx-encoderFOC.xml</ProjectUrl>
+				<DeviceName>RX26T</DeviceName>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6857xx0100-rx-encoderFOC.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6858xx0100-rx-sensorlessFOC.xml</ProjectUrl>
 			</Device>
 		</DeviceSeries>
 	</DeviceFamily>
