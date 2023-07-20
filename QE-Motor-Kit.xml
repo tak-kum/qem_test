@@ -38,7 +38,7 @@
 	<Kit>
 		<KitName>Motor Control Evaluation System for RA Family - RA6T1 Group</KitName>
 		<DeviceName>RA6T1</DeviceName>
-		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/d003e1ed0f80f6fdacefcd223b6bb5d896f95dea/BoardPictures/RSSK-RA6T1.png</KitImageUrl>
+		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardPictures/RSSK-RA6T1.png</KitImageUrl>
 		<CpuName>RA6T1</CpuName>
 		<KitPartNumber>RTK0EMA170S00020BJ</KitPartNumber>
 		<CpuInfoUrl>/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra6t1-120mhz-arm-cortex-m4-assp-ra6-motor-control</CpuInfoUrl>
@@ -71,7 +71,7 @@
 	<Kit>
 		<KitName>MCK-RX26T Renesas Flexible Motor Control Kit for RX26T MCU Group</KitName>
 		<DeviceName>RX26T</DeviceName>
-		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/d003e1ed0f80f6fdacefcd223b6bb5d896f95dea/BoardPictures/MCK-RX26T.png</KitImageUrl>
+		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardPictures/MCK-RX26T.png</KitImageUrl>
 		<CpuName>RX26T</CpuName>
 		<KitPartNumber>RTK0EMXE70S00020BJ</KitPartNumber>
 		<CpuInfoUrl>products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx26t-32-bit-microcontroller-optimized-dual-motor-and-pfc-control</CpuInfoUrl>
