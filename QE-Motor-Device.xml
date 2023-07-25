@@ -33,15 +33,4 @@
 			</Device>
 		</DeviceSeries>
 	</DeviceFamily>
-	<DeviceFamily>
-		<DeviceFamilyName>RL78</DeviceFamilyName>
-		<DeviceSeries>
-			<DeviceSeriesName>G1F</DeviceSeriesName>
-			<Device>
-				<DeviceName>RL78G1F</DeviceName>
-				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/an-r01an3596ej0110-motor.xml</ProjectUrl>
-				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an5114xx0200-rl78g1f-motor.xml</ProjectUrl>
-			</Device>
-		</DeviceSeries>
-	</DeviceFamily>
 </DeviceFamilies>
