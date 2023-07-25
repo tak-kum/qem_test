@@ -93,8 +93,8 @@
 		</Project>
 	</Kit>
 	<Kit>
-		<KitName>Evaluation System for BLDC Motor and RL78/G1F CPU Card</KitName>
-		<DeviceName>RL78/G1F</DeviceName>
+		<KitName>Evaluation System for BLDC Motor and RL78G1F CPU Card</KitName>
+		<DeviceName>RL78G1F</DeviceName>
 		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardPictures/RSSK-RL78G1F.png</KitImageUrl>
 		<CpuName>RX26T</CpuName>
 		<KitPartNumber>RTK0EMX270S00020BJ</KitPartNumber>
