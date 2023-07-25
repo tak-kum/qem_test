@@ -92,4 +92,25 @@
 			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6858xx0100-rx-sensorlessFOC.xml</ProjectUrl>
 		</Project>
 	</Kit>
+	<Kit>
+		<KitName>Evaluation System for BLDC Motor and RL78G1F CPU Card</KitName>
+		<DeviceName>RL78G1F</DeviceName>
+		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardPictures/RSSK-RL78G1F.png</KitImageUrl>
+		<CpuName>RX26T</CpuName>
+		<KitPartNumber>RTK0EMX270S00020BJ</KitPartNumber>
+		<CpuInfoUrl>products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx26t-32-bit-microcontroller-optimized-dual-motor-and-pfc-control</CpuInfoUrl>
+		<InverterInfoUrl>products/microcontrollers-microprocessors/rl78-low-power-8-16-bit-mcus/rl78g1f-multifunctional-microcontrollers-enhanced-functionality-sensorless-bldc-motor-control</InverterInfoUrl>
+		<KitDescription>The Evaluation System for BLDC Motor provided by Renesas is a low-voltage permanent magnet synchronous motor (brushless DC motor) solution that allows anyone to easily evaluate the motor. After purchase, you can download the software from the website and start evaluating immediately.</KitDescription>
+		<Motor>Brushless DC Mortor (TG-55L-KA)</Motor>
+		<CommunicationBoard></CommunicationBoard>
+		<HardwareInfo>https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/RSSK-RL78G1F-HardwareInfo.html</HardwareInfo>
+		<Project>
+			<ProjectFolderName>RL78G1F_MRSSK_SPM_DETECT_INIT_POSI_E2S_CC_V110</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/an-r01an3596ej0110-motor.xml</ProjectUrl>
+		</Project>
+		<Project>
+			<ProjectFolderName>RL78G1F_MRSSK_120_E2S_CC_V200</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an5114xx0200-rl78g1f-motor.xml</ProjectUrl>
+		</Project>
+	</Kit>
 </Kits>
