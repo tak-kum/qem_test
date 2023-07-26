@@ -2,7 +2,7 @@
 <ZipFile>
 	<Category>Sensorless feedback</Category>
 	<Category>Vector control</Category>
-	<ZipDownloadUrl>/document/scd/ra6t2-sensorless-vector-control-permanent-magnet-synchronous-motor-implementation/r01an6206xx0101-motor.zip</ZipDownloadUrl>
+	<ZipDownloadUrl>/document/sws/rzv2l-ai-software-development-kit-version-100.zip</ZipDownloadUrl>
 	<SampleProject>
 		<DeviceName>RA6T2</DeviceName>
 		<ProjectFolderName>RA6T2_MCILV1_SPM_LESS_FOC_E2S_V101</ProjectFolderName>
