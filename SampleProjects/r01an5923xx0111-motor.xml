@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZipFile>
+	<Category en="Encoder feedback" jp="エンコーダフィードバック" />
+	<Category en="Vector control" jp="ベクトル制御" />
+	<ZipDownloadUrl>/document/scd/ra6t1-vector-control-permanent-magnet-synchronous-motor-encoder-implementation-sample-code/r01an5923xx0111-motor.zip</ZipDownloadUrl>
+	<SampleProject>
+		<DeviceName>RA6T1</DeviceName>
+		<ProjectFolderName>RA6T1_ESB_SPM_ENCD_FOC_E2S_V101</ProjectFolderName>
+		<ProjectName en="RA6T1 Vector control for permanent magnet synchronous motor with encoder" jp="RA6T1 エンコーダ付永久磁石同期モータ用ベクトル制御" />
+		<ApplicationNoteUrl>/document/apn/ra6t1-vector-control-permanent-magnet-synchronous-motor-encoder-implementation</ApplicationNoteUrl>
+		<Description en="This project is specific for RA6T1 permanent magnet synchronous motor with encoder feedback and vector control" jp="このプロジェクトは、エンコーダフィードバックとベクトル制御を備えた RA6T1 永久磁石同期モータに特化しています。" />
+	</SampleProject>
+</ZipFile>

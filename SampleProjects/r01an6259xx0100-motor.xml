@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZipFile>
+	<Category en="Sensorless feedback" jp="センサーレスフィードバック" />
+	<Category en="120 degree control" jp="120度制御" />
+	<ZipDownloadUrl>/document/scd/ra6t1-sensorless-120-degree-conducting-control-permanent-magnetic-synchronous-motor-implementation/r01an6259xx0100-motor.zip</ZipDownloadUrl>
+	<SampleProject>
+		<DeviceName>RA6T1</DeviceName>
+		<ProjectFolderName>RA6T1_ESB_SPM_LESS_120_E2S_V100</ProjectFolderName>
+		<ProjectName en="RA6T1 Sensorless 120-degree conducting control of permanent magnetic synchronous motor" jp="RA6T1 永久磁石同期モータのセンサレス120度通電制御" />
+		<ApplicationNoteUrl>/document/apn/120-degree-conducting-control-permanent-magnetic-synchronous-motor-algorithm</ApplicationNoteUrl>
+		<Description en="This project is specific for RA6T1 permanent magnet synchronous motor with sensorless feedback and 120 Degree conducting control" jp="このプロジェクトは、センサーレスフィードバックと 120 度通電制御を備えた RA6T1 永久磁石同期モーターに特化しています。" />
+	</SampleProject>
+</ZipFile>

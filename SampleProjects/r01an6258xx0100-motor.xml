@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZipFile>
+	<Category en="Hall feedback" jp="ホールフィードバック" />
+	<Category en="120 degree control" jp="120度制御" />
+	<ZipDownloadUrl>/document/scd/ra6t1-120-degree-conducting-control-permanent-magnetic-synchronous-motor-using-hall-sensors/r01an6258xx0100-motor.zip</ZipDownloadUrl>
+	<SampleProject>
+		<DeviceName>RA6T1</DeviceName>
+		<ProjectFolderName>RA6T1_ESB_SPM_HALL_120_E2S_V100</ProjectFolderName>
+		<ProjectName en="RA6T1 120-degree conducting control of permanent magnetic synchronous motor using hall sensors" jp="RA6T1 ホールセンサーを使用した永久磁石同期モーターの 120 度通電制御" />
+		<ApplicationNoteUrl>/document/apn/ra6t1-120-degree-conducting-control-permanent-magnetic-synchronous-motor-using-hall-sensors</ApplicationNoteUrl>
+		<Description en="This project is specific for RA6T1 permanent magnet synchronous motor with hall sensor feedback and 120 Degree conducting control" jp="このプロジェクトは、ホール センサー フィードバックと 120 度通電制御を備えた RA6T1 永久磁石同期モーターに特化しています" />
+	</SampleProject>
+</ZipFile>
