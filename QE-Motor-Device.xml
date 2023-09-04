@@ -6,30 +6,40 @@
 			<DeviceSeriesName>RA6</DeviceSeriesName>
 			<Device>
 				<DeviceName>RA6T2</DeviceName>
-				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6206xx0101-motor.xml</ProjectUrl>
-				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6207xx0101-motor.xml</ProjectUrl>
-				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6208xx0101-motor.xml</ProjectUrl>
-				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6209xx0100-motor.xml</ProjectUrl>
-				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6210xx0100-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an6206xx0101-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an6207xx0101-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an6208xx0101-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an6209xx0100-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an6210xx0100-motor.xml</ProjectUrl>
 			</Device>
 			<Device>
 				<DeviceName>RA6T1</DeviceName>
-				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an5558xx0111-motor.xml</ProjectUrl>
-				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an5923xx0111-motor.xml</ProjectUrl>
-				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6256xx0101-motor.xml</ProjectUrl>
-				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6258xx0100-motor.xml</ProjectUrl>
-				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6259xx0100-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an5558xx0111-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an5923xx0111-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an6256xx0101-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an6258xx0100-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an6259xx0100-motor.xml</ProjectUrl>
 			</Device>
 		</DeviceSeries>
 	</DeviceFamily>
 	<DeviceFamily>
 		<DeviceFamilyName>RX</DeviceFamilyName>
 		<DeviceSeries>
-			<DeviceSeriesName>RX200</DeviceSeriesName>
+			<DeviceSeriesName>23T</DeviceSeriesName>
 			<Device>
-				<DeviceName>RX26T</DeviceName>
-				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6857xx0100-rx-encoderFOC.xml</ProjectUrl>
-				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6858xx0100-rx-sensorlessFOC.xml</ProjectUrl>
+				<DeviceName>RX23T</DeviceName>
+				<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an6187xx0100-rx-encoderFOC.xml</ProjectUrl>
+			</Device>
+		</DeviceSeries>
+	</DeviceFamily>
+	<DeviceFamily>
+		<DeviceFamilyName>RL78</DeviceFamilyName>
+		<DeviceSeries>
+			<DeviceSeriesName>G1F</DeviceSeriesName>
+			<Device>
+				<DeviceName>RL78/G1F</DeviceName>
+				<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/an-r01an3596ej0110-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an5114xx0200-rl78g1f-motor.xml</ProjectUrl>
 			</Device>
 		</DeviceSeries>
 	</DeviceFamily>

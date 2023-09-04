@@ -1,116 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Kits>
 	<Kit>
-		<KitName>MCK-RA6T2 Renesas Flexible Motor Control Kit for RA6T2 MCU Group</KitName>
+		<KitName en="MCK-RA6T2 Renesas Flexible Motor Control Kit for RA6T2 MCU Group" jp="MCK-RA6T2 Renesas Flexible Motor Control Kit for RA6T2 MCU Group"/>
 		<DeviceName>RA6T2</DeviceName>
-		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardPictures/MCK-RA6T2.png</KitImageUrl>
-		<CpuName>RA6T2</CpuName>
-		<KitPartNumber>RTK0EMA270S00020BJ</KitPartNumber>
-		<CpuInfoUrl>/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra6t2-240mhz-arm-cortex-m33-trustzone-high-real-time-engine-motor-control</CpuInfoUrl>
-		<InverterInfoUrl>/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema270s00020bj-mck-ra6t2-renesas-flexible-motor-control-kit-ra6t2-mcu-group</InverterInfoUrl>
-		<KitDescription>The MCK-RA6T2 is a development kit that enables easy evaluation of motor control using permanent magnet synchronous motors (brushless DC motors).</KitDescription>
-		<Motor>Brushless DC Motor (R42BLD30L3)</Motor>
-		<CommunicationBoard>RTK0EMXC90Z00000BJ</CommunicationBoard>
-		<HardwareInfo>https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/MCK-RA6T2-HardareInfo.html</HardwareInfo>
+		<KitImageUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/BoardPictures/MCK-RA6T2.png</KitImageUrl>
+		<KitDescription en="The MCK-RA6T2 is a development kit that enables easy evaluation of motor control using permanent magnet synchronous motors (brushless DC motors)." jp="MCK-RA6T2は、永久磁石同期モーター(ブラシレスDCモーター)を用いたモーター制御を簡単に評価できる開発キットです。"/>
+		<Motor en="Brushless DC Motor (R42BLD30L3)" jp="ブラシレスDCモーター（R42BLD30L3）"/>
+		<HardwareInfo en="https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/BoardHardwareInfo/en/MCK-RA6T2-HardwareInfo.html" jp="https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/BoardHardwareInfo/jp/MCK-RA6T2-HardwareInfo.html" />
 		<Project>
 			<ProjectFolderName>RA6T2_MCILV1_SPM_LESS_FOC_E2S_V101</ProjectFolderName>
 			<ProjectFolderName>RA6T2_MCILV1_SPM_LESS_FOC_TUNER_E2S_V101</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6206xx0101-motor.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an6206xx0101-motor.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T2_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V101</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6207xx0101-motor.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an6207xx0101-motor.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T2_MCILV1_SPM_ENCD_FOC_E2S_V101</ProjectFolderName>
 			<ProjectFolderName>RA6T2_MCILV1_SPM_ENCD_FOC_TUNER_E2S_V101</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6208xx0101-motor.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an6208xx0101-motor.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T2_MCILV1_SPM_HALL_120_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6209xx0100-motor.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an6209xx0100-motor.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T2_MCILV1_SPM_LESS_120_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6210xx0100-motor.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an6210xx0100-motor.xml</ProjectUrl>
 		</Project>
 	</Kit>
 	<Kit>
-		<KitName>Motor Control Evaluation System for RA Family - RA6T1 Group</KitName>
+		<KitName en="Motor Control Evaluation System for RA Family - RA6T1 Group" jp="RAファミリ用モータ制御評価システム - RA6T1 グループ"/>
 		<DeviceName>RA6T1</DeviceName>
-		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardPictures/RSSK-RA6T1.png</KitImageUrl>
-		<CpuName>RA6T1</CpuName>
-		<KitPartNumber>RTK0EMA170S00020BJ</KitPartNumber>
-		<CpuInfoUrl>/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra6t1-120mhz-arm-cortex-m4-assp-ra6-motor-control</CpuInfoUrl>
-		<InverterInfoUrl>/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema170s00020bj-motor-control-evaluation-system-ra-family-ra6t1-group</InverterInfoUrl>
-		<KitDescription>The Motor Control Evaluation System for RA Family - RA6T1 Group is a low-voltage permanent magnet synchronous motor (brushless DC motor) solution that allows anyone to easily evaluate motor control.</KitDescription>
-		<Motor>Brushless DC Mortor (TG-55L-KA 24V)</Motor>
-		<CommunicationBoard>None</CommunicationBoard>
-		<HardwareInfo>https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/RSSK-RA6T1-HardareInfo.html</HardwareInfo>
+		<KitImageUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/d003e1ed0f80f6fdacefcd223b6bb5d896f95dea/BoardPictures/RSSK-RA6T1.png</KitImageUrl>
+		<KitDescription en="The Motor Control Evaluation System for RA Family - RA6T1 Group is a low-voltage permanent magnet synchronous motor (brushless DC motor) solution that allows anyone to easily evaluate motor control." jp="RAファミリ用モータ制御評価システム RA6T1グループは、誰でも簡単にモータ制御を評価できる低電圧永久磁石同期モータ（ブラシレスDCモータ）ソリューションです。"/>
+		<Motor en="Brushless DC Mortor (TG-55L-KA 24V)" jp="ブラシレスDCモーター（TG-55L-KA 24V）"/>
+		<HardwareInfo en="https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/BoardHardwareInfo/en/RSSK-RA6T1-HardwareInfo.html" jp="https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/BoardHardwareInfo/jp/RSSK-RA6T1-HardwareInfo.html" />
 		<Project>
 			<ProjectFolderName>RA6T1_ESB_SPM_LESS_FOC_E2S_V101</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an5558xx0111-motor.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an5558xx0111-motor.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T1_ESB_SPM_ENCD_FOC_E2S_V101</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an5923xx0111-motor.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an5923xx0111-motor.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T1_ESB_SPM_LESS_FOC_1SHUNT_E2S_V101</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6256xx0101-motor.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an6256xx0101-motor.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T1_ESB_SPM_HALL_120_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6258xx0100-motor.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an6258xx0100-motor.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA6T1_ESB_SPM_LESS_120_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6259xx0100-motor.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an6259xx0100-motor.xml</ProjectUrl>
 		</Project>
 	</Kit>
 	<Kit>
-		<KitName>MCK-RX26T Renesas Flexible Motor Control Kit for RX26T MCU Group</KitName>
-		<DeviceName>RX26T</DeviceName>
-		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardPictures/MCK-RX26T.png</KitImageUrl>
-		<CpuName>RX26T</CpuName>
-		<KitPartNumber>RTK0EMXE70S00020BJ</KitPartNumber>
-		<CpuInfoUrl>products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx26t-32-bit-microcontroller-optimized-dual-motor-and-pfc-control</CpuInfoUrl>
-		<InverterInfoUrl>products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxe70s00020bj-mck-rx26t-renesas-flexible-motor-control-kit-rx26t-mcu-group</InverterInfoUrl>
-		<KitDescription>The MCK-RX26T is a development kit that enables easy evaluation of motor control using permanent magnet synchronous motors (brushless DC motors). With this product and the sample code and QE for Motor that can be downloaded from the website, you can start evaluating motor control using the RX26T right away.</KitDescription>
-		<Motor>Brushless DC Mortor (R42BLD30L3)</Motor>
-		<CommunicationBoard>RTK0EMXC90Z00000BJ</CommunicationBoard>
-		<HardwareInfo>https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/MCK-RX26T-HardwareInfo.html</HardwareInfo>
+		<KitName en="RSK-RX23T Renesas Flexible Motor Control Kit for RX23T MCU Group" jp="RSK-RX23T RX23T MCU グループ用 Renesas フレキシブル モータ コントロール キット"/>
+		<DeviceName>RX23T</DeviceName>
+		<KitImageUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/d003e1ed0f80f6fdacefcd223b6bb5d896f95dea/BoardPictures/RSK-RX23T.jpg</KitImageUrl>
+		<KitDescription en="The kit includes an LCD display module, on-chip debugging emulator, and integrated development environment so you can start evaluating the RX23T immediately after opening the box." jp="このキットには、LCD ディスプレイモジュール、オンチップデバッグエミュレータ、統合開発環境が含まれており、箱を開けてすぐに RX23T の評価を開始できます。"/>
+		<Motor en="None" jp="なし"/>
+		<HardwareInfo en="https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/BoardHardwareInfo/en/RSK-RX23T-HardwareInfo.html" jp="https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/BoardHardwareInfo/jp/RSK-RX23T-HardwareInfo.html" />
 		<Project>
-			<ProjectFolderName>RX26T_MCILV1_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
-			<ProjectFolderName>RX26T_MCILV1_SPM_ENCD_FOC_TUNER_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6857xx0100-rx-encoderFOC.xml</ProjectUrl>
-		</Project>
-		<Project>
-			<ProjectFolderName>RX26T_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V100</ProjectFolderName>
-			<ProjectFolderName>RX26T_MCILV1_SPM_LESS_FOC_E2S_V100</ProjectFolderName>
-			<ProjectFolderName>RX26T_MCILV1_SPM_LESS_FOC_TUNER_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6858xx0100-rx-sensorlessFOC.xml</ProjectUrl>
+			<ProjectFolderName>RX23T_ESB_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an6187xx0100-rx-encoderFOC.xml</ProjectUrl>
 		</Project>
 	</Kit>
 	<Kit>
-		<KitName>Evaluation System for BLDC Motor and RL78G1F CPU Card</KitName>
+		<KitName en="GB01 Inverter for Evaluation" jp="評価用インバータ GB01" />
 		<DeviceName>RL78G1F</DeviceName>
-		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardPictures/RSSK-RL78G1F.png</KitImageUrl>
-		<CpuName>RX26T</CpuName>
-		<KitPartNumber>RTK0EMX270S00020BJ</KitPartNumber>
-		<CpuInfoUrl>products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx26t-32-bit-microcontroller-optimized-dual-motor-and-pfc-control</CpuInfoUrl>
-		<InverterInfoUrl>products/microcontrollers-microprocessors/rl78-low-power-8-16-bit-mcus/rl78g1f-multifunctional-microcontrollers-enhanced-functionality-sensorless-bldc-motor-control</InverterInfoUrl>
-		<KitDescription>The Evaluation System for BLDC Motor provided by Renesas is a low-voltage permanent magnet synchronous motor (brushless DC motor) solution that allows anyone to easily evaluate the motor. After purchase, you can download the software from the website and start evaluating immediately.</KitDescription>
-		<Motor>Brushless DC Mortor (TG-55L-KA)</Motor>
-		<CommunicationBoard></CommunicationBoard>
-		<HardwareInfo>https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/RSSK-RL78G1F-HardwareInfo.html</HardwareInfo>
+		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardPictures/GB01-RL78G1F.png</KitImageUrl>
+		<KitDescription en="The Evaluation System for BLDC Motor provided by Renesas is a low-voltage permanent magnet synchronous motor (brushless DC motor) solution that allows anyone to easily evaluate the motor. After purchase, you can download the software from the website and start evaluating immediately." jp="ルネサスが提供するBLDCモータ評価システムは、誰でも簡単にモータを評価できる低電圧永久磁石同期モータ(ブラシレスDCモータ)ソリューションです。購入後、Web サイトからソフトウェアをダウンロードして、すぐに評価を開始できます。"/>
+		<Motor en="Brushless DC Mortor (TG-55L-KA 24V)" jp="ブラシレスDCモーター（TG-55L-KA 24V）"/>
+		<HardwareInfo en="https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/BoardHardwareInfo/en/GB01-RL78G1F-HardwareInfo.html" jp="https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/BoardHardwareInfo/jp/GB01-RL78G1F-HardwareInfo.html" />
 		<Project>
 			<ProjectFolderName>RL78G1F_MRSSK_SPM_DETECT_INIT_POSI_E2S_CC_V110</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/an-r01an3596ej0110-motor.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/an-r01an3596ej0110-motor.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RL78G1F_MRSSK_120_E2S_CC_V200</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an5114xx0200-rl78g1f-motor.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/tommy26tan/renesas-qe-motor/main/SampleProjects/r01an5114xx0200-rl78g1f-motor.xml</ProjectUrl>
 		</Project>
 	</Kit>
 </Kits>
