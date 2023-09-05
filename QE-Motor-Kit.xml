@@ -85,22 +85,5 @@
 			<ProjectFolderName>RL78G1F_MRSSK_120_E2S_CC_V200</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an5114xx0200-rl78g1f-motor.xml</ProjectUrl>
 		</Project>
-
-		<Project>
-			<ProjectFolderName>RL78G1F_GB01_1S_LESS_FOC_E2S_CC_V220</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an3992xx0220-rl78g1f-motor.xml</ProjectUrl>
-		</Project>
-		<Project>
-			<ProjectFolderName>RL78G1F_T1003_1S_LESS_FOC_E2S_CC_V220</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6419xx0220-rl78g1f-motor.xml</ProjectUrl>
-		</Project>
-		<Project>
-			<ProjectFolderName>RL78G1F_RSSK_120_IPD_E2S_CC_V200</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an4502xx0200-rl78g1f-motor.xml</ProjectUrl>
-		</Project>
-		<Project>
-			<ProjectFolderName>RL78G1F_GB_SPM_120HS_E2S_CC_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an5630xx0100-rl78g1f-motor.xml</ProjectUrl>
-		</Project>
 	</Kit>
 </Kits>
