@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZipFile>
+	<Category en="Sensorless feedback" jp="センサーレスフィードバック" />
+	<Category en="120 degree control" jp="120度制御" />
+	<ZipDownloadUrl>/document/scd/sensorless-detection-initial-position-rotor-rev110-sample-code/an-r01an3596ej0110-motor.zip</ZipDownloadUrl>
+	<SampleProject>
+		<DeviceName>RL78/G1F</DeviceName>
+		<ProjectFolderName>RL78G1F_MRSSK_SPM_DETECT_INIT_POSI_E2S_CC_V110</ProjectFolderName>
+		<ProjectName en="RL78G1F Sensorless speed control of 120-degree conducting controlled permanent magnetic synchronous motor" jp="RL78G1F 120度通電制御永久磁石同期モータのセンサレス速度制御" />
+		<ApplicationNoteUrl>/document/apn/sensorless-detection-initial-position-rotor-rev110</ApplicationNoteUrl>
+		<Description en="This project is specific for RL78/G1F permanent magnet synchronous motor with sensorless feedback and 120 Degree conducting control with detection of initial position" jp="このプロジェクトは、初期位置検出付きのセンサーレスフィードバックと 120 度通電制御を備えた RL78/G1F 永久磁石同期モーターに特化しています。" />
+	</SampleProject>
+</ZipFile>
