@@ -25,26 +25,11 @@
 	<DeviceFamily>
 		<DeviceFamilyName>RX</DeviceFamilyName>
 		<DeviceSeries>
-			<DeviceSeriesName>23T</DeviceSeriesName>
+			<DeviceSeriesName>RX200</DeviceSeriesName>
 			<Device>
-				<DeviceName>RX23T</DeviceName>
-				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6187xx0100-rx-encoderFOC.xml</ProjectUrl>
-			</Device>
-		</DeviceSeries>
-	</DeviceFamily>
-	<DeviceFamily>
-		<DeviceFamilyName>RL78</DeviceFamilyName>
-		<DeviceSeries>
-			<DeviceSeriesName>G1F</DeviceSeriesName>
-			<Device>
-				<DeviceName>RL78/G1F</DeviceName>
-				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/an-r01an3596xx0110-motor.xml</ProjectUrl>
-				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an5114xx0200-rl78g1f-motor.xml</ProjectUrl>
-				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an5630xx0100-rl78g1f-motor.xml</ProjectUrl>
-				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6419xx0220-rl78g1f-motor.xml</ProjectUrl>
-				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an3992xx0220-rl78g1f-motor.xml</ProjectUrl>
-				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an4502xx0200-rl78g1f-motor.xml</ProjectUrl>
-				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an3991xx0200-motor.xml</ProjectUrl>
+				<DeviceName>RX26T</DeviceName>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6857xx0100-rx-encoderFOC.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6858xx0100-rx-sensorlessFOC.xml</ProjectUrl>
 			</Device>
 		</DeviceSeries>
 	</DeviceFamily>

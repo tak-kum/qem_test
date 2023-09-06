@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZipFile>
+	<Category>Encoder feedback</Category>
+	<Category>Vector control</Category>
+	<ZipDownloadUrl>/document/scd/ra6t2-vector-control-permanent-magnet-synchronous-motor-encoder-implementation/r01an6208xx0101-motor.zip</ZipDownloadUrl>
+	<SampleProject>
+		<DeviceName>RA6T2</DeviceName>
+		<ProjectFolderName>RA6T2_MCILV1_SPM_ENCD_FOC_E2S_V101</ProjectFolderName>
+		<ProjectName>RA6T2 Vector control for permanent magnet synchronous motor with encoder</ProjectName>
+		<Description>This project is specific for RA6T2 permanent magnet synchronous motor with encoder feedback and vector control</Description>
+	</SampleProject>
+	<SampleProject>
+		<DeviceName>RA6T2</DeviceName>
+		<ProjectFolderName>RA6T2_MCILV1_SPM_ENCD_FOC_TUNER_E2S_V101</ProjectFolderName>
+		<ProjectName>RA6T2 Vector control for permanent magnet synchronous motor with encoder tuner project</ProjectName>
+		<Description>This project is specific for RA6T2 permanent magnet synchronous motor with encoder feedback and vector control tuner project</Description>
+	</SampleProject>
+</ZipFile>
