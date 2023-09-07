@@ -33,7 +33,7 @@
 	<Kit>
 		<KitName en="Motor Control Evaluation System for RA Family - RA6T1 Group" jp="RAファミリ用モータ制御評価システム - RA6T1 グループ"/>
 		<DeviceName>RA6T1</DeviceName>
-		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/d003e1ed0f80f6fdacefcd223b6bb5d896f95dea/BoardPictures/RSSK-RA6T1.png</KitImageUrl>
+		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/BoardPictures/RSSK-RA6T1.png</KitImageUrl>
 		<KitDescription en="The Motor Control Evaluation System for RA Family - RA6T1 Group is a low-voltage permanent magnet synchronous motor (brushless DC motor) solution that allows anyone to easily evaluate motor control." jp="RAファミリ用モータ制御評価システム RA6T1グループは、誰でも簡単にモータ制御を評価できる低電圧永久磁石同期モータ（ブラシレスDCモータ）ソリューションです。"/>
 		<Motor en="Brushless DC Mortor (TG-55L-KA 24V)" jp="ブラシレスDCモーター（TG-55L-KA 24V）"/>
 		<HardwareInfo en="https://raw.githubusercontent.com/tak-kum/qem_test/POC3/BoardHardwareInfo/en/RSSK-RA6T1-HardwareInfo.html" jp="https://raw.githubusercontent.com/tak-kum/qem_test/POC3/BoardHardwareInfo/jp/RSSK-RA6T1-HardwareInfo.html" />
@@ -59,13 +59,15 @@
 		</Project>
 	</Kit>
 	<Kit>
-		<KitName en="RSK-RX23T Renesas Flexible Motor Control Kit for RX23T MCU Group" jp="RSK-RX23T RX23T MCU グループ用 Renesas フレキシブル モータ コントロール キット"/>
+		<KitName en="MCK-RX26T Renesas Flexible Motor Control Kit for RX26T MCU Group" jp="MCK-RX26T Renesas Flexible Motor Control Kit for RX26T MCU Group"/>
 		<DeviceName>RX23T</DeviceName>
-		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/d003e1ed0f80f6fdacefcd223b6bb5d896f95dea/BoardPictures/RSK-RX23T.jpg</KitImageUrl>
-		<KitDescription en="The kit includes an LCD display module, on-chip debugging emulator, and integrated development environment so you can start evaluating the RX23T immediately after opening the box." jp="このキットには、LCD ディスプレイモジュール、オンチップデバッグエミュレータ、統合開発環境が含まれており、箱を開けてすぐに RX23T の評価を開始できます。"/>
+		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/BoardPictures/MCK-RX26T.png</KitImageUrl>
+		<KitDescription en="The MCK-RX26T is a development kit that enables easy evaluation of motor control using permanent magnet synchronous motors (brushless DC motors)." jp="永久磁石同期モータ(ブラシレスDCモータ)を使ったモータ制御の評価を簡単に行うことができる開発キットです。"/>
 		<Motor en="None" jp="なし"/>
 		<HardwareInfo en="https://raw.githubusercontent.com/tak-kum/qem_test/POC3/BoardHardwareInfo/en/RSK-RX23T-HardwareInfo.html" jp="https://raw.githubusercontent.com/tak-kum/qem_test/POC3/BoardHardwareInfo/jp/RSK-RX23T-HardwareInfo.html" />
 		<Project>
+			<ProjectFolderName>RX23T_ESB_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6187xx0100-rx-encoderFOC.xml</ProjectUrl>
 			<ProjectFolderName>RX23T_ESB_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6187xx0100-rx-encoderFOC.xml</ProjectUrl>
 		</Project>
