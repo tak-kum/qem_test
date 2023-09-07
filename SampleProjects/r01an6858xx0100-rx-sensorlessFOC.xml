@@ -22,4 +22,25 @@
 		<ProjectName>RX26T sensorless vector control for permanent magnet synchronous motor tuner project</ProjectName>
 		<Description en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control." jp="RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。" />
 	</SampleProject>
+	<SampleProject>
+		<DeviceName>RX26T</DeviceName>
+		<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V100</ProjectFolderName>
+		<ProjectName en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - For MCK" jp="永久磁石同期モータのセンサレスベクトル制御 - MCK用" />
+		<ProjectName>RX26T sensorless vector control for permanent magnet synchronous motor tuner project</ProjectName>
+		<Description en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control." jp="RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。" />
+	</SampleProject>
+	<SampleProject>
+		<DeviceName>RX26T</DeviceName>
+		<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_LESS_FOC_E2S_V100</ProjectFolderName>
+		<ProjectName en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - For MCK" jp="永久磁石同期モータのセンサレスベクトル制御 - MCK用" />
+		<ProjectName>RX26T sensorless vector control for permanent magnet synchronous motor tuner project</ProjectName>
+		<Description en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control." jp="RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。" />
+	</SampleProject>
+	<SampleProject>
+		<DeviceName>RX26T</DeviceName>
+		<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_LESS_FOC_TUNER_E2S_V100</ProjectFolderName>
+		<ProjectName en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - For MCK" jp="永久磁石同期モータのセンサレスベクトル制御 - MCK用" />
+		<ProjectName>RX26T sensorless vector control for permanent magnet synchronous motor tuner project</ProjectName>
+		<Description en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control." jp="RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。" />
+	</SampleProject>
 </ZipFile>
