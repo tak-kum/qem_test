@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ZipFile>
-	<Category>Encoder feedback</Category>
-	<Category>Vector control</Category>
+	<Category en="Encoder feedback" jp="エンコーダフィードバック" />
+	<Category en="Vector control" jp="ベクトル制御" />
 	<ZipDownloadUrl>/document/scd/ra6t2-vector-control-permanent-magnet-synchronous-motor-encoder-implementation/r01an6208xx0101-motor.zip</ZipDownloadUrl>
 	<SampleProject>
 		<DeviceName>RA6T2</DeviceName>
 		<ProjectFolderName>RA6T2_MCILV1_SPM_ENCD_FOC_E2S_V101</ProjectFolderName>
-		<ProjectName>RA6T2 Vector control for permanent magnet synchronous motor with encoder</ProjectName>
-		<Description>This project is specific for RA6T2 permanent magnet synchronous motor with encoder feedback and vector control</Description>
+		<ProjectName en="RA6T2 Vector control for permanent magnet synchronous motor with encoder" jp="RA6T2 エンコーダ付永久磁石同期モータ用ベクトル制御" />
+		<ApplicationNoteUrl>/document/apn/ra6t2-vector-control-permanent-magnet-synchronous-motor-encoder-implementation</ApplicationNoteUrl>
+		<Description en="This project is specific for RA6T2 permanent magnet synchronous motor with encoder feedback and vector control" jp="このプロジェクトは、エンコーダフィードバックとベクトル制御を備えた RA6T2 永久磁石同期モータに特化しています。" />
 	</SampleProject>
 	<SampleProject>
 		<DeviceName>RA6T2</DeviceName>
 		<ProjectFolderName>RA6T2_MCILV1_SPM_ENCD_FOC_TUNER_E2S_V101</ProjectFolderName>
-		<ProjectName>RA6T2 Vector control for permanent magnet synchronous motor with encoder tuner project</ProjectName>
-		<Description>This project is specific for RA6T2 permanent magnet synchronous motor with encoder feedback and vector control tuner project</Description>
+		<ProjectName en="RA6T2 Vector control for permanent magnet synchronous motor with encoder tuner project" jp="RA6T2 エンコーダチューナー付き永久磁石同期モーター用ベクトル制御プロジェクト" />
+		<ApplicationNoteUrl>/document/apn/ra6t2-vector-control-permanent-magnet-synchronous-motor-encoder-implementation</ApplicationNoteUrl>
+		<Description en="This project is specific for RA6T2 permanent magnet synchronous motor with encoder feedback and vector control tuner project" jp="このプロジェクトは、エンコーダ フィードバックとベクトル制御チューナー プロジェクトを備えた RA6T2 永久磁石同期モーターに特化しています。" />
 	</SampleProject>
 </ZipFile>
