@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZipFile>
+	<Category>Encoder feedback</Category>
+	<Category>Vector control</Category>
+	<ZipDownloadUrl>/document/scd/vector-control-permanent-magnet-synchronous-motor-encoder-mck-rx26t-rev100/r01an6857xx0100-rx-encoderFOC.zip</ZipDownloadUrl>
+	<SampleProject>
+		<DeviceName>RX26T</DeviceName>
+		<ProjectFolderName>RX26T_MCILV1_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
+		<ProjectName>RX26T permanent magnet synchrounous motor with encoder vector control</ProjectName>
+		<Description>This project is specific for RX26T permanent magnet synchronous motor with encoder feedback and vector control</Description>
+	</SampleProject>
+	<SampleProject>
+		<DeviceName>RX26T</DeviceName>
+		<ProjectFolderName>RX26T_MCILV1_SPM_ENCD_FOC_TUNER_E2S_V100</ProjectFolderName>
+		<ProjectName>RX26T permanent magnet synchrounous motor with encoder vector control tuner project</ProjectName>
+		<Description>This project is specific for RX26T permanent magnet synchronous motor with encoder feedback and vector control tuner project</Description>
+	</SampleProject>
+</ZipFile>
