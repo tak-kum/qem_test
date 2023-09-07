@@ -59,14 +59,6 @@
 		</Project>
 	</Kit>
 	<Kit>
-		<KitName en="MCK-RX26T Renesas Flexible Motor Control Kit for RX26T MCU Group" jp="MCK-RX26T Renesas Flexible Motor Control Kit for RX26T MCU Group"/>
-		<DeviceName>RX26T</DeviceName>
-		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/BoardPictures/MCK-RX26T.png</KitImageUrl>
-		<KitDescription en="The MCK-RX26T is a development kit that enables easy evaluation of motor control using permanent magnet synchronous motors (brushless DC motors)." jp="永久磁石同期モータ(ブラシレスDCモータ)を使ったモータ制御の評価を簡単に行うことができる開発キットです。"/>
-		<Motor en="None" jp="なし"/>
-		<HardwareInfo en="https://raw.githubusercontent.com/tak-kum/qem_test/POC3/BoardHardwareInfo/en/MCK-RX26T-HardwareInfo.html" jp="https://raw.githubusercontent.com/tak-kum/qem_test/POC3/BoardHardwareInfo/jp/MCK-RX26T-HardwareInfo.html" />
-	</Kit>
-	<Kit>
 		<KitName en="GB01 Inverter for Evaluation" jp="評価用インバータ GB01" />
 		<DeviceName>RL78/G1F</DeviceName>
 		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/BoardPictures/GB01-RL78G1F.png</KitImageUrl>
