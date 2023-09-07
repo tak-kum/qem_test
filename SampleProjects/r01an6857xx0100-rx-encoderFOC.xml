@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ZipFile>
-	<Category en="Encoder" jp="エンコーダ" />
+	<Category en="Sensorless feedback" jp="センサーレスフィードバック" />
 	<Category en="Vector Control" jp="ベクトル制御" />
 	<ZipDownloadUrl>/document/scd/vector-control-permanent-magnet-synchronous-motor-encoder-mck-rx26t-rev100/r01an6857xx0100-rx-encoderFOC.zip</ZipDownloadUrl>
 	<SampleProject>
