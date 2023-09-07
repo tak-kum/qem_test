@@ -60,16 +60,32 @@
 	</Kit>
 	<Kit>
 		<KitName en="MCK-RX26T Renesas Flexible Motor Control Kit for RX26T MCU Group" jp="MCK-RX26T Renesas Flexible Motor Control Kit for RX26T MCU Group"/>
-		<DeviceName>RX23T</DeviceName>
+		<DeviceName>RX26T</DeviceName>
 		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/BoardPictures/MCK-RX26T.png</KitImageUrl>
 		<KitDescription en="The MCK-RX26T is a development kit that enables easy evaluation of motor control using permanent magnet synchronous motors (brushless DC motors)." jp="永久磁石同期モータ(ブラシレスDCモータ)を使ったモータ制御の評価を簡単に行うことができる開発キットです。"/>
 		<Motor en="None" jp="なし"/>
-		<HardwareInfo en="https://raw.githubusercontent.com/tak-kum/qem_test/POC3/BoardHardwareInfo/en/RSK-RX23T-HardwareInfo.html" jp="https://raw.githubusercontent.com/tak-kum/qem_test/POC3/BoardHardwareInfo/jp/RSK-RX23T-HardwareInfo.html" />
+		<HardwareInfo en="https://raw.githubusercontent.com/tak-kum/qem_test/POC3/BoardHardwareInfo/en/MCK-RA6T2-HardwareInfo.html" jp="https://raw.githubusercontent.com/tak-kum/qem_test/POC3/BoardHardwareInfo/jp/MCK-RA6T2-HardwareInfo.html" />
 		<Project>
-			<ProjectFolderName>RX23T_ESB_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6187xx0100-rx-encoderFOC.xml</ProjectUrl>
-			<ProjectFolderName>RX23T_ESB_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6187xx0100-rx-encoderFOC.xml</ProjectUrl>
+			<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6857xx0100-rx-encoderFOC.xml</ProjectUrl>
+			<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_ENCD_FOC_TUNER_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6857xx0100-rx-encoderFOC.xml</ProjectUrl>
+			<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6857xx0100-rx-encoderFOC.xml</ProjectUrl>
+			<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_ENCD_FOC_TUNER_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6857xx0100-rx-encoderFOC.xml</ProjectUrl>
+			<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V110</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6858xx0100-rx-sensorlessFOC.xml</ProjectUrl>
+			<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_LESS_FOC_E2S_V110</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6858xx0100-rx-sensorlessFOC.xml</ProjectUrl>
+			<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_LESS_FOC_TUNER_E2S_V110</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6858xx0100-rx-sensorlessFOC.xml</ProjectUrl>
+			<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6858xx0100-rx-sensorlessFOC.xml</ProjectUrl>
+			<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_LESS_FOC_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6858xx0100-rx-sensorlessFOC.xml</ProjectUrl>
+			<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_LESS_FOC_TUNER_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6858xx0100-rx-sensorlessFOC.xml</ProjectUrl>
 		</Project>
 	</Kit>
 	<Kit>
