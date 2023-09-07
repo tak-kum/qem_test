@@ -65,46 +65,6 @@
 		<KitDescription en="The MCK-RX26T is a development kit that enables easy evaluation of motor control using permanent magnet synchronous motors (brushless DC motors)." jp="永久磁石同期モータ(ブラシレスDCモータ)を使ったモータ制御の評価を簡単に行うことができる開発キットです。"/>
 		<Motor en="None" jp="なし"/>
 		<HardwareInfo en="https://raw.githubusercontent.com/tak-kum/qem_test/POC3/BoardHardwareInfo/en/MCK-RX26T-HardwareInfo.html" jp="https://raw.githubusercontent.com/tak-kum/qem_test/POC3/BoardHardwareInfo/jp/MCK-RX26T-HardwareInfo.html" />
-		<Project>
-			<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6857xx0100-rx-encoderFOC.xml</ProjectUrl>
-		</Project>
-		<Project>
-			<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_ENCD_FOC_TUNER_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6857xx0100-rx-encoderFOC.xml</ProjectUrl>
-		</Project>
-		<Project>
-			<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6857xx0100-rx-encoderFOC.xml</ProjectUrl>
-		</Project>
-		<Project>
-			<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_ENCD_FOC_TUNER_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6857xx0100-rx-encoderFOC.xml</ProjectUrl>
-		</Project>
-		<Project>
-			<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V110</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6858xx0100-rx-sensorlessFOC.xml</ProjectUrl>
-		</Project>
-		<Project>
-			<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_LESS_FOC_E2S_V110</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6858xx0100-rx-sensorlessFOC.xml</ProjectUrl>
-		</Project>
-		<Project>
-			<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_LESS_FOC_TUNER_E2S_V110</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6858xx0100-rx-sensorlessFOC.xml</ProjectUrl>
-		</Project>
-		<Project>
-			<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6858xx0100-rx-sensorlessFOC.xml</ProjectUrl>
-		</Project>
-		<Project>
-			<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_LESS_FOC_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6858xx0100-rx-sensorlessFOC.xml</ProjectUrl>
-		</Project>
-		<Project>
-			<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_LESS_FOC_TUNER_E2S_V100</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6858xx0100-rx-sensorlessFOC.xml</ProjectUrl>
-		</Project>
 	</Kit>
 	<Kit>
 		<KitName en="GB01 Inverter for Evaluation" jp="評価用インバータ GB01" />
