@@ -1,30 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ZipFile>
-	<Category en="Encoder" jp="ƒGƒ“ƒR[ƒ_" />
-	<Category en="Vector Control" jp="ƒxƒNƒgƒ‹§Œä" />
+	<Category en="Encoder feedback" jp="ã‚¨ãƒ³ã‚³ãƒ¼ãƒ€â€•ãƒ•ã‚£ãƒ¼ãƒ‰ãƒãƒƒã‚¯" />
+	<Category en="Vector control" jp="ãƒ™ã‚¯ãƒˆãƒ«åˆ¶å¾¡" />
 	<ZipDownloadUrl>/document/scd/vector-control-permanent-magnet-synchronous-motor-encoder-mck-rx26t-rev100/r01an6857xx0100-rx-encoderFOC.zip</ZipDownloadUrl>
 	<SampleProject>
 		<DeviceName>RX26T</DeviceName>
 		<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
-		<ProjectName>en="Vector Control for Permanent Magnet Synchronous Motor with Encoder - For MCK" jp="‰i‹v¥Î“¯Šúƒ‚[ƒ^‚ÌƒGƒ“ƒR[ƒ_ƒxƒNƒgƒ‹§Œä - MCK—p"</ProjectName>
-		<Description>en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with an encoder under vector control." jp="RX26Tƒ}ƒCƒNƒƒRƒ“ƒgƒ[ƒ‰‚ğg—p‚µAƒGƒ“ƒR[ƒ_•t‚«‰i‹v¥Î“¯Šúƒ‚[ƒ^‚ğƒxƒNƒgƒ‹§Œä‚Å‹ì“®‚·‚éƒ\ƒtƒgƒEƒFƒAƒTƒ“ƒvƒ‹ƒvƒƒOƒ‰ƒ€‚Å‚·B"</Description>
+		<ProjectNameã€€en="Vector Control for Permanent Magnet Synchronous Motor with Encoder - For MCK" jp="æ°¸ä¹…ç£çŸ³åŒæœŸãƒ¢ãƒ¼ã‚¿ã®ã‚¨ãƒ³ã‚³ãƒ¼ãƒ€ãƒ™ã‚¯ãƒˆãƒ«åˆ¶å¾¡ - MCKç”¨"ã€€/>
+		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnet-synchronous-motor-encoder-mck-rx26t-rev100</ApplicationNoteUrl>
+		<Descriptionã€€en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with an encoder under vector control." jp="RX26Tãƒã‚¤ã‚¯ãƒ­ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ©ã‚’ä½¿ç”¨ã—ã€ã‚¨ãƒ³ã‚³ãƒ¼ãƒ€ä»˜ãæ°¸ä¹…ç£çŸ³åŒæœŸãƒ¢ãƒ¼ã‚¿ã‚’ãƒ™ã‚¯ãƒˆãƒ«åˆ¶å¾¡ã§é§†å‹•ã™ã‚‹ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã‚µãƒ³ãƒ—ãƒ«ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã§ã™ã€‚"ã€€/>
 	</SampleProject>
 	<SampleProject>
 		<DeviceName>RX26T</DeviceName>
 		<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_ENCD_FOC_TUNER_E2S_V100</ProjectFolderName>
-		<ProjectName>en="Vector Control for Permanent Magnet Synchronous Motor with Encoder - For MCK" jp="‰i‹v¥Î“¯Šúƒ‚[ƒ^‚ÌƒGƒ“ƒR[ƒ_ƒxƒNƒgƒ‹§Œä - MCK—p"</ProjectName>
-		<Description>en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with an encoder under vector control." jp="RX26Tƒ}ƒCƒNƒƒRƒ“ƒgƒ[ƒ‰‚ğg—p‚µAƒGƒ“ƒR[ƒ_•t‚«‰i‹v¥Î“¯Šúƒ‚[ƒ^‚ğƒxƒNƒgƒ‹§Œä‚Å‹ì“®‚·‚éƒ\ƒtƒgƒEƒFƒAƒTƒ“ƒvƒ‹ƒvƒƒOƒ‰ƒ€‚Å‚·B"</Description>
+		<ProjectNameã€€en="Vector Control for Permanent Magnet Synchronous Motor with Encoder - For MCK" jp="æ°¸ä¹…ç£çŸ³åŒæœŸãƒ¢ãƒ¼ã‚¿ã®ã‚¨ãƒ³ã‚³ãƒ¼ãƒ€ãƒ™ã‚¯ãƒˆãƒ«åˆ¶å¾¡ - MCKç”¨"ã€€/>
+		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnet-synchronous-motor-encoder-mck-rx26t-rev100</ApplicationNoteUrl>
+		<Descriptionã€€en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with an encoder under vector control." jp="RX26Tãƒã‚¤ã‚¯ãƒ­ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ©ã‚’ä½¿ç”¨ã—ã€ã‚¨ãƒ³ã‚³ãƒ¼ãƒ€ä»˜ãæ°¸ä¹…ç£çŸ³åŒæœŸãƒ¢ãƒ¼ã‚¿ã‚’ãƒ™ã‚¯ãƒˆãƒ«åˆ¶å¾¡ã§é§†å‹•ã™ã‚‹ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã‚µãƒ³ãƒ—ãƒ«ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã§ã™ã€‚"ã€€/>
 	</SampleProject>
 	<SampleProject>
 		<DeviceName>RX26T</DeviceName>
 		<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
-		<ProjectName>en="Vector Control for Permanent Magnet Synchronous Motor with Encoder - For MCK" jp="‰i‹v¥Î“¯Šúƒ‚[ƒ^‚ÌƒGƒ“ƒR[ƒ_ƒxƒNƒgƒ‹§Œä - MCK—p"</ProjectName>
-		<Description>en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with an encoder under vector control." jp="RX26Tƒ}ƒCƒNƒƒRƒ“ƒgƒ[ƒ‰‚ğg—p‚µAƒGƒ“ƒR[ƒ_•t‚«‰i‹v¥Î“¯Šúƒ‚[ƒ^‚ğƒxƒNƒgƒ‹§Œä‚Å‹ì“®‚·‚éƒ\ƒtƒgƒEƒFƒAƒTƒ“ƒvƒ‹ƒvƒƒOƒ‰ƒ€‚Å‚·B"</Description>
+		<ProjectNameã€€en="Vector Control for Permanent Magnet Synchronous Motor with Encoder - For MCK" jp="æ°¸ä¹…ç£çŸ³åŒæœŸãƒ¢ãƒ¼ã‚¿ã®ã‚¨ãƒ³ã‚³ãƒ¼ãƒ€ãƒ™ã‚¯ãƒˆãƒ«åˆ¶å¾¡ - MCKç”¨"ã€€/>
+		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnet-synchronous-motor-encoder-mck-rx26t-rev100</ApplicationNoteUrl>
+		<Descriptionã€€en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with an encoder under vector control." jp="RX26Tãƒã‚¤ã‚¯ãƒ­ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ©ã‚’ä½¿ç”¨ã—ã€ã‚¨ãƒ³ã‚³ãƒ¼ãƒ€ä»˜ãæ°¸ä¹…ç£çŸ³åŒæœŸãƒ¢ãƒ¼ã‚¿ã‚’ãƒ™ã‚¯ãƒˆãƒ«åˆ¶å¾¡ã§é§†å‹•ã™ã‚‹ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã‚µãƒ³ãƒ—ãƒ«ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã§ã™ã€‚"ã€€/>
 	</SampleProject>
 	<SampleProject>
 		<DeviceName>RX26T</DeviceName>
 		<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_ENCD_FOC_TUNER_E2S_V100</ProjectFolderName>
-		<ProjectName>en="Vector Control for Permanent Magnet Synchronous Motor with Encoder - For MCK" jp="‰i‹v¥Î“¯Šúƒ‚[ƒ^‚ÌƒGƒ“ƒR[ƒ_ƒxƒNƒgƒ‹§Œä - MCK—p"</ProjectName>
-		<Description>en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with an encoder under vector control." jp="RX26Tƒ}ƒCƒNƒƒRƒ“ƒgƒ[ƒ‰‚ğg—p‚µAƒGƒ“ƒR[ƒ_•t‚«‰i‹v¥Î“¯Šúƒ‚[ƒ^‚ğƒxƒNƒgƒ‹§Œä‚Å‹ì“®‚·‚éƒ\ƒtƒgƒEƒFƒAƒTƒ“ƒvƒ‹ƒvƒƒOƒ‰ƒ€‚Å‚·B"</Description>
+		<ProjectNameã€€en="Vector Control for Permanent Magnet Synchronous Motor with Encoder - For MCK" jp="æ°¸ä¹…ç£çŸ³åŒæœŸãƒ¢ãƒ¼ã‚¿ã®ã‚¨ãƒ³ã‚³ãƒ¼ãƒ€ãƒ™ã‚¯ãƒˆãƒ«åˆ¶å¾¡ - MCKç”¨"ã€€/>
+		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnet-synchronous-motor-encoder-mck-rx26t-rev100</ApplicationNoteUrl>
+		<Descriptionã€€en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with an encoder under vector control." jp="RX26Tãƒã‚¤ã‚¯ãƒ­ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ©ã‚’ä½¿ç”¨ã—ã€ã‚¨ãƒ³ã‚³ãƒ¼ãƒ€ä»˜ãæ°¸ä¹…ç£çŸ³åŒæœŸãƒ¢ãƒ¼ã‚¿ã‚’ãƒ™ã‚¯ãƒˆãƒ«åˆ¶å¾¡ã§é§†å‹•ã™ã‚‹ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã‚µãƒ³ãƒ—ãƒ«ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã§ã™ã€‚"ã€€/>
 	</SampleProject>
 </ZipFile>
