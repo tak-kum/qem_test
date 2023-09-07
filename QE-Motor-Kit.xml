@@ -64,7 +64,7 @@
 		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/BoardPictures/MCK-RX26T.png</KitImageUrl>
 		<KitDescription en="The MCK-RX26T is a development kit that enables easy evaluation of motor control using permanent magnet synchronous motors (brushless DC motors)." jp="永久磁石同期モータ(ブラシレスDCモータ)を使ったモータ制御の評価を簡単に行うことができる開発キットです。"/>
 		<Motor en="None" jp="なし"/>
-		<HardwareInfo en="https://raw.githubusercontent.com/tak-kum/qem_test/POC3/BoardHardwareInfo/en/MCK-RA6T2-HardwareInfo.html" jp="https://raw.githubusercontent.com/tak-kum/qem_test/POC3/BoardHardwareInfo/jp/MCK-RA6T2-HardwareInfo.html" />
+		<HardwareInfo en="https://raw.githubusercontent.com/tak-kum/qem_test/POC3/BoardHardwareInfo/en/MCK-RX26T-HardwareInfo.html" jp="https://raw.githubusercontent.com/tak-kum/qem_test/POC3/BoardHardwareInfo/jp/MCK-RX26T-HardwareInfo.html" />
 		<Project>
 			<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6857xx0100-rx-encoderFOC.xml</ProjectUrl>
