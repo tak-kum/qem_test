@@ -68,22 +68,40 @@
 		<Project>
 			<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6857xx0100-rx-encoderFOC.xml</ProjectUrl>
+		</Project>
+		<Project>
 			<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_ENCD_FOC_TUNER_E2S_V100</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6857xx0100-rx-encoderFOC.xml</ProjectUrl>
+		</Project>
+		<Project>
 			<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6857xx0100-rx-encoderFOC.xml</ProjectUrl>
+		</Project>
+		<Project>
 			<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_ENCD_FOC_TUNER_E2S_V100</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6857xx0100-rx-encoderFOC.xml</ProjectUrl>
+		</Project>
+		<Project>
 			<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V110</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6858xx0100-rx-sensorlessFOC.xml</ProjectUrl>
+		</Project>
+		<Project>
 			<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_LESS_FOC_E2S_V110</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6858xx0100-rx-sensorlessFOC.xml</ProjectUrl>
+		</Project>
+		<Project>
 			<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_LESS_FOC_TUNER_E2S_V110</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6858xx0100-rx-sensorlessFOC.xml</ProjectUrl>
+		</Project>
+		<Project>
 			<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V100</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6858xx0100-rx-sensorlessFOC.xml</ProjectUrl>
+		</Project>
+		<Project>
 			<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_LESS_FOC_E2S_V100</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6858xx0100-rx-sensorlessFOC.xml</ProjectUrl>
+		</Project>
+		<Project>
 			<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_LESS_FOC_TUNER_E2S_V100</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an6858xx0100-rx-sensorlessFOC.xml</ProjectUrl>
 		</Project>
