@@ -7,6 +7,7 @@
 		<DeviceName>RX26T</DeviceName>
 		<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
 		<ProjectName>en="Vector Control for Permanent Magnet Synchronous Motor with Encoder - For MCK" jp="永久磁石同期モータのエンコーダベクトル制御 - MCK用"</ProjectName>
+		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnet-synchronous-motor-encoder-mck-rx26t-rev100/</ApplicationNoteUrl>
 		<Description>en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with an encoder under vector control." jp="RX26Tマイクロコントローラを使用し、エンコーダ付き永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。"</Description>
 	</SampleProject>
 </ZipFile>
