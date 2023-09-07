@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZipFile>
+	<Category en="Sensorless feedback" jp="センサーレスフィードバック" />
+	<Category en="Vector control" jp="ベクトル制御" />
+	<ZipDownloadUrl>/document/scd/ra6t2-sensorless-vector-control-permanent-magnet-synchronous-motor-implementation/r01an6206xx0101-motor.zip</ZipDownloadUrl>
+	<SampleProject>
+		<DeviceName>RA6T2</DeviceName>
+		<ProjectFolderName>RA6T2_MCILV1_SPM_LESS_FOC_E2S_V101</ProjectFolderName>
+		<ProjectName en="RA6T2 Sensorless vector control for permanent magnet synchronous motor" jp="RA6T2 永久磁石同期モータ用センサレスベクトル制御" />
+		<ApplicationNoteUrl>/document/apn/ra6t2-sensorless-vector-control-permanent-magnet-synchronous-motor-implementation</ApplicationNoteUrl>
+		<Description en="This project is specific for RA6T2 permanent magnet synchronous motor with sensorless feedback and vector control" jp="このプロジェクトは、センサーレス フィードバックとベクトル制御を備えた RA6T2 永久磁石同期モーターに特化しています" />
+	</SampleProject>
+	<SampleProject>
+		<DeviceName>RA6T2</DeviceName>
+		<ProjectFolderName>RA6T2_MCILV1_SPM_LESS_FOC_TUNER_E2S_V101</ProjectFolderName>
+		<ProjectName en="RA6T2 Sensorless vector control for permanent magnet synchronous motor tuner project" jp="RA6T2 永久磁石同期モーターチューナープロジェクト用センサーレスベクトル制御" />
+		<ApplicationNoteUrl>/document/apn/ra6t2-sensorless-vector-control-permanent-magnet-synchronous-motor-implementation</ApplicationNoteUrl>
+		<Description en="This project is specific for RA6T2 permanent magnet synchronous motor with sensorless feedback and vector control tuner project" jp="このプロジェクトは、センサーレス フィードバックとベクトル制御チューナー プロジェクトを備えた RA6T2 永久磁石同期モーターに特化しています" />
+	</SampleProject>
+</ZipFile>
