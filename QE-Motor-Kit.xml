@@ -81,9 +81,5 @@
 			<ProjectFolderName>RL78G1F_MRSSK_SPM_DETECT_INIT_POSI_E2S_CC_V110</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/an-r01an3596ej0110-motor.xml</ProjectUrl>
 		</Project>
-		<Project>
-			<ProjectFolderName>RL78G1F_MRSSK_120_E2S_CC_V200</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC3/SampleProjects/r01an5114xx0200-rl78g1f-motor.xml</ProjectUrl>
-		</Project>
 	</Kit>
 </Kits>
