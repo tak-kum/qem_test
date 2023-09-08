@@ -5,20 +5,20 @@
 		<DeviceSeries>
 			<DeviceSeriesName>RA6</DeviceSeriesName>
 			<Device>
-				<DeviceName>RA6T2</DeviceName>
-				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6206xx0101-motor.xml</ProjectUrl>
-				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6207xx0101-motor.xml</ProjectUrl>
-				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6208xx0101-motor.xml</ProjectUrl>
-				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6209xx0100-motor.xml</ProjectUrl>
-				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6210xx0100-motor.xml</ProjectUrl>
-			</Device>
-			<Device>
 				<DeviceName>RA6T1</DeviceName>
 				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an5558xx0111-motor.xml</ProjectUrl>
 				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an5923xx0111-motor.xml</ProjectUrl>
 				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6256xx0101-motor.xml</ProjectUrl>
 				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6258xx0100-motor.xml</ProjectUrl>
 				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6259xx0100-motor.xml</ProjectUrl>
+			</Device>
+			<Device>
+				<DeviceName>RA6T2</DeviceName>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6206xx0101-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6207xx0101-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6208xx0101-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6209xx0100-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6210xx0100-motor.xml</ProjectUrl>
 			</Device>
 		</DeviceSeries>
 	</DeviceFamily>
@@ -41,6 +41,11 @@
 				<DeviceName>RL78/G1F</DeviceName>
 				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/an-r01an3596xx0110-motor.xml</ProjectUrl>
 				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an5114xx0200-rl78g1f-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an5630xx0100-rl78g1f-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6419xx0220-rl78g1f-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an3992xx0220-rl78g1f-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an4502xx0200-rl78g1f-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an3991xx0200-motor.xml</ProjectUrl>
 			</Device>
 		</DeviceSeries>
 	</DeviceFamily>
