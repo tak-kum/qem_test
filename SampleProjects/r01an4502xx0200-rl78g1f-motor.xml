@@ -8,6 +8,6 @@
 		<ProjectFolderName>RL78G1F_RSSK_120_IPD_E2S_CC_V200</ProjectFolderName>
 		<ProjectName en="RL78/G1F Sensorless speed control of 120-degree conducting controlled permanent magnetic synchronous motor with detection of initial position" jp="RL78/G1F マイクロコントローラを使用し、永久磁石同期モータを120 度通電方式で駆動するサンプルプログラムです。(R01AN4502JJ0200)" />
 		<ApplicationNoteUrl>/document/apn/rl78g1f-sensorless-speed-control-120-degree-conducting-controlled-permanent-magnetic-synchronous</ApplicationNoteUrl>
-		<Description en="This project is the sample programs driving a permanent magnetic synchronous motor in the 120-degree conducting method using the RL78/G1F microcontroller. (R01AN4502EJ0200)" jp="このプロジェクトはRL78/G1Fマイクロコントローラを使用し、永久磁石同期モータを120 度通電方式で駆動するサンプルプログラムです。" />
+		<Description en="This project is the sample programs driving a permanent magnetic synchronous motor in the 120-degree conducting method using the RL78/G1F microcontroller. (R01AN4502EJ0200)" jp="RL78/G1F マイクロコントローラを使用し、永久磁石同期モータを120 度通電方式で駆動するサンプルプログラムです。(R01AN4502JJ0200)" />
 	</SampleProject>
 </ZipFile>
