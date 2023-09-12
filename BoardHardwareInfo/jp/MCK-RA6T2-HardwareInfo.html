@@ -5,6 +5,149 @@
 <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/jp/style.css" >
 <meta name="title" content="Kit information">
 <title>Kit information</title>
+<style type="text/css">
+	body {
+		background-color: white;
+	
+		font-style: normal;
+		font-size: 10pt;
+		color: black;
+	}
+	
+	a {
+		font-style: normal;
+		text-decoration: none;
+	}
+	
+	a:link {
+		color: #0785ce;
+	}
+	
+	a:active {
+		color: #2185ce;
+	}
+	
+	a:visited {
+		color: #2185ce;
+	}
+	
+	a:hover {
+		color: #3ba8de;
+		text-decoration: underline;
+	}
+	
+	hr {
+		height: 1px;
+		color: darkgray;
+	}
+	
+	h1 {
+		font-style: bold;
+		font-size: 120%;
+		color: white;
+		background-color: gray;
+	}
+	
+	h2 {
+		font-style: bold;
+		font-size: 120%;
+		color: blck;
+	}
+	
+	h3 {
+		font-style: normal;
+		font-size: 120%;
+		color: black;
+		line-height: 0.1;
+	
+		padding: 0.5ex;
+		border-style: solid;
+		border-width: 0 0 1px 0;
+		border-color: darkgrey;
+	}
+	
+	h4 {
+		font-style: bold;
+		color: white;
+		background-color: darkblue;
+		padding: 5px;
+		margin: 0.5em 0;
+	}
+	
+	h5 {
+		font-style: normal;
+		font-size: 105%;
+		color: black;
+	}
+	
+	table {
+		border-style: solid;
+		border-width: 1px 1px 1px 1px;
+		border-color: darkblue;
+	}
+	
+	table.notice {
+		border-style: none;
+	}
+	
+	th {
+		border-style: solid;
+		border-width: 1px 1px 1px 1px;
+		border-color: black;
+	}
+	
+	th.gui {
+		background-color: lightyellow;
+	}
+	
+	th.func {
+		background-color: greenyellow;
+	}
+	
+	th.notice {
+		border-style: none;
+		text-align: left;
+		color: red;
+	}
+	
+	td {
+		border-style: solid;
+		border-width: 1px 1px 1px 1px;
+		border-color: darkgray;
+	}
+	
+	td.notice {
+		border-style: none;
+		color: red;
+	}
+	
+	span.notice {
+		color: red;
+	}
+	
+	blockquote {
+		padding: 1ex;
+		border-style: dashed;
+		border-width: 0 0 1px 1px;
+		border-color: darkgray;
+	}
+
+.linkbtn a {
+    /*コレ*/border-radius: 10px;
+    display: block;
+    width: 150px;
+    padding: 2px;
+    box-sizing: border-box;
+    background: #588dee;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px 0;
+}
+.linkbtn a:hover {
+	background-color: #81a8f1;
+}
+</style>
 </head>
 <body>
 
@@ -27,10 +170,12 @@
 				Web サイトからダウンロードできるので、すぐに RA6T2 を使ったモータ制御の評価を始めることができます。
 			</p>
 			<p style="font-size:100%;">
-				<a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema270s00020bj-mck-ra6t2-renesas-flexible-motor-control-kit-ra6t2-mcu-group" target="_blank"><img src="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/Images/LM.png"  style="width:4cm" /></p>
-			</p>
-			<p style="font-size:100%;">
-				<a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema270s00020bj-mck-ra6t2-renesas-flexible-motor-control-kit-ra6t2-mcu-group#parametric_options" target="_blank"><img src="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/Images/ON.png"  style="width:4cm" /></a></p>
+				<div class="btn linkbtn">
+					<a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema270s00020bj-mck-ra6t2-renesas-flexible-motor-control-kit-ra6t2-mcu-group">製品情報</a>
+				</div>
+				<div class="btn linkbtn">
+					<a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema270s00020bj-mck-ra6t2-renesas-flexible-motor-control-kit-ra6t2-mcu-group#parametric_options">ご購入</a>
+				</div>
 			</p>
 		</td>
 	  </tr>
@@ -40,43 +185,50 @@
 	<h4>ハードウェア情報</h4>
 	
 	<p style="font-size:100%;">
-	<li>CPUボードにはモーター制御MCUとしてRX26Tを搭載しています。</li>
-	<li>三相BLDCモーター用インバーター基板（定格48V/10A）</li>
-	<li>RX26Tのフラッシュプログラミング用オンボードデバッガ</li>
-	<li>1シャント/3シャント電流センシングをサポート</li>
-	<li>過電流検出</li>
-	<li>モータ制御開発支援ツール「Renesas Motor Workbench」に対応</li>
-	<li>PCとCPUボードを電気的に絶縁した通信ボードにより、モータ制御の評価・デバッグが安全に行えます。</li>
+	<ul>
+	<li>CPUボードにはモータ制御MCUとしてRA6T2を搭載</li>
+	<li>3相BLDCモータ用インバータボード(定格48V/10A)</li>
+	<li>RA6T2のフラッシュプログラミング用オンボードデバッガ搭載</li>
+	<li>1シャント/3シャント電流検出対応</li>
+	<li>過電流検知機能搭載</li>
+	<li>モータ制御開発支援ツールRenesas Motor Workbenchに対応(
+		<a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx23t-rx24t-rssk" target="_blank"> Renesas Motor Workbenchの使い方の紹介ページ(ビデオ集を含む)</a>
+		)
+	</li>
+	<li>モータ制御開発支援ツール用の通信ボードを使ってPCと電気的に絶縁し、安全にモータ制御の評価、デバッグを行うことが可能</li>
+	<li>ホールセンサ、エンコーダ、誘導式位置センサ入力対応</li>
 	<li>同梱品</li>
 	<ul>
-		<li>RX26T CPUボード
-			<a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxe70c00000bj-mcb-rx26t-type-cpu-board-rx26t-mcu-group" target="_blank">(MCB-RX26T タイプA)</a>
+		<li>RA6T2 CPUボード</li>
+		<li>インバータボード
+			<a href="https://www.renesas.com/jp/ja/products/power-power-management/fet-motor-drivers/rtk0em0000s04020bj-mci-lv-1-renesas-flexible-motor-control-inverter-board-low-voltage-48v10a-three-phase-bldcpmsm-motor" target="_blank">(MCI-LV-1)</a>
 		</li>
-		<li>インバータ基板
-			<a href="https://www.renesas.com/us/en/products/power-power-management/fet-motor-drivers/rtk0em0000s04020bj-mci-lv-1-renesas-flexible-motor-control-inverter-board-low-voltage-48v10a-three-phase-bldcpmsm-motor" target="_blank">(MCI-LV-1)</a>
-		</li>
-		<li>コミュニケーションボード
-			<a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxc90s00000bj-mc-com-renesas-flexible-motor-control-communication-board" target="_blank">(MC-COM)</a>
+		<li>通信ボード
+			<a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxc90s00000bj-mc-com-renesas-flexible-motor-control-communication-board" target="_blank">(MC-COM)</a>
 		</li>
 		<li>永久磁石同期モーター</li>
-		<li>付属品（ケーブル、スタンドオフなど</li>
+		<li>アクセサリ (ケーブル、スペーサなど)</li>
 	</ul>
-	<li>Setup</li>
+	<li>構成</li>
 		<p>
-			<img src="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/Images/MCKRA6T2_HW.png"  style="width:12cm" />
+			<img src="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/Images/MCKRA6T2_HW.png"  style="width:15cm" />
 		</p>
 	</p>
+	</ul>
 
-	<h4>ドキュメンテーション</h4>
+	<h4>ドキュメント</h4>
 	
 	<table style="border:none;" cellpadding="5" >
 	  <tr>
+		<ul>
 		<li><a href="https://www.renesas.com/us/en/document/qsg/mck-ra6t2-quick-start-guide?r=1545186" target="_blank">MCK-RA6T2 クイックスタートガイド</a></li>
 		<li><a href="https://www.renesas.com/us/en/document/whp/challenges-development-next-generation-motor-control-systems?r=1545186" target="_blank">次世代モーター制御システム開発の課題</a></li>
 		<li><a href="https://www.renesas.com/us/en/document/qsg/motor-control-development-support-tool-renesas-motor-workbench-31-quick-start-guide?r=1545186" target="_blank">モータ制御開発支援ツール Renesas Motor Workbench 3.1 クイックスタートガイド</a></li>
 		<li><a href="https://www.renesas.com/us/en/document/mat/mck-ra6t2-users-manual?r=1545186" target="_blank">MCK-RA6T2 ユーザーズマニュアル</a></li>
-	  </tr>
+		</ul>
+	</tr>
 	</table>
+	<br>
 
  </body>
  </html>
