@@ -54,14 +54,14 @@ h3 {
 
 	padding: 0.5ex;
 	border-style: solid;
-	border-width: 0 0 1px 0;
-	border-color: darkgrey;
+	border-width: 0 0 3px 0;
+	border-color: #2a289d;
 }
 
 h4 {
 	font-style: bold;
 	color: white;
-	background-color: darkblue;
+	background-color: #2a289d;
 	padding: 5px;
 	margin: 0.5em 0;
 }
@@ -76,7 +76,7 @@ h5 {
 table {
 	border-style: solid;
 	border-width: 1px 1px 1px 1px;
-	border-color: darkblue;
+	border-color: #2a289d;
 }
 
 table.notice {
@@ -126,7 +126,7 @@ blockquote {
 }
 
 ul {
-	margin: 0 0 0 5px;
+	margin: 0 0 1px 5px;
 	padding-left: 10px;
 }
 
