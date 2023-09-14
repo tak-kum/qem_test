@@ -12,7 +12,7 @@
 		<ApplicationNoteUrl>/document/apn/rl78g1f-sensorless-vector-control-permanent-magnetic-synchronous-motor-1-shunt-resistor-current</ApplicationNoteUrl>
 		<Description 
 		en="This project is the sample programs for driving a permanent magnet synchronous motor in the sensorless vector method using the RL78/G1F microcontroller.(R01AN3992EJ0220)"
-		p="RL78/G1F マイクロコントローラを使用し、永久磁石同期モータをセンサレスベクトル方式で駆動するサンプルプログラムです。(R01AN3992JJ0220)"
+		jp="RL78/G1F マイクロコントローラを使用し、永久磁石同期モータをセンサレスベクトル方式で駆動するサンプルプログラムです。(R01AN3992JJ0220)"
 		/>
 	</SampleProject>
 </ZipFile>
