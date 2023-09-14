@@ -59,6 +59,29 @@
 		</Project>
 	</Kit>
 	<Kit>
+		<KitName en="MCK-RX26T Renesas Flexible Motor Control Kit for RX26T MCU Group" jp="MCK-RX26T Renesas Flexible Motor Control Kit for RX26T MCU Group"/>
+		<DeviceName>RX26T</DeviceName>
+		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardPictures/MCK-RX26T.png</KitImageUrl>
+		<KitDescription 
+			en="The Motor Control Evaluation System for RA Family - RX26T Group is a low-voltage permanent magnet synchronous motor (brushless DC motor) solution that allows anyone to easily evaluate motor control."
+			jp="RAファミリ用モータ制御評価システム RX26Tグループは、誰でも簡単にモータ制御を評価できる低電圧永久磁石同期モータ（ブラシレスDCモータ）ソリューションです。"
+		/>
+		<Motor en="Brushless DC Mortor (TG-55L-KA 24V)" jp="ブラシレスDCモーター（TG-55L-KA 24V）"/>
+		<HardwareInfo en="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/en/RSSK-RA6T1-HardwareInfo.html" jp="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/jp/RSSK-RA6T1-HardwareInfo.html" />
+		<Project>
+			<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_LESS_FOC_E2S_V110</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6858xx0110-rx-sensorlessFOC.xml</ProjectUrl>
+		</Project>
+		<Project>
+			<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_LESS_FOC_TUNER_E2S_V110</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6858xx0110-rx-sensorlessFOC.xml</ProjectUrl>
+		</Project>
+		<Project>
+			<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V110</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6858xx0110-rx-sensorlessFOC.xml</ProjectUrl>
+		</Project>
+	</Kit>
+	<Kit>
 		<KitName en="GB01 Inverter for Evaluation" jp="評価用インバータ GB01" />
 		<DeviceName>RL78/G1F</DeviceName>
 		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardPictures/GB01-RL78G1F.png</KitImageUrl>
