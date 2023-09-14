@@ -12,8 +12,8 @@
 		/>
 		<Description
 		en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control."
-		jp="RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。(R01AN6858JJ0110)&#10
-			-RX26T RAM64KBバージョン対応&#10
+		jp="RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。(R01AN6858JJ0110)&#10;
+			-RX26T RAM64KBバージョン対応&#10;
 			-2シャント抵抗電流検出方式"
 		/>
 	</SampleProject>
@@ -27,9 +27,9 @@
 		<ProjectName>RX26T sensorless vector control for permanent magnet synchronous motor tuner project</ProjectName>
 		<Description
 		en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control."
-		jp="RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。(R01AN6858JJ0110)&#10
-			-RX26T RAM64KBバージョン対応&#10
-			-2シャント抵抗電流検出方式&#10
+		jp="RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。(R01AN6858JJ0110)&#10;
+			-RX26T RAM64KBバージョン対応&#10;
+			-2シャント抵抗電流検出方式&#10;
 			-チューニングプログラム作成に対応"
 		/>
 	</SampleProject>
@@ -42,8 +42,8 @@
 		/>
 		<Description
 		en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control."
-		jp="RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。(R01AN6858JJ0110)&#10
-			-RX26T RAM64KBバージョン対応&#10
+		jp="RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。(R01AN6858JJ0110)&#10;
+			-RX26T RAM64KBバージョン対応&#10;
 			-1シャント抵抗電流検出方式"
 		/>
 	</SampleProject>
@@ -57,8 +57,8 @@
 		<ProjectName>RX26T sensorless vector control for permanent magnet synchronous motor tuner project</ProjectName>
 		<Description
 		en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control."
-		jp="RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。(R01AN6858JJ0110)&#10
-			-RX26T RAM48KBバージョ対応&#10
+		jp="RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。(R01AN6858JJ0110)&#10;
+			-RX26T RAM48KBバージョ対応&#10;
 			-2シャント抵抗電流検出方式"
 		/>
 	</SampleProject>
@@ -72,9 +72,9 @@
 		<ProjectName>RX26T sensorless vector control for permanent magnet synchronous motor tuner project</ProjectName>
 		<Description
 		en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control."
-		jp="RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。(R01AN6858JJ0110)&#10
-			-RX26T RAM48KBバージョ対応&#10
-			-2シャント抵抗電流検出方式&#10
+		jp="RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。(R01AN6858JJ0110)&#10;
+			-RX26T RAM48KBバージョ対応&#10;
+			-2シャント抵抗電流検出方式&#10;
 			-チューニングプログラム作成に対応"
 		/>
 	</SampleProject>
@@ -88,8 +88,8 @@
 		<ProjectName>RX26T sensorless vector control for permanent magnet synchronous motor tuner project</ProjectName>
 		<Description
 		en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control."
-		jp="RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。(R01AN6858JJ0110)&#10
-			-RX26T RAM48KBバージョ対応&#10
+		jp="RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。(R01AN6858JJ0110)&#10;
+			-RX26T RAM48KBバージョ対応&#10;
 			-1シャント抵抗電流検出方式"
 		/>
 	</SampleProject>
