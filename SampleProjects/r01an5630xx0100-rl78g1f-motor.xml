@@ -6,13 +6,13 @@
 		<DeviceName>RL78/G1F</DeviceName>
 		<ProjectFolderName>RL78G1F_GB_SPM_120HS_E2S_CC_V100</ProjectFolderName>
 		<ProjectName 
-		en="RL78/G1F Sensorless 120-degree conducting control for permanent magnetic synchronous motor (high-speed rotation)" 
-		jp="RL78/G1F 永久磁石同期モータのセンサレス120度通電制御 (高速回転) " 
+		en="RL78/G1F Sensorless 120-degree conducting control for permanent magnetic synchronous motor (high-speed rotation)"
+		jp="RL78/G1F 永久磁石同期モータのセンサレス120度通電制御 (高速回転)"
 		/>
 		<ApplicationNoteUrl>/document/apn/rl78g1f-sensorless-120-degree-conducting-control-permanent-magnetic-synchronous-motor-high-speed</ApplicationNoteUrl>
 		<Description 
-		en="This project is the sample programs for RL78/G1F microcontroller to drive a permanent magnet synchronous motor using high-speed rotation control by sensorless 120-degree conducting. (R01AN5630EJ0100)" 
-		jp="RL78/G1Fマイクロコントローラを使用し、永久磁石同期モータをセンサレス120度通電による高速回転制御で駆動するサンプルプログラムです。(R01AN5630JJ0100)" 
+		en="This project is the sample programs for RL78/G1F microcontroller to drive a permanent magnet synchronous motor using high-speed rotation control by sensorless 120-degree conducting. (R01AN5630EJ0100)"
+		jp="RL78/G1Fマイクロコントローラを使用し、永久磁石同期モータをセンサレス120度通電による高速回転制御で駆動するサンプルプログラムです。(R01AN5630JJ0100)"
 		/>
 	</SampleProject>
 </ZipFile>
