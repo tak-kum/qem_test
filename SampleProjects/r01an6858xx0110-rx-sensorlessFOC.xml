@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ZipFile>
+	<Category en="Sensorless feedback" jp="センサーレスフィードバック" />
+	<Category en="Vector control" jp="ベクトル制御" />
 	<ZipDownloadUrl>/document/scd/sensorless-vector-control-permanent-magnet-synchronous-motor-mck-rx26t-rev100/r01an6858xx0100-rx-sensorlessFOC.zip</ZipDownloadUrl>
 	<SampleProject>
-	<Category en="Sensorless feedback" jp="センサーレスフィードバック" />
-	<Category en="Vector control" jp="ベクトル制御" />		<DeviceName>RX26T</DeviceName>
+		<DeviceName>RX26T</DeviceName>
 		<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_LESS_FOC_E2S_V110</ProjectFolderName>
 		<ProjectName
 		en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - For MCK"
@@ -11,7 +12,7 @@
 		/>
 		<Description
 		en="This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control. (R01AN6858EJ0110)&#10;-For RX26T RAM64KB Version&#10;-2-shunt current detection method"
-		jp="RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。(R01AN6858JJ0110)&#10;-RX26T RAM64KBバージョン対応&#10;-2シャント抵抗電流検出方式"
+		jp="RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。(R01AN6858JJ0110)&#10;※注意事項&#10;MCK-RX26Tで本プログラムを動作させる場合は、ボードの設定を行う必要があります。MCK-RA6T2 ユーザーズマニュアル 3.2.1 を参照してボードの設定をご確認ください。&#10;&#10;-RX26T RAM64KBバージョン対応&#10;-2シャント抵抗電流検出方式"
 		/>
 	</SampleProject>
 	<SampleProject>
