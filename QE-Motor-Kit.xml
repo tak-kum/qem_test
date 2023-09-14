@@ -66,8 +66,12 @@
 		<Motor en="Brushless DC Mortor (TG-55L-KA 24V)" jp="ブラシレスDCモーター（TG-55L-KA 24V）"/>
 		<HardwareInfo en="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/en/GB01-RL78G1F-HardwareInfo.html" jp="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/jp/GB01-RL78G1F-HardwareInfo.html" />
 		<Project>
-			<ProjectFolderName>RL78G1F_MRSSK_SPM_DETECT_INIT_POSI_E2S_CC_V110</ProjectFolderName>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/an-r01an3596xx0110-motor.xml</ProjectUrl>
+			<ProjectFolderName>RL78G1F_GB_SPM_120HS_E2S_CC_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an5630xx0100-rl78g1f-motor.xml</ProjectUrl>
+		</Project>
+		<Project>
+			<ProjectFolderName>RL78G1F_GB01_1S_LESS_FOC_E2S_CC_V220</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an3992xx0220-rl78g1f-motor.xml</ProjectUrl>
 		</Project>
 	</Kit>
 </Kits>
