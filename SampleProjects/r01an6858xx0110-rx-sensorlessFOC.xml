@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ZipFile>
-	<Category en="Sensorless feedback" jp="センサーレスフィードバック" />
-	<Category en="Vector control" jp="ベクトル制御" />
 	<ZipDownloadUrl>/document/scd/sensorless-vector-control-permanent-magnet-synchronous-motor-mck-rx26t-rev100/r01an6858xx0100-rx-sensorlessFOC.zip</ZipDownloadUrl>
 	<SampleProject>
-		<DeviceName>RX26T</DeviceName>
+	<Category en="Sensorless feedback" jp="センサーレスフィードバック" />
+	<Category en="Vector control" jp="ベクトル制御" />		<DeviceName>RX26T</DeviceName>
 		<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_LESS_FOC_E2S_V110</ProjectFolderName>
 		<ProjectName
 		en="Sensorless Vector Control of a Permanent Magnet Synchronous Motor - For MCK"
