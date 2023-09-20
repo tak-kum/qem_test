@@ -117,7 +117,7 @@ ul {
 	display: flex;
 	flex-direction: column;
 	gap: 10%;
-	width: fit-content;
+	width: min-content;
 }
 
 table.hwsetup{
