@@ -28,9 +28,9 @@ a:hover {
 	text-decoration: underline;
 }
 
-hr {
-	height: 1px;
-	color: darkgray;
+p{
+	margin-top: 1px;
+	margin-bottom: 1px;
 }
 
 h1 {
@@ -50,7 +50,6 @@ h3 {
 	font-style: normal;
 	font-size: 120%;
 	color: black;
-	line-height: 0.1;
 
 	padding: 0.5ex;
 	border-style: solid;
@@ -73,45 +72,13 @@ h5 {
 	margin: 0 0;
 }
 
-table {
-	border-style: solid;
-	border-width: 1px 1px 1px 1px;
-	border-color: #2a289d;
-}
-
-table.notice {
-	border-style: none;
-}
-
-th {
-	border-style: solid;
-	border-width: 1px 1px 1px 1px;
-	border-color: black;
-}
-
-th.gui {
-	background-color: lightyellow;
-}
-
-th.func {
-	background-color: greenyellow;
-}
-
-th.notice {
-	border-style: none;
-	text-align: left;
-	color: red;
-}
-
-td {
-	border-style: solid;
-	border-width: 1px 1px 1px 1px;
-	border-color: darkgray;
-}
-
-td.notice {
-	border-style: none;
-	color: red;
+h6 {
+	font-style: bold;
+	font-size: 120%;
+	color: white;
+	background-color: red;
+	padding: 5px;
+	margin: 0.5em 0;
 }
 
 span.notice {
@@ -133,16 +100,70 @@ ul {
 .linkbtn a {
 	border-radius: 10px;
 	display: block;
-	width: 150px;
-	padding: 2px;
+	padding: 2px 30px 2px 30px;
 	box-sizing: border-box;
 	background: #588dee;
 	color: #FFF;
 	text-decoration: none;
 	text-align: center;
-	margin: 10px 0;
+	margin: 5px 0;
 }
 
 .linkbtn a:hover {
 	background-color: #81a8f1;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 10%;
+	width: fit-content;
+}
+
+table.hwsetup{
+	border-collapse:separate;
+	border-color: white;
+	padding: 5px 0;
+}
+
+table.hwsetup tr{
+	background-color: #e7e7e7;
+}
+
+table.hwsetup th{
+	text-align: center;
+	color:white;
+	padding: 4px 10px 4px 10px;
+}
+
+table.hwsetup td{
+	text-align: center;
+	background-color: #e7e7e7;
+	color:black;
+	padding: 4px 10px 4px 10px;
+}
+
+td.hwsetup {
+	background-color: #4bc7bb;
+	color: #FFF;
+	font-weight:bold;
+	padding: 4px 10px 4px 10px;
+}
+	
+table.hwsetup tr.setuphead {
+	background-color:  #5b5966;
+	text-align: center;
+	color: #FFF;
+	font-style: bold;
+	font-weight:bold;
+	padding: 4px 10px 4px 10px;
+}
+
+table.hwsetup td.setuphead {
+	background-color: #5b5966;
+	text-align: center;
+	color: #FFF;
+	font-style: bold;
+	font-weight:bold;
+	padding: 4px 10px 4px 10px;
 }
