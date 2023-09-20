@@ -2,8 +2,8 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<!--<link rel="stylesheet" href="https://tak-kum.github.io/qem_test/BoardHardwareInfo/style.css" type="text/css">-->
-<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="stylesheet" href="https://tak-kum.github.io/qem_test/BoardHardwareInfo/style.css" type="text/css">
+<!--<link rel="stylesheet" href="style.css" type="text/css">-->
 <meta name="title" content="Kit information">
 <title>Kit information</title>
 </head>
@@ -30,147 +30,97 @@
 				を用いたモータ制御評価をすぐに始めることができます。
 			</p>
 			<p style="font-size:100%;">
-				<div class="btn linkbtn">
-					<a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema270s00020bj-mck-ra6t2-renesas-flexible-motor-control-kit-ra6t2-mcu-group">製品情報</a>
-				</div>
-				<div class="btn linkbtn">
-					<a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema270s00020bj-mck-ra6t2-renesas-flexible-motor-control-kit-ra6t2-mcu-group#parametric_options">ご購入</a>
+				<div class="wrapper">
+					<div class="btn linkbtn">
+						<a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema270s00020bj-mck-ra6t2-renesas-flexible-motor-control-kit-ra6t2-mcu-group">製品情報</a>
+					</div>
+					<div class="btn linkbtn">
+						<a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema270s00020bj-mck-ra6t2-renesas-flexible-motor-control-kit-ra6t2-mcu-group#parametric_options">ご購入</a>
+					</div>
 				</div>
 			</p>
 		</td>
 	  </tr>
 	</table>
-
 	<br>
 
-	<h6>サンプルプログラム実行時の注意事項</h6>
+	<h6>サンプルプログラム使用時の注意事項</h6>
 	<p style="font-size:100%;">
 	<ul>
-		本キットでサンプルプログラムを動作させる場合は、ボードの設定を行う必要があります。
-		<a href="https://www.renesas.com/jp/ja/document/mat/mck-ra6t2-users-manual" target="_blank">MCK-RA6T2 ユーザーズマニュアル</a>
-		3.2.1 を参照してボードの設定をご確認ください。
+		本キットでサンプルプログラムを動作させる場合、プログラムによってはハードウェアの構成を変更する必要があります。「ハードウェア構成」および各サンプルプログラムのアプリケーションノートを参照してハードウェアの構成を確認してください。
+	</ul>
+	</p>
 
-		<table>
-			<thead>
-				<tr class="header">
-					<th colspan="2">GUI部品名</th>
-					<th>機能</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class="odd">
-					<td>リソースグループ</td>
-					<td>リソースグループ コンボボックス</td>
-					<td>
-						<p>サブスクリプションに含まれるリソースグループが表示されます。
-						使用するリソースグループを選択してください。</p>
-					</td>
-				</tr>
-				<tr class="even">
-					<td rowspan="4">IoT</td>
-					<td>IoTハブ コンボボックス</td>
-					<td>
-						<p>リソースグループコンボボックスで選択したリソースグループに含まれるIoTハブリソースが表示されます。
-						使用するIoTハブリソースを選択してください。</p>
-					</td>
-				</tr>
-				<tr class="odd">
-					<td>IoTハブ用デバイス更新 コンボボックス</td>
-					<td>
-						<p>リソースグループコンボボックスで選択したリソースグループに含まれるIoTハブ用デバイス更新サービスが表示されます。
-						使用するIoTハブ用デバイス更新サービスを選択してください。</p>
-					</td>
-				</tr>
-				<tr class="even">
-					<td>IoTハブ用デバイス更新インスタンス コンボボックス</td>
-					<td>
-						<p>リソースグループコンボボックスで選択したリソースグループに含まれるIoTハブ用デバイス更新インスタンスが表示されます。
-						使用するIoTハブ用デバイス更新インスタンスを選択してください。</p>
-					</td>
-				</tr>
-				<tr class="odd">
-					<td>OTAに必要な権限を付加 ボタン</td>
-					<td>
-						<p>OTA実行に必要な権限を追加します。選択したリソースに権限が不足している場合に有効になります。</p>
-					</td>
-				</tr>
-				<tr class="even">
-					<td rowspan="2">ストレージ</td>
-					<td>ストレージアカウント コンボボックス</td>
-					<td>
-						<p>リソースグループコンボボックスで選択したリソースグループに含まれるストレージアカウントが表示されます。
-						使用するストレージアカウントを選択してください。</p>
-					</td>
-				</tr>
-				<tr class="odd">
-					<td>Blobコンテナ コンボボックス</td>
-					<td>
-						<p>リソースグループコンボボックスで選択したリソースグループに含まれるBlobストレージコンテナが表示されます。
-						使用するBlobストレージコンテナを選択してください。</p>
-					</td>
-				</tr>
-				<tr class="even">
-					<td rowspan="6">共通</td>
-					<td>削除 ボタン</td>
-					<td>
-						<p>選択したリソースグループまたはリソースをサブスクリプションまたはリソースグループから削除します。</p>
-					</td>
-				</tr>
-				<tr class="odd">
-					<td>情報 テキストボックス</td>
-					<td>
-						<p>リソースグループまたはリソースの情報を表示します。</p>
-					</td>
-				</tr>
-				<tr class="even">
-					<td>新規作成 / 名前 テキストボックス</td>
-					<td>
-						<p>作成するリソースグループまたはリソースの名前を設定します。</p>
-					</td>
-				</tr>
-				<tr class="odd">
-					<td>新規作成 / リージョン コンボボックス</td>
-					<td>
-						<p>作成するリソースグループまたはリソースの対象リージョンを選択します。</p>
-					</td>
-				</tr>
-				<tr class="even">
-					<td>新規作成 / SKU コンボボックス</td>
-					<td>
-						<p>作成するIoTハブリソースまたはIoTハブ用デバイス更新サービスのSKUを選択します。</p>
-					</td>
-				</tr>
-				<tr class="odd">
-					<td>新規作成 / 作成 ボタン</td>
-					<td>
-						<p>指定された情報でリソースグループまたはリソースを作成します。</p>
-					</td>
-				</tr>
-				<tr class="even">
-					<td colspan="2">メッセージ テキストボックス</td>
-					<td>
-						<p>操作結果などのメッセージを表示します。</p>
-					</td>
-				</tr>
-				<tr class="odd">
-					<td colspan="2">すべて作成 ボタン</td>
-					<td>
-						<p>新規作成グループに設定された情報で、リソースおよびリソース部ループを一括で作成します。</p>
-					</td>
-				</tr>
-				<tr class="even">
-					<td colspan="2">閉じる ボタン</td>
-					<td>
-						<p>ダイアログを閉じます。</p>
-					</td>
-				</tr>
-			</tbody>
+	<h4>ハードウェア構成</h4>
+	<p style="font-size:100%;">
+	<ul>
+		<p>
+			<img src="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/Images/MCKRA6T2_HW_j.png"  style="width:15cm" />
+		</p>
+		<br>
+		動作させるサンプルプログラムのモータ制御方式により、ハードウェアの構成をMCK-RA6T2の同梱品から変更してください。
+		<br>
+		<table class="hwsetup">
+		<thead>
+			<tr class="setuphead">
+			  <th style="background: white"></th>
+			  <th>磁石同期モーターの<br>センサレスベクトル制御</th>
+			  <th>エンコーダ付き永久磁石<br>同期モーター用ベクトル制御</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="setuphead">CPUボード</td>
+				<td colspan="2">
+				  <p>RA6T2(R7FA6T2BD3CFP) CPUボード ●</p>
+				  <p>RTK0EMA270C00000BJ</p>
+				</td>
+			  </tr>
+			  <tr>
+				<td class="setuphead">インバータボード</td>
+				<td colspan="2">
+				  <p>
+				  <a href="https://www.renesas.com/jp/ja/products/power-power-management/fet-motor-drivers/rtk0em0000s04020bj-mci-lv-1-renesas-flexible-motor-control-inverter-board-low-voltage-48v10a-three-phase-bldcpmsm-motor" target="_blank">
+					MCI-LV-1
+				  </a>
+				  ●
+				  </p>
+				  <p>RTK0EM0000S04020BJ</p>
+				</td>
+			  </tr>
+			  <tr>
+				<td class="setuphead">通信ボード</td>
+				<td colspan="2">
+				  <p>
+				  <a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxc90s00000bj-mc-com-renesas-flexible-motor-control-communication-board" target="_blank">
+					  MC-COM
+				  </a>
+				  ●
+				  </p>
+				  <p>RTK0EMXC90S00000BJ</p>
+				</td>
+			  </tr>
+			  <tr>
+				<td class="setuphead">永久磁石同期モーター</td>
+				<td>R42BLD30L3 ●</td>
+				<td>BLY171D-24V-4000</td>
+			  </tr>
+			  <tr>
+				<td class="setuphead">センサ</td>
+				<td>使用しません</td>
+				<td>AMT102-V</td>
+			  </tr>
+		</tbody>
 		</table>
-
+		<p>●: MCK-RA6T2同梱品</p>
+		<p>R42BLD30L3 は、MOONS’社の製品です。</p>
+		<p>BLY171D-24V-4000 は、Anaheim Automation社の製品です。</p>
+		<p>AMT102-V は、CUI Devices 社の製品です。</p>
+		<br>
 	</ul>
 	</p>
 	
-	<h4>ハードウェア情報</h4>
+	<h4>製品仕様</h4>
 	<p style="font-size:100%;">
 	<ul>
 		<h5>特徴</h5>
@@ -198,13 +148,6 @@
 			<li>永久磁石同期モーター</li>
 			<li>アクセサリ (ケーブル、スペーサなど)</li>
 		</ul>
-		<br>
-		</ul>
-		<h5>構成</h5>
-		<ul>
-			<p>
-				<img src="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/Images/MCKRA6T2_HW_j.png"  style="width:15cm" />
-			</p>
 		</ul>
 	</ul>
 	</p>

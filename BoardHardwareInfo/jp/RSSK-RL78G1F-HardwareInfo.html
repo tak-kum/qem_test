@@ -2,33 +2,167 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://tak-kum.github.io/qem_test/BoardHardwareInfo/style.css" type="text/css">
+<!--<link rel="stylesheet" href="style.css" type="text/css">-->
 <meta name="title" content="Kit information">
 <title>Kit information</title>
 </head>
 <body>
-	<table border="1" cellpadding="5">
+
+	<h3><p>RL78/G1F CPUカード & 24V系インバータボード(RTK0EM0001B00012BJ)</p>
+	</h3>
+
+	<table style="border:none;" cellpadding="5" >
 	  <tr>
-	  	<td nowrap>
+	  	<td>
 			<p>
-				<img src="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/Images/logo.png"  style="width:5cm" />
+				<img src="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardPictures/RL78G1F_24V_Inverter.png"  style="width:6cm" />
 			</p>
 		</td>
-		<td nowrap>
-			<h4>ボード情報
-				<p style="font-size:100%;"><a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emx270s00020bj-evaluation-system-bldc-motor" target="_blank">RSSK-RA6T1</a></p>
-			</h4>
-		</td>
-		<td nowrap>
-			<h4>型名
-				<p style="font-size:100%;">RTK0EMX270S00020BJ</p>
-			</h4>
+	  	<td style="border:none;" >
+			<p style="font-size:100%;">
+				RL78/G1Fを使用した低電圧(24V)永久磁石同期モータ(ブラシレスDCモータ)のソリューションを容易に評価することができるキットです。<br>
+				※RL78/G1F CPUカードとRenesas Solution Starter Kit 24V Motor Control Evaluation System for RX23T同梱のインバータボードを組み合わせて使用します。
+			</p>
+			<br>
+			<p style="font-size:100%;">
+				<h5>Renesas Solution Starter Kit 24V Motor Control Evaluation System for RX23T</h5>
+				<ul>
+				<div class="wrapper">
+					<div class="btn linkbtn">
+						<a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx23t-24v-motor-control-24v-motor-control-evaluation-system-rx23t">製品情報</a>
+					</div>
+					<div class="btn linkbtn">
+						<a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx23t-24v-motor-control-24v-motor-control-evaluation-system-rx23t#parametric_options">ご購入</a>
+					</div>
+				</div>
+				</ul>
+				<h5>RL78/G1F CPUカード (ルネサスエレクトロニクス株式会社製 RTK0ELML240C03000BJ)</h5>
+				<ul>
+				<div class="wrapper">
+					<div class="btn linkbtn">
+						<a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/rl78-low-power-8-16-bit-mcus/rx23t-rx24t-cpu-card-rx-family-rl78-family-cpu-card">製品情報</a>
+					</div>
+					<div class="btn linkbtn">
+						<a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/rl78-low-power-8-16-bit-mcus/rx23t-rx24t-cpu-card-rx-family-rl78-family-cpu-card?dow_secondary=visible&partno=RTK0EML240C03000BJ#parametric_options">ご購入</a>
+					</div>
+				</div>
+				</ul>
+			</p>
 		</td>
 	  </tr>
 	</table>
-	<h4>ハードウェアの説明
-		<p style="font-size:100%;">このキットはxxxxアプリケーション用に設計されています</p> 
-	</h4>
+	<br>
+
+	<h6>サンプルプログラム使用時の注意事項</h6>
+	<p style="font-size:100%;">
+	<ul>
+		本キットでサンプルプログラムを動作させる場合、プログラムによってはインバータボードの回路修正が必要となります。詳細は各サンプルプログラムのアプリケーションノートを参照してください。
+	</ul>
+	</p>
+
+	<h4>ハードウェア構成</h4>
+	<p style="font-size:100%;">
+	<ul>
+		<p>
+			<img src="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/Images/RL78G1F_24V_Inverter_j.png"  style="width:15cm" />
+		</p>
+		<br>
+		<table class="hwsetup">
+			<br>
+			本ボードに対応したサンプルプログラムは、以下のハードウェアの構成に対応しています。
+			<br>
+		<tbody>
+			<tr>
+				<td class="setuphead">CPUカード</td>
+				<td>
+				  <p>ルネサスエレクトロニクス株式会社製</p>
+				  <p>RL78/G1F(R5F11BLEAFB) CPUカード</p>
+				  <p>RTK0EML240C03000BJ</p>
+				</td>
+				<td>
+				  <p>株式会社デスクトップラボ製</p>
+				  <p>RL78/G1F CPUカード</p>
+				  <p>T5103(*1)</p>
+				</td>
+			</tr>
+			<tr>
+				<td class="setuphead">インバータボード</td>
+				<td colspan="2">
+				  <p>RTK0EM0001B00012BJ</p>
+				  <p>
+				  <a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx23t-24v-motor-control-24v-motor-control-evaluation-system-rx23t" target="_blank">
+					Renesas Solution Starter Kit<br>24V Motor Control Evaluation System for RX23T
+				  </a>
+				  同梱
+				  </p>
+				</td>
+			</tr>
+			<tr>
+				<td class="setuphead">永久磁石同期モーター</td>
+				<td colspan="2">
+				  <p>TSUKASA TG-55L(*2)</p>
+			    </td>
+			</tr>
+		</tbody>
+		</table>
+		<p>(*1) T5103 は、株式会社デスクトップラボ社の製品です。
+			株式会社デスクトップラボ (
+			<a href="http://desktoplab.co.jp/" target="_blank">http://desktoplab.co.jp/</a>
+			)</p>
+		<p>(*2) TG-55L は、ツカサ電工株式会社の製品です。
+			ツカサ電工株式会社 (
+			<a href="http://www.tsukasa-d.co.jp/" target="_blank">http://www.tsukasa-d.co.jp/</a>
+			)
+		</p>
+		<br>
+	</ul>
+	</p>
+	
+	<h4>製品仕様</h4>
+	<p style="font-size:100%;">
+		<ul>
+			<h5>特長</h5>
+			<ul>
+			<li>24V系インバータボード</li>
+			<ul>
+				<li>24V永久磁石同期モータ制御機能</li>
+				<li>3シャント電流検出機能</li>
+				<li>過電流保護機能</li>
+			</ul>
+			</ul>
+		</ul>
+	</p>
+
+	<h4>関連情報</h4>
+	<ul>
+		<h5>マイクロコンピュータ</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/rl78-low-power-8-16-bit-mcus/rl78g1f-multifunctional-microcontrollers-enhanced-functionality-sensorless-bldc-motor-control" target="_blank">RL78/G1F センサレスBLDCモータ制御にも適した、機能強化の多機能マイクロコントローラ</a></ul>
+		<h5>ボード＆キット</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx23t-24v-motor-control-24v-motor-control-evaluation-system-rx23t" target="_blank">Renesas Solution Starter Kit 24V Motor Control Evaluation System for RX23T</a></ul>
+		<h5>開発ツール</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/software-tool/renesas-motor-workbench" target="_blank">Renesas Motor Workbench</a></ul>
+		<h5>ソリューション</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/rl78-low-power-8-16-bit-mcus/rl78-motor-control-solutions" target="_blank">RL78 モータ制御ソリューション</a></ul>
+		<ul><a href="https://www.renesas.com/jp/ja/application/key-technology/motor-control-robotics/motor-control-solutions" target="_blank">ルネサス モータ・インバータ制御ソリューション</a></ul>
+	</ul>
+
+	<h4>ドキュメント</h4>
+	<ul>
+		<h5>マイクロコンピュータ</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/document/dst/rl78g1f-data-sheet-rev120" target="_blank">RL78/G1F Data Sheet Rev.1.20</a></ul>
+		<ul><a href="https://www.renesas.com/jp/ja/document/mah/rl78g1f-users-manual-hardware-rev120" target="_blank">RL78/G1F ユーザーズマニュアル ハードウェア編 Rev.1.20</a></ul>
+		<h5>ボード＆キット</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/document/mat/renesas-solution-starter-kit-24v-motor-control-evaluation-system-rx23t-users-manual" target="_blank">Renesas Solution Starter Kit 24V Motor Control Evaluation System for RX23T 取扱説明書</a></ul>
+		<ul><a href="https://www.renesas.com/jp/ja/document/mat/rl78g1f-cpu-card-users-manual" target="_blank">RL78/G1F CPUカード 取扱説明書</a></ul>
+		<h5>開発ツール</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/document/qsg/motor-control-development-support-tool-renesas-motor-workbench-31-quick-start-guide" target="_blank">モータ制御開発支援ツール Renesas Motor Workbench 3.1 クイックスタートガイド</a></ul>
+		<ul><a href="https://www.renesas.com/jp/ja/document/mat/motor-control-development-support-tool-renesas-motor-workbench-31-users-manual" target="_blank">モータ制御開発支援ツール Renesas Motor Workbench 3.1 ユーザーズマニュアル</a></ul>
+		<h5>ソリューション</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/document/bro/motor-solution-brochure" target="_blank">ルネサス モータソリューションカタログ</a></ul>
+	</ul>
+	<br>
+	<hr></hr>
+	<br>
  </body>
  </html>
-

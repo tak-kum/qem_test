@@ -2,33 +2,144 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://tak-kum.github.io/qem_test/BoardHardwareInfo/style.css" type="text/css">
+<!--<link rel="stylesheet" href="style.css" type="text/css">-->
 <meta name="title" content="Kit information">
 <title>Kit information</title>
 </head>
 <body>
-	<table border="1" cellpadding="5">
+
+	<h3><p>RL78/G1F Motor Driver Board GB01</p>
+		<p>P13130-D1-003</p>
+	</h3>
+
+	<table style="border:none;" cellpadding="5" >
 	  <tr>
-	  	<td nowrap>
+	  	<td>
 			<p>
-				<img src="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/Images/logo.png"  style="width:5cm" />
+				<img src="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardPictures/GB01-RL78G1F.png"  style="width:6cm" />
 			</p>
 		</td>
-		<td nowrap>
-			<h4>ボード情報
-				<p style="font-size:100%;"><a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emx270s00020bj-evaluation-system-bldc-motor" target="_blank">RSSK-RA6T1</a></p>
-			</h4>
-		</td>
-		<td nowrap>
-			<h4>型名
-				<p style="font-size:100%;">RTK0EMX270S00020BJ</p>
-			</h4>
+	  	<td style="border:none;" >
+			<ul>
+				<li>幅広い電圧レンジと大電流に対応 (Input voltage of 12 to 50V, Peak current of 30A)</li>
+				<li>様々なBLDCモータ制御が実現可能(3-shunt, 1-shunt, Encoder, Hall, Sensorless, FOC, Trapezoidal)</li>
+				<li>ツール用通信ボード(またはICS)を接続してRenesas Motor Workbenchが利用可能</li>
+			</ul>
+			<p style="font-size:100%;">
+				<div class="wrapper">
+					<div class="btn linkbtn">
+						<a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/rl78-low-power-8-16-bit-mcus/rl78-motor-control-solutions#%E8%A9%95%E4%BE%A1%E7%92%B0%E5%A2%83">製品情報</a>
+					</div>
+				</div>
+			</p>
 		</td>
 	  </tr>
 	</table>
-	<h4>ハードウェアの説明
-		<p style="font-size:100%;">このキットはxxxxアプリケーション用に設計されています</p> 
-	</h4>
+	<br>
+
+	<h4>ハードウェア構成</h4>
+	<p style="font-size:100%;">
+	<ul>
+		<br>
+		本ボードに対応したサンプルプログラムに必要なハードウェア構成は以下の通りです。
+		<br>
+		<table class="hwsetup">
+		<thead>
+			<tr class="setuphead">
+			  <th style="background: white"></th>
+			  <th>永久磁石同期モータの<br>センサレスベクトル制御<br>1シャント抵抗電流検出方式</th>
+			  <th>永久磁石同期モータの<br>センサレス 120度通電制御 (高速回転)</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="setuphead">インバータボード</td>
+				<td colspan="2">
+				  <p>RL78/G1F Motor Driver Board GB01</p>
+				  <p>(P13130-D1-003) (*1)</p>
+				</td>
+			</tr>
+			<tr>
+				<td class="setuphead">通信ボード</td>
+				<td colspan="2">
+					<p>RTK0EMX6B0Z00000BJ (*1)(*2)</p>
+				</td>
+			</tr>
+			<tr>
+				<td class="setuphead">Motor</td>
+				<td>
+					<p>TSUKASA TG-55L (*3)</p>
+				</td>
+				<td>
+					<p>TF037C-2000-F (*4)</p>
+				</td>
+			</tr>
+		</tbody>
+		</table>
+		<p>(*1) RL78/G1F デモボード(P13130-D1-003)、並びに通信ボード(RTK0EMX6B0Z00000BJ)は、テスト用
+			となっており販売はしておりません。技術サポート、貸出等につきましては、弊社営業及び特約店
+			にお問い合わせ下さい。</p>
+		<p>(*2) デバッグに使用する通信ボードにつきましては、株式会社デスクトップラボ社製ICS++ (In Circuit
+			Scope plus)もご利用いただけます。
+			株式会社デスクトップラボ (
+			<a href="http://desktoplab.co.jp/" target="_blank">http://desktoplab.co.jp/</a>
+			)
+		</p>
+		<p>(*3) TG-55L は、ツカサ電工株式会社の製品です。
+			ツカサ電工株式会社 (
+			<a href="http://www.tsukasa-d.co.jp/" target="_blank">http://www.tsukasa-d.co.jp/</a>
+			)
+		</p>
+		<p>(*4) TF037C-2000-Fは、日本電産コパル電子株式会社の製品です。
+			日本電産コパル電子株式会社 (
+			<a href="https://www.nidec-copal-electronics.com/" target="_blank">https://www.nidec-copal-electronics.com/</a>
+			)
+		</p>
+		<br>
+	</ul>
+	</p>
+	
+	<h4>製品仕様</h4>
+	<p style="font-size:100%;">
+	<ul>
+		<ul>
+			<li>Input Voltage: DC 12 to 50V</li>
+			<li>Input Current Limit: 30[A]＠ shunt 10mΩ</li>
+			<li>Current Detection Method: 3-shunt and 1-shunt (DC Link)</li>
+			<li>Target Motor: BLDC Motor</li>
+			<li>Dead Time: more than 1µs</li>
+			<li>Heat dissipation: Natural air cooling with heat sink</li>
+		</ul>
+	</ul>
+	</p>
+
+	<h4>関連情報</h4>
+	<ul>
+		<h5>マイクロコンピュータ</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/rl78-low-power-8-16-bit-mcus/rl78g1f-multifunctional-microcontrollers-enhanced-functionality-sensorless-bldc-motor-control" target="_blank">RL78/G1F センサレスBLDCモータ制御にも適した、機能強化の多機能マイクロコントローラ</a></ul>
+		<h5>開発ツール</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/software-tool/renesas-motor-workbench" target="_blank">Renesas Motor Workbench</a></ul>
+		<h5>ソリューション</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/rl78-low-power-8-16-bit-mcus/rl78-motor-control-solutions" target="_blank">RL78 モータ制御ソリューション</a></ul>
+		<ul><a href="https://www.renesas.com/jp/ja/application/key-technology/motor-control-robotics/motor-control-solutions" target="_blank">ルネサス モータ・インバータ制御ソリューション</a></ul>
+	</ul>
+
+	<h4>ドキュメント</h4>
+	<ul>
+		<h5>マイクロコンピュータ</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/document/dst/rl78g1f-data-sheet-rev120" target="_blank">RL78/G1F Data Sheet Rev.1.20</a></ul>
+		<ul><a href="https://www.renesas.com/jp/ja/document/mah/rl78g1f-users-manual-hardware-rev120" target="_blank">RL78/G1F ユーザーズマニュアル ハードウェア編 Rev.1.20</a></ul>
+		<h5>ボード＆キット</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/document/mat/rl78g1f-motor-driver-board-gb01-users-manual-rev100?language=ja" target="_blank">RL78/G1F Motor Driver Board GB01 取扱説明書 Rev.1.00</a></ul>
+		<h5>開発ツール</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/document/qsg/motor-control-development-support-tool-renesas-motor-workbench-31-quick-start-guide" target="_blank">モータ制御開発支援ツール Renesas Motor Workbench 3.1 クイックスタートガイド</a></ul>
+		<ul><a href="https://www.renesas.com/jp/ja/document/mat/motor-control-development-support-tool-renesas-motor-workbench-31-users-manual" target="_blank">モータ制御開発支援ツール Renesas Motor Workbench 3.1 ユーザーズマニュアル</a></ul>
+		<h5>ソリューション</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/document/bro/motor-solution-brochure" target="_blank">ルネサス モータソリューションカタログ</a></ul>
+	</ul>
+	<br>
+	<hr></hr>
+	<br>
  </body>
  </html>
-

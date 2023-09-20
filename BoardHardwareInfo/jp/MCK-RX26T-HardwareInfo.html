@@ -1,35 +1,228 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
-<link rel="stylesheet" type="text/css" href="style.css">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="https://tak-kum.github.io/qem_test/BoardHardwareInfo/style.css" type="text/css">
+<!--<link rel="stylesheet" href="style.css" type="text/css">-->
 <meta name="title" content="Kit information">
 <title>Kit information</title>
 </head>
 <body>
-	<table border="1" cellpadding="5">
+
+	<h3><p>MCK-RX26T Renesas Flexible Motor Control Kit for RX26T MCU Group</p>
+		<p>RTK0EMXE70S00020BJ</p>
+	</h3>
+
+	<table style="border:none;" cellpadding="5" >
 	  <tr>
-		<td nowrap>
+	  	<td>
 			<p>
-				<img src="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/Images/logo.png"  style="width:5cm" />
+				<img src="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardPictures/MCK-RX26T.png"  style="width:6cm" />
 			</p>
 		</td>
-		<td nowrap>
-			<h4>ボード情報
-				<p style="font-size:100%;"><a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxe70s00020bj-mck-rx26t-renesas-flexible-motor-control-kit-rx26t-mcu-group" target="_blank">MCK-RX26T</a></p>
-			</h4>
-		</td>
-		<td nowrap>
-			<h4>型名
-				<p style="font-size:100%;">RTK0EMXE70S00020BJ</p>
-			</h4>
+	  	<td style="border:none;" >
+			<p style="font-size:100%;">
+				MCK-RX26Tは永久磁石同期モータ(ブラシレスDCモータ)を使ったモータ制御の評価を簡単に行うことができる開発キットです。
+				本製品と、ウェブサイトからダウンロードできるサンプルコードや
+				<a href="https://www.renesas.com/jp/ja/software-tool/qe-tools-particular-applicationsQE for Motor">QE for Motor</a>
+				を使うことで、
+				<a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx26t-32-bit-microcontroller-optimized-dual-motor-and-pfc-control">RX26T</a>
+				を用いたモータ制御評価をすぐに始めることができます。
+			</p>
+			<p style="font-size:100%;">
+				<div class="wrapper">
+					<div class="btn linkbtn">
+						<a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxe70s00020bj-mck-rx26t-renesas-flexible-motor-control-kit-rx26t-mcu-group">製品情報</a>
+					</div>
+					<div class="btn linkbtn">
+						<a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxe70s00020bj-mck-rx26t-renesas-flexible-motor-control-kit-rx26t-mcu-group#parametric_options">ご購入</a>
+					</div>
+				</div>
+			</p>
 		</td>
 	  </tr>
 	</table>
-	<h4>ハードウェアの説明
-		<p style="font-size:100%;">このキットはxxxxアプリケーション用に設計されています</p> 
-	</h4>
+	<br>
+
+	<h6>サンプルプログラム使用時の注意事項</h6>
+	<p style="font-size:100%;">
+	<ul>
+		プログラムの実行に必要なハードウェアの構成はデバイスのバージョンとモータ制御方法により異なります。
+		「ハードウェア構成」および各サンプルプログラムのアプリケーションノートを参照してハードウェアの構成を確認してください。
+	</ul>
+	</p>
+
+	<h4>ハードウェア構成</h4>
+	<p style="font-size:100%;">
+	<ul>
+		<p>
+			<img src="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/Images/MCKRX26T_HW_j.png"  style="width:15cm" />
+		</p>
+		<br>
+		使用するMCUのバージョンと動作させるサンプルプログラムのモータ制御方式により、ハードウェアの構成が異なります。
+		ハードウェアの構成をMCK-RX26Tの同梱品から変更するか、必要なコンポーネントを個別に用意してください。
+		<br>
+		<br>
+
+		<h5>
+			RX26T RAM64KBバージョン
+		</h5>
+		<table class="hwsetup">
+		<thead>
+			<tr class="setuphead">
+			  <th style="background: white"></th>
+			  <th>磁石同期モーターの<br>センサレスベクトル制御</th>
+			  <th>エンコーダ付き永久磁石<br>同期モーター用ベクトル制御</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="setuphead">CPUボード</td>
+				<td colspan="2">
+				  <p>RX26T RAM64KBバージョン(R5F526TFCDFP) CPUボード ●</p>
+				  <p>
+					<a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxe70c00000bj-mcb-rx26t-type-cpu-board-rx26t-mcu-group" target="_blank">
+						MCB-RX26T Type A
+					</a>
+				  </p>
+				  <p>RTK0EMXE70C00000BJ</p>
+				</td>
+			  </tr>
+			  <tr>
+				<td class="setuphead">インバータボード</td>
+				<td colspan="2">
+				  <p>
+				  <a href="https://www.renesas.com/jp/ja/products/power-power-management/fet-motor-drivers/rtk0em0000s04020bj-mci-lv-1-renesas-flexible-motor-control-inverter-board-low-voltage-48v10a-three-phase-bldcpmsm-motor" target="_blank">
+					MCI-LV-1
+				  </a>
+				  ●
+				  </p>
+				  <p>RTK0EM0000S04020BJ</p>
+				</td>
+			  </tr>
+			  <tr>
+				<td class="setuphead">通信ボード</td>
+				<td colspan="2">
+				  <p>
+				  <a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxc90s00000bj-mc-com-renesas-flexible-motor-control-communication-board" target="_blank">
+					  MC-COM
+				  </a>
+				  ●
+				  </p>
+				  <p>RTK0EMXC90S00000BJ</p>
+				</td>
+			  </tr>
+			  <tr>
+				<td class="setuphead">永久磁石同期モーター</td>
+				<td>R42BLD30L3 ●</td>
+				<td>BLY171D-24V-4000</td>
+			  </tr>
+			  <tr>
+				<td class="setuphead">センサ</td>
+				<td>使用しません</td>
+				<td>AMT102-V</td>
+			  </tr>
+		</tbody>
+		</table>
+		<br>
+
+		<h5>
+			RX26T RAM48KBバージョン
+		</h5>
+		<table class="hwsetup">
+		<thead>
+			<tr class="setuphead">
+			  <th style="background: white"></th>
+			  <th>磁石同期モーターの<br>センサレスベクトル制御</th>
+			  <th>エンコーダ付き永久磁石<br>同期モーター用ベクトル制御</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="setuphead">CPUボード</td>
+				<td colspan="2">
+				  <p>RX26T RAM48KBバージョン(R5F526TACDFM) CPUボード</p>
+				  <p>
+					<a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxe30c00000bj-mcb-rx26t-type-c-cpu-board-rx26t-mcu-group" target="_blank">
+						MCB-RX26T Type C
+					</a>
+				  </p>
+				  <p>RTK0EMXE30C00000BJ</p>
+				</td>
+			  </tr>
+			  <tr>
+				<td class="setuphead">インバータボード</td>
+				<td colspan="2">
+				  <p>
+				  <a href="https://www.renesas.com/jp/ja/products/power-power-management/fet-motor-drivers/rtk0em0000s04020bj-mci-lv-1-renesas-flexible-motor-control-inverter-board-low-voltage-48v10a-three-phase-bldcpmsm-motor" target="_blank">
+					MCI-LV-1
+				  </a>
+				  ●
+				  </p>
+				  <p>RTK0EM0000S04020BJ</p>
+				</td>
+			  </tr>
+			  <tr>
+				<td class="setuphead">通信ボード</td>
+				<td colspan="2">
+				  <p>
+				  <a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxc90s00000bj-mc-com-renesas-flexible-motor-control-communication-board" target="_blank">
+					  MC-COM
+				  </a>
+				  ●
+				  </p>
+				  <p>RTK0EMXC90S00000BJ</p>
+				</td>
+			  </tr>
+			  <tr>
+				<td class="setuphead">永久磁石同期モーター</td>
+				<td>R42BLD30L3 ●</td>
+				<td>BLY171D-24V-4000</td>
+			  </tr>
+			  <tr>
+				<td class="setuphead">センサ</td>
+				<td>使用しません</td>
+				<td>AMT102-V</td>
+			  </tr>
+		</tbody>
+		</table>
+
+		<p>●: MCK-RX26T同梱品</p>
+		<p>R42BLD30L3 は、MOONS’社の製品です。</p>
+		<p>BLY171D-24V-4000 は、Anaheim Automation社の製品です。</p>
+		<p>AMT102-V は、CUI Devices 社の製品です。</p>
+		<br>
+	</ul>
+	</p>
+
+	<h4>関連情報</h4>
+	<ul>
+		<h5>マイクロコンピュータ</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx26t-32-bit-microcontroller-optimized-dual-motor-and-pfc-control" target="_blank">RX26T 2モータ制御とPFC制御の実現に最適な32ビットマイクロコントローラ</a></ul>
+		<h5>ボード＆キット</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxe70s00020bj-mck-rx26t-renesas-flexible-motor-control-kit-rx26t-mcu-group" target="_blank">MCK-RX26T Renesas Flexible Motor Control Kit for RX26T MCU Group</a></ul>
+		<h5>開発ツール</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/software-tool/renesas-motor-workbench" target="_blank">Renesas Motor Workbench</a></ul>
+		<h5>ソリューション</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/application/key-technology/motor-control-robotics/motor-control-solutions" target="_blank">ルネサス モータ・インバータ制御ソリューション</a></ul>
+	</ul>
+
+	<h4>ドキュメント</h4>
+	<ul>
+		<h5>マイクロコンピュータ</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/document/dst/rx26t-group-datasheet" target="_blank">RX26T グループ データシート</a></ul>
+		<ul><a href="https://www.renesas.com/jp/ja/document/mah/rx26t-group-users-manual-hardware" target="_blank">RX26T グループ ユーザーズマニュアル ハードウェア編</a></ul>
+		<h5>ボード＆キット</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/document/mat/mck-rx26t-users-manual" target="_blank">MCK-RX26T ユーザーズマニュアル</a></ul>
+		<ul><a href="https://www.renesas.com/jp/ja/document/qsg/mck-rx26t-quick-start-guide" target="_blank">MCK-RX26T クイックスタートガイド</a></ul>
+		<h5>開発ツール</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/document/qsg/motor-control-development-support-tool-renesas-motor-workbench-31-quick-start-guide" target="_blank">モータ制御開発支援ツール Renesas Motor Workbench 3.1 クイックスタートガイド</a></ul>
+		<ul><a href="https://www.renesas.com/jp/ja/document/mat/motor-control-development-support-tool-renesas-motor-workbench-31-users-manual" target="_blank">モータ制御開発支援ツール Renesas Motor Workbench 3.1 ユーザーズマニュアル</a></ul>
+		<h5>ソリューション</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/document/bro/motor-solution-brochure" target="_blank">ルネサス モータソリューションカタログ</a></ul>
+	</ul>
+	<br>
+	<hr></hr>
+	<br>
  </body>
  </html>
-
-
