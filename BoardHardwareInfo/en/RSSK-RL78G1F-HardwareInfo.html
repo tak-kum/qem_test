@@ -2,33 +2,166 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://tak-kum.github.io/qem_test/BoardHardwareInfo/style.css" type="text/css">
+<!--<link rel="stylesheet" href="style.css" type="text/css">-->
 <meta name="title" content="Kit information">
 <title>Kit information</title>
 </head>
 <body>
-	<table border="1" cellpadding="5">
+
+	<h3><p>RL78/G1F CPU Card and 24V inverter board(RTK0EM0001B00012BJ)</p>
+	</h3>
+
+	<table style="border:none;" cellpadding="5" >
 	  <tr>
-	  	<td nowrap>
+	  	<td>
 			<p>
-				<img src="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/Images/logo.png"  style="width:5cm" />
+				<img src="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardPictures/RL78G1F_24V_Inverter.png"  style="width:6cm" />
 			</p>
 		</td>
-		<td nowrap>
-			<h4>Board Information
-				<p style="font-size:100%;"><a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emx270s00020bj-evaluation-system-bldc-motor" target="_blank">RSSK-RA6T1</a></p>
-			</h4>
-		</td>
-		<td nowrap>
-			<h4>Part Number
-				<p style="font-size:100%;">RTK0EMX270S00020BJ</p>
-			</h4>
+	  	<td style="border:none;" >
+			<p style="font-size:100%;">
+				A low-voltage (24V) permanent magnet synchronous motor (brushless DC motor) solution for easy evaluation.<br>
+				*Use the RL78/G1F CPU card with the inverter board included in the Renesas Solution Starter Kit 24V Motor Control Evaluation System for RX23T
+			</p>
+			<br>
+			<p style="font-size:100%;">
+				<h5>Renesas Solution Starter Kit 24V Motor Control Evaluation System for RX23T</h5>
+				<ul>
+				<div class="wrapper">
+					<div class="btn linkbtn">
+						<a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx23t-24v-motor-control-24v-motor-control-evaluation-system-rx23t">Product Information</a>
+					</div>
+					<div class="btn linkbtn">
+						<a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx23t-24v-motor-control-24v-motor-control-evaluation-system-rx23t#parametric_options">Order Now</a>
+					</div>
+				</div>
+				</ul>
+				<h5>RL78/G1F CPU Card (RTK0EML240C03000BJ : Renesas Electronics)</h5>
+				<ul>
+				<div class="wrapper">
+					<div class="btn linkbtn">
+						<a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rl78-low-power-8-16-bit-mcus/rx23t-rx24t-cpu-card-rx-family-rl78-family-cpu-card">Product Information</a>
+					</div>
+					<div class="btn linkbtn">
+						<a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rl78-low-power-8-16-bit-mcus/rx23t-rx24t-cpu-card-rx-family-rl78-family-cpu-card?dow_secondary=visible&partno=RTK0EML240C03000BJ#parametric_options">Order Now</a>
+					</div>
+				</div>
+				</ul>
+			</p>
 		</td>
 	  </tr>
 	</table>
-	<h4>Hardare description
-		<p style="font-size:100%;">This kit designed for xxxx application</p> 
-	</h4>
+	<br>
+
+	<h6>Note in using sample program</h6>
+	<p style="font-size:100%;">
+	<ul>
+		Some of the sample programs requires a modification in the circuit of the inverter board. For details. please refer to the application note of each sample program.
+	</ul>
+	</p>
+	
+	<h4>Hardware Setup</h4>
+	<p style="font-size:100%;">
+	<ul>
+		<p>
+			<img src="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/Images/RL78G1F_24V_Inverter_e.png"  style="width:15cm" />
+		</p>
+		<br>
+		<table class="hwsetup">
+			<br>
+			A hardware setup required for the sample program for this board is as follows.
+			<br>
+		<tbody>
+			<tr>
+				<td class="setuphead">CPU card</td>
+				<td>
+				  <p>Renesas Electronics</p>
+				  <p>RL78/G1F(R5F11BLEAFB) CPU card</p>
+				  <p>RTK0EML240C03000BJ</p>
+				</td>
+				<td>
+				  <p>Desk Top Laboratories Inc.</p>
+				  <p>RL78/G1F CPU card</p>
+				  <p>T5103(*1)</p>
+				</td>
+			</tr>
+			<tr>
+				<td class="setuphead">Inverter board</td>
+				<td colspan="2">
+				  <p>RTK0EM0001B00012BJ</p>
+				  <p>Included in 
+				  <a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx23t-24v-motor-control-24v-motor-control-evaluation-system-rx23t" target="_blank">
+					Renesas Solution Starter Kit<br>24V Motor Control Evaluation System for RX23T
+				  </a>
+				  </p>
+				</td>
+			</tr>
+			<tr>
+				<td class="setuphead">Permanent magnet <br>synchronous motor</td>
+				<td colspan="2">
+				  <p>TSUKASA TG-55L(*2)</p>
+			    </td>
+			</tr>
+		</tbody>
+		</table>
+		<p>(*1) T5103 is a product of Desk Top Laboratories Inc.
+			Desk Top Laboratories Inc. (
+			<a href="http://desktoplab.co.jp/" target="_blank">http://desktoplab.co.jp/</a>
+			)</p>
+		<p>(*2) TG-55L is a product of TSUKASA ELECTRIC.
+			TSUKASA ELECTRIC. (
+			<a href="http://www.tsukasa-d.co.jp/" target="_blank">http://www.tsukasa-d.co.jp/</a>
+			)
+		</p>
+		<br>
+	</ul>
+	</p>
+
+	<h4>Product Specification</h4>
+	<p style="font-size:100%;">
+		<ul>
+			<h5>Features</h5>
+			<ul>
+			<li>24V Inverter Board</li>
+			<ul>
+				<li>24V Permanent magnet synchronous motor control function</li>
+				<li>3-shunt current detection function</li>
+				<li>Overcurrent protection function</li>
+			</ul>
+			</ul>
+		</ul>
+	</p>
+	
+	<h4>References</h4>
+	<ul>
+		<h5>Microcontrollers</h5>
+		<ul><a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rl78-low-power-8-16-bit-mcus/rl78g1f-multifunctional-microcontrollers-enhanced-functionality-sensorless-bldc-motor-control" target="_blank">RL78/G1F Multifunctional Microcontrollers with Enhanced Functionality for Sensorless BLDC Motor Control</a></ul>
+		<h5>Boards & Kits</h5>
+		<ul><a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx23t-24v-motor-control-24v-motor-control-evaluation-system-rx23t" target="_blank">Renesas Solution Starter Kit 24V Motor Control Evaluation System for RX23T</a></ul>
+		<h5>Development Tools</h5>
+		<ul><a href="https://www.renesas.com/us/en/software-tool/renesas-motor-workbench" target="_blank">Renesas Motor Workbench</a></ul>
+		<h5>Solutions</h5>
+		<ul><a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rl78-low-power-8-16-bit-mcus/rl78-motor-control-solutions" target="_blank">RL78 Motor Control Solutions</a></ul>
+		<ul><a href="https://www.renesas.com/us/en/application/key-technology/motor-control-robotics/motor-control-solutions" target="_blank">Renesas Motor and Inverter Control Solutions</a></ul>
+	</ul>
+
+	<h4>Documentation</h4>
+	<ul>
+		<h5>Microcontrollers</h5>
+		<ul><a href="https://www.renesas.com/us/en/document/dst/rl78g1f-data-sheet-rev120" target="_blank">RL78/G1F Data Sheet Rev.1.20</a></ul>
+		<ul><a href="https://www.renesas.com/us/en/document/mah/rl78g1f-users-manual-hardware-rev120" target="_blank">RL78/G1F User's Manual: Hardware Rev.1.20</a></ul>
+		<h5>Boards & Kit</h5>
+		<ul><a href="https://www.renesas.com/us/en/document/mat/renesas-solution-starter-kit-24v-motor-control-evaluation-system-rx23t-users-manual" target="_blank">Renesas Solution Starter Kit 24V Motor Control Evaluation System for RX23T User's Manual</a></ul>
+		<ul><a href="https://www.renesas.com/us/en/document/mat/rl78g1f-cpu-card-users-manual" target="_blank">RL78/G1F CPU Card User's Manual</a></ul>
+		<h5>Development Tools</h5>
+		<ul><a href="https://www.renesas.com/us/en/document/qsg/motor-control-development-support-tool-renesas-motor-workbench-31-quick-start-guide" target="_blank">Motor Control Development Support Tool Renesas Motor Workbench 3.1 Quick Start Guide</a></ul>
+		<ul><a href="https://www.renesas.com/us/en/document/mat/motor-control-development-support-tool-renesas-motor-workbench-31-users-manual" target="_blank">Motor Control Development Support Tool Renesas Motor Workbench 3.1 User's Manual</a></ul>
+		<h5>Solutions</h5>
+		<ul><a href="https://www.renesas.com/us/en/document/bro/motor-solution-brochure" target="_blank">Renesas Motor Solutions Brochure</a></ul>
+	</ul>
+	<br>
+	<hr></hr>
+	<br>
  </body>
  </html>
-

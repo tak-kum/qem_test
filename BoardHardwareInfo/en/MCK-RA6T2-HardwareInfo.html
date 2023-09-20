@@ -3,9 +3,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" href="https://tak-kum.github.io/qem_test/BoardHardwareInfo/style.css" type="text/css">
+<!--<link rel="stylesheet" href="style.css" type="text/css">-->
 <meta name="title" content="Kit information">
 <title>Kit information</title>
-
 </head>
 <body>
 
@@ -30,19 +30,97 @@
 				 right away.
 			</p>
 			<p style="font-size:100%;">
-				<div class="btn linkbtn">
-					<a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema270s00020bj-mck-ra6t2-renesas-flexible-motor-control-kit-ra6t2-mcu-group">Product Information</a>
-				</div>
-				<div class="btn linkbtn">
-					<a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema270s00020bj-mck-ra6t2-renesas-flexible-motor-control-kit-ra6t2-mcu-group#parametric_options">Order Now</a>
+				<div class="wrapper">
+					<div class="btn linkbtn">
+						<a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema270s00020bj-mck-ra6t2-renesas-flexible-motor-control-kit-ra6t2-mcu-group">Product Information</a>
+					</div>
+					<div class="btn linkbtn">
+						<a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema270s00020bj-mck-ra6t2-renesas-flexible-motor-control-kit-ra6t2-mcu-group#parametric_options">Order Now</a>
+					</div>
 				</div>
 			</p>
 		</td>
 	  </tr>
 	</table>
+	<br>
 
-	<h4>Hardware Information</h4>
+	<h6>Note in using sample program</h6>
+	<p style="font-size:100%;">
+	<ul>
+		Some of the sample programs requires a change in the hardware setup. Please refer to "Hardware Setup" and the application note of each sample program for the setup of the hardware required for sample program.
+	</ul>
+	</p>
 	
+	<h4>Hardware Setup</h4>
+	<p style="font-size:100%;">
+	<ul>
+		<p>
+			<img src="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/Images/MCKRA6T2_HW_e.png"  style="width:15cm" />
+		</p>
+		<br>
+		For some sample programs, change the setup from the components included in MCK-RA6T2 as follows.
+		<br>
+		<table class="hwsetup">
+		<thead>
+			<tr class="setuphead">
+			  <th style="background: white"></th>
+			  <th>Sensorless Vector Control of <br>a Permanent Magnet Synchronous Motor</th>
+			  <th>Vector Control for Permanent Magnet <br>Synchronous Motor with Encoder</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="setuphead">CPU board</td>
+				<td colspan="2">
+				  <p>RA6T2(R7FA6T2BD3CFP) CPU board (*)</p>
+				  <p>RTK0EMA270C00000BJ</p>
+				</td>
+			  </tr>
+			  <tr>
+				<td class="setuphead">Inverter board</td>
+				<td colspan="2">
+				  <p>
+				  <a href="https://www.renesas.com/us/en/products/power-power-management/fet-motor-drivers/rtk0em0000s04020bj-mci-lv-1-renesas-flexible-motor-control-inverter-board-low-voltage-48v10a-three-phase-bldcpmsm-motor" target="_blank">
+					MCI-LV-1
+				  </a>
+				  (*)
+				  </p>
+				  <p>RTK0EM0000S04020BJ</p>
+				</td>
+			  </tr>
+			  <tr>
+				<td class="setuphead">Communication board</td>
+				<td colspan="2">
+				  <p>
+				  <a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxc90s00000bj-mc-com-renesas-flexible-motor-control-communication-board" target="_blank">
+					  MC-COM
+				  </a>
+				  (*)
+				  </p>
+				  <p>RTK0EMXC90S00000BJ</p>
+				</td>
+			  </tr>
+			  <tr>
+				<td class="setuphead">Permanent magnet <br>synchronous motor</td>
+				<td>R42BLD30L3 (*)</td>
+				<td>BLY171D-24V-4000</td>
+			  </tr>
+			  <tr>
+				<td class="setuphead">Sensor</td>
+				<td>Not used</td>
+				<td>AMT102-V</td>
+			  </tr>
+		</tbody>
+		</table>
+		<p>(*): Included in MCK-RA6T2</p>
+		<p>R42BLD30L3 is manufactured by MOONS’.</p>
+		<p>BLY171D-24V-4000 is manufactured by Anaheim Automation.</p>
+		<p>AMT102-V is manufactured by CUI Device.</p>
+		<br>
+	</ul>
+	</p>
+
+	<h4>Product Specification</h4>
 	<p style="font-size:100%;">
 	<ul>
 		<h5>Features</h5>
@@ -71,12 +149,6 @@
 			<li>Accessories (cables, standoffs, etc.)</li>
 		</ul>
 		<br>
-		</ul>
-		<h5>Setup</h5>
-		<ul>
-			<p>
-				<img src="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/Images/MCKRA6T2_HW_e.png"  style="width:15cm" />
-			</p>
 		</ul>
 	</p>
 	</ul>

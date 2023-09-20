@@ -2,33 +2,148 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://tak-kum.github.io/qem_test/BoardHardwareInfo/style.css" type="text/css">
+<!--<link rel="stylesheet" href="style.css" type="text/css">-->
 <meta name="title" content="Kit information">
 <title>Kit information</title>
 </head>
 <body>
-	<table border="1" cellpadding="5">
+
+	<h3><p>RL78/G1F Motor Driver Board GB01</p>
+		<p>P13130-D1-003</p>
+	</h3>
+
+	<table style="border:none;" cellpadding="5" >
 	  <tr>
-	  	<td nowrap>
+	  	<td>
 			<p>
-				<img src="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/Images/logo.png"  style="width:5cm" />
+				<img src="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardPictures/GB01-RL78G1F.png"  style="width:6cm" />
 			</p>
 		</td>
-		<td nowrap>
-			<h4>Board Information
-				<p style="font-size:100%;"><a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emx270s00020bj-evaluation-system-bldc-motor" target="_blank">RSSK-RA6T1</a></p>
-			</h4>
-		</td>
-		<td nowrap>
-			<h4>Part Number
-				<p style="font-size:100%;">RTK0EMX270S00020BJ</p>
-			</h4>
+	  	<td style="border:none;" >
+			<ul>
+				<li>Wide voltage range and high current (input voltage of 12 to 50V, peak current of 30A)</li>
+				<li>Various types of BLDC motor control are possible (3-shunt, 1-shunt, encoder, Hall, sensorless, FOC, trapezoidal)</li>
+				<li>Renesas Motor Workbench with a tool communication board (or ICS) is provided</li>
+			</ul>
+			<p style="font-size:100%;">
+				<div class="wrapper">
+					<div class="btn linkbtn">
+						<a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rl78-low-power-8-16-bit-mcus/rl78-motor-control-solutions#evaluation_environment">Product Information</a>
+					</div>
+				</div>
+			</p>
 		</td>
 	  </tr>
 	</table>
-	<h4>Hardare description
-		<p style="font-size:100%;">This kit designed for xxxx application</p> 
-	</h4>
+	<br>
+
+	<h4>Hardware Setup</h4>
+	<p style="font-size:100%;">
+	<ul>
+		<br>
+		Required hardware setup for sample programs for this board is as follows.
+		<br>
+		<table class="hwsetup">
+		<thead>
+			<tr class="setuphead">
+			  <th style="background: white"></th>
+			  <th>Sensorless vector control for <br>
+				permanent magnetic synchronous motor <br>
+				with1-shunt resistor current detection</th>
+			  <th>Sensorless 120-degree conducting control <br>
+				for permanent magneticsynchronous motor<br>
+				(high-speed rotation)</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="setuphead">Inverter board</td>
+				<td colspan="2">
+				  <p>RL78/G1F Motor Driver Board GB01</p>
+				  <p>(P13130-D1-003) (*1)</p>
+				</td>
+			</tr>
+			<tr>
+				<td class="setuphead">Communication <br>board</td>
+				<td colspan="2">
+					<p>RTK0EMX6B0Z00000BJ (*1)(*2)</p>
+				</td>
+			</tr>
+			<tr>
+				<td class="setuphead">Motor</td>
+				<td>
+					<p>TSUKASA TG-55L (*3)</p>
+				</td>
+				<td>
+					<p>TF037C-2000-F (*4)</p>
+				</td>
+			</tr>
+		</tbody>
+		</table>
+		<p>(*1) The RL78 / G1F demo board (P13130-D1-003) and communication board (RTK0EMX6B0Z00000BJ)
+			are for testing purposes and are not for sale. For technical support, rental, etc., please contact our
+			sales office or distributor.</p>
+		<p>(*2) As for the communication board used for debugging, ICS ++ (In Circuit Scope plus) manufactured by
+			Desk Top Laboratories Inc. can also be used.</p>
+			Desk Top Laboratories Inc. (
+			<a href="http://desktoplab.co.jp/" target="_blank">http://desktoplab.co.jp/</a>
+			)
+		</p>
+		<p>(*3) TG-55L is a product of TSUKASA ELECTRIC.</p>
+			TSUKASA ELECTRIC. (
+			<a href="http://www.tsukasa-d.co.jp/" target="_blank">http://www.tsukasa-d.co.jp/</a>
+			)
+		</p>
+		<p>(*4) TF037C-2000-F is a product of Nidec Copal Electronics Co., Ltd.
+			Nidec Copal Electronics Co., Ltd. (
+			<a href="https://www.nidec-copal-electronics.com/" target="_blank">https://www.nidec-copal-electronics.com/</a>
+			)
+		</p>
+		<br>
+	</ul>
+	</p>
+
+	<h4>Product Specification</h4>
+	<p style="font-size:100%;">
+		<ul>
+			<ul>
+				<li>Input Voltage: DC 12 to 50V</li>
+				<li>Input Current Limit: 30[A]＠ shunt 10mΩ</li>
+				<li>Current Detection Method: 3-shunt and 1-shunt (DC Link)</li>
+				<li>Target Motor: BLDC Motor</li>
+				<li>Dead Time: more than 1µs</li>
+				<li>Heat dissipation: Natural air cooling with heat sink</li>
+			</ul>
+		</ul>
+	</p>
+	
+	<h4>References</h4>
+	<ul>
+		<h5>Microcontrollers</h5>
+		<ul><a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rl78-low-power-8-16-bit-mcus/rl78g1f-multifunctional-microcontrollers-enhanced-functionality-sensorless-bldc-motor-control" target="_blank">RL78/G1F Multifunctional Microcontrollers with Enhanced Functionality for Sensorless BLDC Motor Control</a></ul>
+		<h5>Development Tools</h5>
+		<ul><a href="https://www.renesas.com/us/en/software-tool/renesas-motor-workbench" target="_blank">Renesas Motor Workbench</a></ul>
+		<h5>Solutions</h5>
+		<ul><a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rl78-low-power-8-16-bit-mcus/rl78-motor-control-solutions" target="_blank">RL78 Motor Control Solutions</a></ul>
+		<ul><a href="https://www.renesas.com/us/en/application/key-technology/motor-control-robotics/motor-control-solutions" target="_blank">Renesas Motor and Inverter Control Solutions</a></ul>
+	</ul>
+
+	<h4>Documentation</h4>
+	<ul>
+		<h5>Microcontrollers</h5>
+		<ul><a href="https://www.renesas.com/us/en/document/dst/rl78g1f-data-sheet-rev120" target="_blank">RL78/G1F Data Sheet Rev.1.20</a></ul>
+		<ul><a href="https://www.renesas.com/us/en/document/mah/rl78g1f-users-manual-hardware-rev120" target="_blank">RL78/G1F User's Manual: Hardware Rev.1.20</a></ul>
+		<h5>Boards & Kit</h5>
+		<ul><a href="https://www.renesas.com/us/en/document/mat/rl78g1f-motor-driver-board-gb01-users-manual-rev100?language=en" target="_blank">RL78/G1F Motor Driver Board GB01 User's Manual Rev.1.00</a></ul>
+		<h5>Development Tools</h5>
+		<ul><a href="https://www.renesas.com/us/en/document/qsg/motor-control-development-support-tool-renesas-motor-workbench-31-quick-start-guide" target="_blank">Motor Control Development Support Tool Renesas Motor Workbench 3.1 Quick Start Guide</a></ul>
+		<ul><a href="https://www.renesas.com/us/en/document/mat/motor-control-development-support-tool-renesas-motor-workbench-31-users-manual" target="_blank">Motor Control Development Support Tool Renesas Motor Workbench 3.1 User's Manual</a></ul>
+		<h5>Solutions</h5>
+		<ul><a href="https://www.renesas.com/us/en/document/bro/motor-solution-brochure" target="_blank">Renesas Motor Solutions Brochure</a></ul>
+	</ul>
+	<br>
+	<hr></hr>
+	<br>
  </body>
  </html>
-
