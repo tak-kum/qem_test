@@ -67,7 +67,7 @@
 			jp="RAファミリ用モータ制御評価システム RX26Tグループは、誰でも簡単にモータ制御を評価できる低電圧永久磁石同期モータ（ブラシレスDCモータ）ソリューションです。"
 		/>
 		<Motor en="Brushless DC Mortor (TG-55L-KA 24V)" jp="ブラシレスDCモーター（TG-55L-KA 24V）"/>
-		<HardwareInfo en="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/en/RSSK-RA6T1-HardwareInfo.html" jp="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/jp/RSSK-RA6T1-HardwareInfo.html" />
+		<HardwareInfo en="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/en/MCK-RX26T-HardwareInfo.html" jp="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/jp/MCK-RX26T-HardwareInfo.html" />
 		<Project>
 			<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_LESS_FOC_E2S_V110</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6858xx0110-rx-sensorlessFOC.xml</ProjectUrl>
