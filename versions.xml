@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QeTools>
+	<QeTool name="Motor" version="1.3.0">
+		<KitUrl>https://tommy26tan.github.io/renesas-qe-motor/QE-Motor-Kit.xml</KitUrl>
+		<DeviceUrl>https://tommy26tan.github.io/renesas-qe-motor/QE-Motor-Device.xml</DeviceUrl>
+	</QeTool>
+	<QeTool name="Motor" version="1.4.0">
+		<KitUrl>https://tak-kum.github.io/qem_test/QE-Motor-Kit.xml</KitUrl>
+		<DeviceUrl>https://tak-kum.github.io/qem_test/QE-Motor-Device.xml</DeviceUrl>
+	</QeTool>
+</QeTools>
