@@ -13,17 +13,17 @@
 		<Description
 		en="
 [Description]&#10;
-This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control. (R01AN6858EJ0110)
+This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control. (R01AN6858EJ0110)&#10;
 [Features, Target System]&#10;
- -For RX26T RAM64KB Version
- -2-shunt current detection method
+ -For RX26T RAM64KB Version&#10;
+ -2-shunt current detection method&#10;
 [Hardware Setup]&#10;
- -CPU board : RX26T RAM64KB version (R5F526TFCDFP) CPU board MCB-RX26T Type A (RTK0EMXE30C00000BJ)
- -Inverter board : MCI-LV-1
- -Communication board : MC-COM
- -Permanent magnet 
- -synchronous motor : R42BLD30L3
- -Sensor : Not used
+ -CPU board : RX26T RAM64KB version (R5F526TFCDFP) CPU board MCB-RX26T Type A (RTK0EMXE30C00000BJ)&#10;
+ -Inverter board : MCI-LV-1&#10;
+ -Communication board : MC-COM&#10;
+ -Permanent magnet &#10;
+ -synchronous motor : R42BLD30L3&#10;
+ -Sensor : Not used&#10;
 "
 		jp="
 [概要]&#10;
@@ -51,28 +51,28 @@ RX26Tマイクロコントローラを使用し、永久磁石同期モータを
 		<Description
 		en="
 [Description]&#10;
-This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control.
-This project supports tuning program generation. (R01AN6858EJ0110)
+This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control.&#10;
+This project supports tuning program generation. (R01AN6858EJ0110)&#10;
 [Features, Target System]&#10;
- -For RX26T RAM64KB Version
- -2-shunt current detection method
- -Supports tuning program generation
+ -For RX26T RAM64KB Version&#10;
+ -2-shunt current detection method&#10;
+ -Supports tuning program generation&#10;
 [Hardware Setup]&#10;
- -CPU board : RX26T RAM64KB version (R5F526TFCDFP) CPU board MCB-RX26T Type A (RTK0EMXE30C00000BJ)
- -Inverter board : MCI-LV-1
- -Communication board : MC-COM
- -Permanent magnet 
- -synchronous motor : R42BLD30L3
- -Sensor : Not used
+ -CPU board : RX26T RAM64KB version (R5F526TFCDFP) CPU board MCB-RX26T Type A (RTK0EMXE30C00000BJ)&#10;
+ -Inverter board : MCI-LV-1&#10;
+ -Communication board : MC-COM&#10;
+ -Permanent magnet &#10;
+ -synchronous motor : R42BLD30L3&#10;
+ -Sensor : Not used&#10;
 "
 		jp="
 [概要]&#10;
-RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。
-本プロジェクトはチューニングプログラムの作成に対応しています。(R01AN6858JJ0110)
+RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。&#10;
+本プロジェクトはチューニングプログラムの作成に対応しています。(R01AN6858JJ0110)&#10;
 [機能、対象システム]&#10;
- -RX26T RAM64KBバージョン対応
- -2シャント抵抗電流検出方式
- -チューニングプログラム作成対応
+ -RX26T RAM64KBバージョン対応&#10;
+ -2シャント抵抗電流検出方式&#10;
+ -チューニングプログラム作成対応&#10;
 [対象ハードウェア構成]&#10;
  -CPUボード : RX26T RAM64KBバージョン(R5F526TFCDFP)CPUボード(RTK0EMXE70C00000BJ)&#10;
  -インバータボード : MCI-LV-1&#10;
@@ -92,24 +92,24 @@ RX26Tマイクロコントローラを使用し、永久磁石同期モータを
 		<Description
 		en="
 [Description]&#10;
-This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control. (R01AN6858EJ0110)
+This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control. (R01AN6858EJ0110)&#10;
 [Features, Target System]&#10;
- -For RX26T RAM64KB Version
- -1-shunt current detection method
+ -For RX26T RAM64KB Version&#10;
+ -1-shunt current detection method&#10;
 [Hardware Setup]&#10;
- -CPU board : RX26T RAM64KB version (R5F526TFCDFP) CPU board MCB-RX26T Type A (RTK0EMXE30C00000BJ)
- -Inverter board : MCI-LV-1
- -Communication board : MC-COM
- -Permanent magnet 
- -synchronous motor : R42BLD30L3
- -Sensor : Not used
+ -CPU board : RX26T RAM64KB version (R5F526TFCDFP) CPU board MCB-RX26T Type A (RTK0EMXE30C00000BJ)&#10;
+ -Inverter board : MCI-LV-1&#10;
+ -Communication board : MC-COM&#10;
+ -Permanent magnet &#10;
+ -synchronous motor : R42BLD30L3&#10;
+ -Sensor : Not used&#10;
 "
 		jp="
 [概要]&#10;
-RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。(R01AN6858JJ0110)
+RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。(R01AN6858JJ0110)&#10;
 [機能、対象システム]&#10;
-RX26T RAM64KBバージョン対応
-1シャント抵抗電流検出方式
+RX26T RAM64KBバージョン対応&#10;
+1シャント抵抗電流検出方式&#10;
 [対象ハードウェア構成]&#10;
  -CPUボード : RX26T RAM64KBバージョン(R5F526TFCDFP)CPUボード(RTK0EMXE70C00000BJ)&#10;
  -インバータボード : MCI-LV-1&#10;
@@ -130,30 +130,30 @@ RX26T RAM64KBバージョン対応
 		<Description
 		en="
 [Description]&#10;
-This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control. (R01AN6858EJ0110)
+This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control. (R01AN6858EJ0110)&#10;
 [Features, Target System]&#10;
- -For RX26T RAM48KB Version
- -2-shunt current detection method
+ -For RX26T RAM48KB Version&#10;
+ -2-shunt current detection method&#10;
 [Hardware Setup]&#10;
- -CPU board : RX26T RAM48KB version (R5F526TACDFM) CPU board MCB-RX26T Type C (RTK0EMXE30C00000BJ)
- -Inverter board : MCI-LV-1
- -Communication board : MC-COM
- -Permanent magnet 
- -synchronous motor : R42BLD30L3
- -Sensor : Not used
+ -CPU board : RX26T RAM48KB version (R5F526TACDFM) CPU board MCB-RX26T Type C (RTK0EMXE30C00000BJ)&#10;
+ -Inverter board : MCI-LV-1&#10;
+ -Communication board : MC-COM&#10;
+ -Permanent magnet &#10;
+ -synchronous motor : R42BLD30L3&#10;
+ -Sensor : Not used&#10;
 "
 		jp="
 [概要]&#10;
-RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。(R01AN6858JJ0110)
+RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。(R01AN6858JJ0110)&#10;
 [機能、対象システム]&#10;
- -RX26T RAM48KBバージョ対応
- -2シャント抵抗電流検出方式
+ -RX26T RAM48KBバージョ対応&#10;
+ -2シャント抵抗電流検出方式&#10;
 [対象ハードウェア構成]&#10;
- -CPUボード : RX26T RAM48KBバージョン(R5F526TACDFM)CPUボード MCB-RX26T Type C (RTK0EMXE30C00000BJ)
- -インバータボード : MCI-LV-1
- -通信ボード : MC-COM
- -永久磁石同期モーター : R42BLD30L3
- -センサ : なし
+ -CPUボード : RX26T RAM48KBバージョン(R5F526TACDFM)CPUボード MCB-RX26T Type C (RTK0EMXE30C00000BJ)&#10;
+ -インバータボード : MCI-LV-1&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モーター : R42BLD30L3&#10;
+ -センサ : なし&#10;
 "
 		/>
 	</SampleProject>
@@ -168,34 +168,34 @@ RX26Tマイクロコントローラを使用し、永久磁石同期モータを
 		<Description
 		en="
 [Description]&#10;
-This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control.
-This project supports tuning program generation. (R01AN6858EJ0110)(R01AN6858EJ0110)
+This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control.&#10;
+This project supports tuning program generation. (R01AN6858EJ0110)(R01AN6858EJ0110)&#10;
 [Features, Target System]&#10;
- -For RX26T RAM48KB Version
- -2-shunt current detection method
- -Supports tuning program generation
+ -For RX26T RAM48KB Version&#10;
+ -2-shunt current detection method&#10;
+ -Supports tuning program generation&#10;
 [Hardware Setup]&#10;
- -CPU board : RX26T RAM48KB version (R5F526TACDFM) CPU board MCB-RX26T Type C (RTK0EMXE30C00000BJ)
- -Inverter board : MCI-LV-1
- -Communication board : MC-COM
- -Permanent magnet 
- -synchronous motor : R42BLD30L3
- -Sensor : Not used
+ -CPU board : RX26T RAM48KB version (R5F526TACDFM) CPU board MCB-RX26T Type C (RTK0EMXE30C00000BJ)&#10;
+ -Inverter board : MCI-LV-1&#10;
+ -Communication board : MC-COM&#10;
+ -Permanent magnet &#10;
+ -synchronous motor : R42BLD30L3&#10;
+ -Sensor : Not used&#10;
 "
 		jp="
 [概要]&#10;
-RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。
-本プロジェクトはチューニングプログラムの作成に対応しています。(R01AN6858JJ0110)
+RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。&#10;
+本プロジェクトはチューニングプログラムの作成に対応しています。(R01AN6858JJ0110)&#10;
 [機能、対象システム]&#10;
- -RX26T RAM48KBバージョ対応
- -2シャント抵抗電流検出方式
- -チューニングプログラム作成対応
+ -RX26T RAM48KBバージョ対応&#10;
+ -2シャント抵抗電流検出方式&#10;
+ -チューニングプログラム作成対応&#10;
 [対象ハードウェア構成]&#10;
- -CPUボード : RX26T RAM48KBバージョン(R5F526TACDFM) CPUボード MCB-RX26T Type C (RTK0EMXE30C00000BJ)
- -インバータボード : MCI-LV-1
- -通信ボード : MC-COM
- -永久磁石同期モーター : R42BLD30L3
- -センサ : なし
+ -CPUボード : RX26T RAM48KBバージョン(R5F526TACDFM) CPUボード MCB-RX26T Type C (RTK0EMXE30C00000BJ)&#10;
+ -インバータボード : MCI-LV-1&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モーター : R42BLD30L3&#10;
+ -センサ : なし&#10;
 "
 		/>
 	</SampleProject>
@@ -210,30 +210,30 @@ RX26Tマイクロコントローラを使用し、永久磁石同期モータを
 		<Description
 		en="
 [Description]&#10;
-This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control. (R01AN6858EJ0110)
+This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with vector control. (R01AN6858EJ0110)&#10;
 [Features, Target System]&#10;
- -For RX26T RAM48KB Version
- -1-shunt current detection method
+ -For RX26T RAM48KB Version&#10;
+ -1-shunt current detection method&#10;
 [Hardware Setup]&#10;
- -CPU board : RX26T RAM48KB version (R5F526TACDFM) CPU board MCB-RX26T Type C (RTK0EMXE30C00000BJ)
- -Inverter board : MCI-LV-1
- -Communication board : MC-COM
- -Permanent magnet 
- -synchronous motor : R42BLD30L3
- -Sensor : Not used
+ -CPU board : RX26T RAM48KB version (R5F526TACDFM) CPU board MCB-RX26T Type C (RTK0EMXE30C00000BJ)&#10;
+ -Inverter board : MCI-LV-1&#10;
+ -Communication board : MC-COM&#10;
+ -Permanent magnet &#10;
+ -synchronous motor : R42BLD30L3&#10;
+ -Sensor : Not used&#10;
 "
 		jp="
 [概要]&#10;
-RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。(R01AN6858JJ0110)
+RX26Tマイクロコントローラを使用し、永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。(R01AN6858JJ0110)&#10;
 [機能、対象システム]&#10;
- -RX26T RAM48KBバージョ対応
- -1シャント抵抗電流検出方式
+ -RX26T RAM48KBバージョ対応&#10;
+ -1シャント抵抗電流検出方式&#10;
 [対象ハードウェア構成]&#10;
- -CPUボード : RX26T RAM48KBバージョン(R5F526TACDFM) CPUボード MCB-RX26T Type C (RTK0EMXE30C00000BJ)
- -インバータボード : MCI-LV-1
- -通信ボード : MC-COM
- -永久磁石同期モーター : R42BLD30L3
- -センサ : なし
+ -CPUボード : RX26T RAM48KBバージョン(R5F526TACDFM) CPUボード MCB-RX26T Type C (RTK0EMXE30C00000BJ)&#10;
+ -インバータボード : MCI-LV-1&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モーター : R42BLD30L3&#10;
+ -センサ : なし&#10;
 "
 		/>
 	</SampleProject>
