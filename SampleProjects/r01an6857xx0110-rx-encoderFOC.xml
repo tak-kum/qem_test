@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZipFile>
+	<Category en="Encoder feedback" jp="エンコーダ―フィードバック" />
+	<Category en="Vector control" jp="ベクトル制御" />
+	<ZipDownloadUrl>/document/scd/vector-control-permanent-magnet-synchronous-motor-encoder-mck-rx26t-rev100/r01an6857xx0100-rx-encoderFOC.zip</ZipDownloadUrl>
+	<SampleProject>
+		<DeviceName>RX26T</DeviceName>
+		<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
+		<ProjectName
+		en="Vector Control for Permanent Magnet Synchronous Motor with Encoder - For MCK"
+		jp="永久磁石同期モータのエンコーダベクトル制御 - MCK用"
+		/>
+		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnet-synchronous-motor-encoder-mck-rx26t-rev100</ApplicationNoteUrl>
+		<Description 
+		en="
+[Description]&#10;
+This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with an encoder under vector control.
+&#10;
+[Features, Target System]&#10;
+For RX26T RAM64KB Version
+&#10;
+[Hardware Setup]&#10;
+ -CPU board : RX26T RAM64KB version (R5F526TFCDFP) CPU board MCB-RX26T Type A (RTK0EMXE70C00000BJ)
+ -Inverter board : MCI-LV-1
+ -Communication board : MC-COM
+ -Permanent magnet synchronous motor : BLY171D-24V-4000 
+ -Sensor : AMT102-V
+&#10;
+[Document Number]&#10;
+ R01AN6857EJ0110
+"
+		jp="
+[概要]&#10;
+RX26Tマイクロコントローラを使用し、エンコーダ付き永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。
+&#10;
+[機能、対象システム]&#10;
+ -RX26T RAM64KBバージョン対応
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUボード : RX26T RAM64KBバージョン(R5F526TFCDFP) CPUボード MCB-RX26T Type A (RTK0EMXE70C00000BJ)
+ -インバータボード : MCI-LV-1
+ -通信ボード : MC-COM
+ -永久磁石同期モータ : BLY171D-24V-4000 
+ -センサ : AMT102-V
+&#10;
+[ドキュメント番号]&#10;
+ R01AN6857JJ0110
+"
+		/>
+	</SampleProject>
+	<SampleProject>
+		<DeviceName>RX26T</DeviceName>
+		<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_ENCD_FOC_TUNER_E2S_V100</ProjectFolderName>
+		<ProjectName 
+		en="Vector Control for Permanent Magnet Synchronous Motor with Encoder - For MCK" 
+		jp="永久磁石同期モータのエンコーダベクトル制御 - MCK用"
+		/>
+		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnet-synchronous-motor-encoder-mck-rx26t-rev100</ApplicationNoteUrl>
+		<Description
+		en="
+[Description]&#10;
+This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with an encoder under vector control.
+This project supports tuning program generation.
+&#10;
+[Features, Target System]&#10;
+ -For RX26T RAM64KB Version
+ -Supports tuning program generation
+&#10;
+[Hardware Setup]&#10;
+ -CPU board : RX26T RAM64KB version (R5F526TFCDFP) CPU board MCB-RX26T Type A (RTK0EMXE70C00000BJ)
+ -Inverter board : MCI-LV-1
+ -Communication board : MC-COM
+ -Permanent magnet synchronous motor : BLY171D-24V-4000 
+ -Sensor : AMT102-V
+&#10;
+[Document Number]&#10;
+ R01AN6857EJ0110
+"
+		jp="
+[概要]&#10;
+RX26Tマイクロコントローラを使用し、エンコーダ付き永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。
+本プロジェクトはチューニングプログラムの作成に対応しています。
+&#10;
+[機能、対象システム]&#10;
+ -RX26T RAM64KBバージョン対応
+ -チューニングプログラム作成対応
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUボード : RX26T RAM64KBバージョン(R5F526TFCDFP) CPUボード MCB-RX26T Type A (RTK0EMXE70C00000BJ)
+ -インバータボード : MCI-LV-1
+ -通信ボード : MC-COM
+ -永久磁石同期モータ : BLY171D-24V-4000 
+ -センサ : AMT102-V
+&#10;
+[ドキュメント番号]&#10;
+ R01AN6857JJ0110
+"
+		/>
+	</SampleProject>
+	<SampleProject>
+		<DeviceName>RX26T</DeviceName>
+		<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
+		<ProjectName 
+		en="Vector Control for Permanent Magnet Synchronous Motor with Encoder - For MCK"
+		jp="永久磁石同期モータのエンコーダベクトル制御 - MCK用"
+		/>
+		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnet-synchronous-motor-encoder-mck-rx26t-rev100</ApplicationNoteUrl>
+		<Description
+		en="
+[Description]&#10;
+This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with an encoder under vector control.
+&#10;
+[Features, Target System]&#10;
+ -For RX26T RAM48KB Version
+&#10;
+[Hardware Setup]&#10;
+ -CPU board : RX26T RAM48KB version (R5F526TACDFM) CPU board MCB-RX26T Type C (RTK0EMXE30C00000BJ)
+ -Inverter board : MCI-LV-1
+ -Communication board : MC-COM
+ -Permanent magnet synchronous motor : BLY171D-24V-4000
+ -Sensor : AMT102-V
+&#10;
+[Document Number]&#10;
+ R01AN6857EJ0110
+"
+		jp="
+[概要]&#10;
+RX26Tマイクロコントローラを使用し、エンコーダ付き永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。
+&#10;
+[機能、対象システム]&#10;
+ -RX26T RAM48KBバージョ対応
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUボード : RX26T RAM48KBバージョン(R5F526TACDFM) CPUボード MCB-RX26T Type C (RTK0EMXE30C00000BJ)
+ -インバータボード : MCI-LV-1
+ -通信ボード : MC-COM
+ -永久磁石同期モータ : BLY171D-24V-4000 
+ -センサ : AMT102-V
+&#10;
+[ドキュメント番号]&#10;
+ R01AN6857JJ0110
+"
+		/>
+	</SampleProject>
+	<SampleProject>
+		<DeviceName>RX26T</DeviceName>
+		<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_ENCD_FOC_TUNER_E2S_V100</ProjectFolderName>
+		<ProjectName en="Vector Control for Permanent Magnet Synchronous Motor with Encoder - For MCK"
+		jp="永久磁石同期モータのエンコーダベクトル制御 - MCK用"
+		/>
+		<ApplicationNoteUrl>/document/apn/vector-control-permanent-magnet-synchronous-motor-encoder-mck-rx26t-rev100</ApplicationNoteUrl>
+		<Description 
+		en="
+[Description]&#10;
+This project is the sample program that uses Renesas RX26T microcontroller to drive a permanent magnet synchronous motor with an encoder under vector control.
+This project supports tuning program generation.
+&#10;
+[Features, Target System]&#10;
+ -For RX26T RAM48KB Version
+ -Supports tuning program generation
+&#10;
+[Hardware Setup]&#10;
+ -CPU board : RX26T RAM48KB version (R5F526TACDFM) CPU board MCB-RX26T Type C (RTK0EMXE30C00000BJ)
+ -Inverter board : MCI-LV-1
+ -Communication board : MC-COM
+ -Permanent magnet synchronous motor : BLY171D-24V-4000
+ -Sensor : AMT102-V
+&#10;
+[Document Number]&#10;
+ R01AN6857EJ0110
+"
+		jp="
+[概要]&#10;
+RX26Tマイクロコントローラを使用し、エンコーダ付き永久磁石同期モータをベクトル制御で駆動するソフトウェアサンプルプログラムです。
+本プロジェクトはチューニングプログラムの作成に対応しています。
+&#10;
+[機能、対象システム]&#10;
+RX26T RAM48KBバージョ対応
+2シャント抵抗電流検出方式
+チューニングプログラム作成対応
+&#10;
+[対象ハードウェア構成]&#10;
+CPUボード : RX26T RAM48KBバージョン(R5F526TACDFM) CPUボード MCB-RX26T Type C (RTK0EMXE30C00000BJ)
+インバータボード : MCI-LV-1
+通信ボード : MC-COM
+永久磁石同期モータ : BLY171D-24V-4000 
+センサ : AMT102-V
+&#10;
+[ドキュメント番号]&#10;
+ R01AN6857JJ0110
+"
+		/>
+	</SampleProject>
+</ZipFile>

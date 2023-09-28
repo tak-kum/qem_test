@@ -1,13 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ZipFile>
-	<Category en="Sensorless feedback" jp="センサーレスフィードバック" />
-	<Category en="120 degree control" jp="120度制御" />
-	<ZipDownloadUrl>/document/scd/sensorless-detection-initial-position-rotor-rev110-sample-code/an-r01an3596ej0110-motor.zip</ZipDownloadUrl>
+	<Category en="Initial position detection" jp="初期位置検出" />
+	<ZipDownloadUrl>/document/scd/sensorless-detection-initial-position-rotor-rev110-sample-code/an-r01an3596jj0110-motor.zip</ZipDownloadUrl>
 	<SampleProject>
 		<DeviceName>RL78/G1F</DeviceName>
 		<ProjectFolderName>RL78G1F_MRSSK_SPM_DETECT_INIT_POSI_E2S_CC_V110</ProjectFolderName>
-		<ProjectName en="RL78G1F Sensorless speed control of 120-degree conducting controlled permanent magnetic synchronous motor" jp="RL78G1F 120度通電制御永久磁石同期モータのセンサレス速度制御" />
+		<ProjectName
+		en="Sensorless detection of initial position of the rotor"
+		jp="永久磁石同期モータのセンサレス初期位置検出"
+		/>
 		<ApplicationNoteUrl>/document/apn/sensorless-detection-initial-position-rotor-rev110</ApplicationNoteUrl>
-		<Description en="This project is specific for RL78/G1F permanent magnet synchronous motor with sensorless feedback and 120 Degree conducting control with detection of initial position" jp="このプロジェクトは、初期位置検出付きのセンサーレスフィードバックと 120 度通電制御を備えた RL78/G1F 永久磁石同期モーターに特化しています。" />
+		<Description
+		en="
+[Description]&#10;
+This project is the sample programs of sensorless detection of initial position of the rotor in a permanent magnetic synchronous motor using the RL78/G1F microcontroller.&#10;
+&#10;
+[Features, Target System]&#10;
+ -Sensorless&#10;
+ -Initial rotor position detection&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU card : RL78/G1F(R5F11BLEAFB) CPU card (RTK0EML240C03000BJ) or RL78/G1F CPU card T5103&#10;
+ -Inverter board : 24V Inverter board(RTK0EM0001B00012BJ)&#10;
+ -Permanent magnet synchronous motor : TG-55L&#10;
+&#10;
+[Document Number]&#10;
+ R01AN3596EJ0110&#10;
+"
+		jp="
+[概要]&#10;
+RL78/G1F マイクロコントローラを使用し、永久磁石同期モータの回転子初期位置を検出するサンプルプログラムです。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -センサレス&#10;
+ -初期位置を検出&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUボード : RL78/G1F(R5F11BLEAFB) CPUカード(RTK0EML240C03000BJ) または RL78/G1F CPUカード T5103&#10;
+ -インバータボード : 24V系インバータボード(RTK0EM0001B00012BJ)&#10;
+ -永久磁石同期モーター : TG-55L&#10;
+&#10;
+[ドキュメント番号]&#10;
+ R01AN3596JJ0110&#10;
+"
+		/>
 	</SampleProject>
 </ZipFile>

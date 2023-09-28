@@ -11,8 +11,40 @@
 		/>
 		<ApplicationNoteUrl>/document/apn/rl78g1f-sensorless-120-degree-conducting-control-permanent-magnetic-synchronous-motor-high-speed</ApplicationNoteUrl>
 		<Description 
-		en="This project is the sample programs for RL78/G1F microcontroller to drive a permanent magnet synchronous motor using high-speed rotation control by sensorless 120-degree conducting. (R01AN5630EJ0100)"
-		jp="RL78/G1Fマイクロコントローラを使用し、永久磁石同期モータをセンサレス120度通電による高速回転制御で駆動するサンプルプログラムです。(R01AN5630JJ0100)"
+		en="
+[Description]&#10;
+This project is the sample programs for RL78/G1F microcontroller to drive a permanent magnet synchronous motor using high-speed rotation control by sensorless 120-degree conducting.&#10;
+&#10;
+[Features, Target System]&#10;
+ -Sensorless&#10;
+ -120-degree conducting control&#10;
+ -High-speed rotation&#10;
+&#10;
+[Hardware Setup]&#10;
+ -Inverter board : RL78/G1F Motor Driver Board GB01&#10;
+ -Communication board : RTK0EMX6B0Z00000BJ or In Circuit Scope plus&#10;
+ -Motor : TF037C-2000-F&#10;
+&#10;
+[Document Number]&#10;
+ R01AN5630EJ0100&#10;
+"
+		jp="
+[概要]&#10;
+RL78/G1Fマイクロコントローラを使用し、永久磁石同期モータをセンサレス120度通電による高速回転制御で駆動するサンプルプログラムです。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -センサレス&#10;
+ -120 度通電制御&#10;
+ -高速回転制御&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -インバータボード : RL78/G1F Motor Driver Board GB01&#10;
+ -通信ボード : RTK0EMX6B0Z00000BJ または In Circuit Scope plus&#10;
+ -モータ : TF037C-2000-F&#10;
+&#10;
+[ドキュメント番号]&#10;
+ R01AN5630JJ0100&#10;
+"
 		/>
 	</SampleProject>
 </ZipFile>
