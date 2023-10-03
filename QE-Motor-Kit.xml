@@ -113,7 +113,7 @@
 		</Project>
 	</Kit>
 	<Kit>
-		<KitName en="RL78/G1F CPU Card and 24V inverter board(RTK0EM0001B00012BJ)" jp="RL78/G1F CPUカード & 24V系インバータボード(RTK0EM0001B00012BJ)" />
+		<KitName en="RL78/G1F CPU Card and 24V inverter board(RTK0EM0001B00012BJ)" jp="RL78/G1F CPUカード ＋ 24V系インバータボード(RTK0EM0001B00012BJ)" />
 		<DeviceName>RL78/G1F</DeviceName>
 		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardPictures/RSSK-RL78G1F.png</KitImageUrl>
 		<KitDescription en="The Evaluation System for BLDC Motor provided by Renesas is a low-voltage permanent magnet synchronous motor (brushless DC motor) solution that allows anyone to easily evaluate the motor. After purchase, you can download the software from the website and start evaluating immediately." jp="ルネサスが提供するBLDCモータ評価システムは、誰でも簡単にモータを評価できる低電圧永久磁石同期モータ(ブラシレスDCモータ)ソリューションです。購入後、Web サイトからソフトウェアをダウンロードして、すぐに評価を開始できます。"/>
