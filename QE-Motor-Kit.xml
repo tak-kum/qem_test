@@ -69,6 +69,24 @@
 		/>
 		<Motor en="Brushless DC Mortor (TG-55L-KA 24V)" jp="ブラシレスDCモーター（TG-55L-KA 24V）"/>
 		<HardwareInfo en="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/en/MCK-RX26T-HardwareInfo.html" jp="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/jp/MCK-RX26T-HardwareInfo.html" />
+
+		<Project>
+			<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6857xx0110-rx-encoderFOC.xml</ProjectUrl>
+		</Project>
+		<Project>
+			<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_ENCD_FOC_TUNER_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6857xx0110-rx-encoderFOC.xml</ProjectUrl>
+		</Project>
+		<Project>
+			<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6857xx0110-rx-encoderFOC.xml</ProjectUrl>
+		</Project>
+		<Project>
+			<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_ENCD_FOC_TUNER_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6857xx0110-rx-encoderFOC.xml</ProjectUrl>
+		</Project>
+
 		<Project>
 			<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_LESS_FOC_E2S_V110</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6858xx0110-rx-sensorlessFOC.xml</ProjectUrl>
@@ -80,6 +98,42 @@
 		<Project>
 			<ProjectFolderName>RX26T_MCBA_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V110</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6858xx0110-rx-sensorlessFOC.xml</ProjectUrl>
+		</Project>
+		<Project>
+			<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_LESS_FOC_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6858xx0110-rx-sensorlessFOC.xml</ProjectUrl>
+		</Project>
+		<Project>
+			<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_LESS_FOC_TUNER_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6858xx0110-rx-sensorlessFOC.xml</ProjectUrl>
+		</Project>
+		<Project>
+			<ProjectFolderName>RX26T_MCBC_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6858xx0110-rx-sensorlessFOC.xml</ProjectUrl>
+		</Project>
+	</Kit>
+	<Kit>
+		<KitName en="RL78/G1F CPU Card and 24V inverter board(RTK0EM0001B00012BJ)" jp="RL78/G1F CPUカード & 24V系インバータボード(RTK0EM0001B00012BJ)" />
+		<DeviceName>RL78/G1F</DeviceName>
+		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardPictures/RSSK-RL78G1F.png</KitImageUrl>
+		<KitDescription en="The Evaluation System for BLDC Motor provided by Renesas is a low-voltage permanent magnet synchronous motor (brushless DC motor) solution that allows anyone to easily evaluate the motor. After purchase, you can download the software from the website and start evaluating immediately." jp="ルネサスが提供するBLDCモータ評価システムは、誰でも簡単にモータを評価できる低電圧永久磁石同期モータ(ブラシレスDCモータ)ソリューションです。購入後、Web サイトからソフトウェアをダウンロードして、すぐに評価を開始できます。"/>
+		<Motor en="Brushless DC Mortor (TG-55L)" jp="ブラシレスDCモーター（TG-55L）"/>
+		<HardwareInfo en="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/en/RSSK-RL78G1F-HardwareInfo.html" jp="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/jp/RSSK-RL78G1F-HardwareInfo.html" />
+		<Project>
+			<ProjectFolderName>RL78G1F_MRSSK_SPM_DETECT_INIT_POSI_E2S_CC_V110</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/an-r01an3596xx0110-motor.xml</ProjectUrl>
+		</Project>
+		<Project>
+			<ProjectFolderName>RL78G1F_MRSSK_120_E2S_CC_V200</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an5114xx0200-rl78g1f-motor.xml</ProjectUrl>
+		</Project>
+		<Project>
+			<ProjectFolderName>RL78G1F_RSSK_120_IPD_E2S_CC_V200</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an4502xx0200-rl78g1f-motor.xml</ProjectUrl>
+		</Project>
+		<Project>
+			<ProjectFolderName>RL78G1F_MRSSK_LESS_FOC_E2S_CC_V200</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an3991xx0200-motor.xml</ProjectUrl>
 		</Project>
 	</Kit>
 	<Kit>
