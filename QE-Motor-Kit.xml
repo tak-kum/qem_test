@@ -8,6 +8,10 @@
 		<Motor en="Brushless DC Motor (R42BLD30L3)" jp="ブラシレスDCモーター（R42BLD30L3）"/>
 		<Motor en="Brushless DC Motor2 (R42BLD30L3)" jp="ブラシレスDCモーター2（R42BLD30L3）"/>
 		<HardwareInfo en="https://raw.githubusercontent.com/tak-kum/qem_test/POC5/BoardHardwareInfo/en/MCK-RA6T2-HardwareInfo.html" jp="https://raw.githubusercontent.com/tak-kum/qem_test/POC5/BoardHardwareInfo/jp/MCK-RA6T2-HardwareInfo.html" />
+		<Project>
+			<ProjectFolderName>RA6T2_MCILV1_2SPM_LESS_FOC_E2S_V110</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/r01an6421xx0110-ra-sensorless-foc-2motor.xml</ProjectUrl>
+		</Project>
 	</Kit>
 	<Kit>
 		<KitName en="Motor Control Evaluation System for RA Family - RA6T1 Group" jp="RAファミリ用モータ制御評価システム - RA6T1 グループ"/>
