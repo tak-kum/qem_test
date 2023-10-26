@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZipFile>
+	<Category en="Sensorless feedback" jp="センサレスフィードバック" />
+	<Category en="Hall sensor feedback" jp="ホールセンサフィードバック" />
+	<Category en="Vector control" jp="ベクトル制御" />
+	<ZipDownloadUrl>/document/scd/hall-sensorsensorless-vector-control-dual-permanent-magnetic-synchronous-motor-motor-flexible/r01an6980xx0100-ra-motor.zip</ZipDownloadUrl>
+	<SampleProject>
+		<DeviceName>RA6T2</DeviceName>
+		<ProjectFolderName>RA6T2_MCILV1_2SPM_HALL_LESS_FOC_E2S_V100</ProjectFolderName>
+		<ProjectName 
+		en="Hall Sensor/Sensorless vector control for dual permanent magnetic synchronous motor" 
+		jp="永久磁石同期モータのホール/センサレスベクトル制御 - 2モータ駆動" />
+		<ApplicationNoteUrl>/document/apn/hall-sensorsensorless-vector-control-dual-permanent-magnetic-synchronous-motor-motor-flexible/</ApplicationNoteUrl>
+		<Description 
+		en="
+[Description]&#10;
+This project is the software for hall sensor/sensorless vector control that drives dual permanent magnetic synchronous motor (PMSM) using the RA6T2 microcontroller.&#10;
+&#10;
+[Features, Target System]&#10;
+ -Sensorless feedback&#10;
+ -Hall sensor feedback&#10;
+ -Vector control&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU board :RA6T2(R7FA6T2BD3CFP) CPU board (RTK0EMA270C00000BJ)&#10;
+ -Inverter board : MCI-LV-1 x2&#10;
+ -Communication board : MC-COM&#10;
+ -Motor : R42BLD30L3 x2&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -SW configuration&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN6980EJ0100
+"
+		jp="
+[概要]&#10;
+RA6T2マイクロコントローラで、２個の永久磁石同期モータ(PMSM)を駆動するホールセンサ及びセンサレスベクトル制御ソフトウェアです。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -センサレスフィードバック&#10;
+ -ホールセンサフィードバック&#10;
+ -ベクトル制御&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUボード : RA6T2(R7FA6T2BD3CFP) CPUボード (RTK0EMA270C00000BJ)&#10;
+ -インバータボード : MCI-LV-1 x2&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モーター : R42BLD30L3 x2&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -SW configuration&#10;
+ -Analyzer&#10;
+&#10;
+[ドキュメント番号]&#10;
+ R01AN6980JJ0100
+"
+		/>
+	</SampleProject>
+</ZipFile>

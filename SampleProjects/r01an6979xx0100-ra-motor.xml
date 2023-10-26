@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZipFile>
+	<Category en="Hall sensor feedback" jp="ホールセンサフィードバック" />
+	<Category en="Vector control" jp="ベクトル制御" />
+	<Category en="1-shunt current detection method" jp="1シャント抵抗電流検出方式" />
+	<ZipDownloadUrl>/document/scd/vector-control-magnetic-synchronous-motor-hall-sensors-1shunt-current-detection-motor-flexible/r01an6979xx0100-ra-motor.zip</ZipDownloadUrl>
+	<SampleProject>
+		<DeviceName>RA6T2</DeviceName>
+		<ProjectFolderName>RA6T2_MCILV1_SPM_HALL_FOC_1SHUNT_E2S_V100</ProjectFolderName>
+		<ProjectName 
+		en="Vector control for magnetic synchronous motor with hall sensors - 1shunt current detection" 
+		jp="永永久磁石同期モータのホールベクトル制御 - 1シャント電流検出方式" />
+		<ApplicationNoteUrl>/document/apn/vector-control-magnetic-synchronous-motor-hall-sensors-1shunt-current-detection-motor-flexible/</ApplicationNoteUrl>
+		<Description 
+		en="
+[Description]&#10;
+This project is the software of vector control for permanent magnetic synchronous motor with hall sensors by using functions of RA6T2 microcontroller.&#10;
+&#10;
+[Features, Target System]&#10;
+ -Hall sensor feedback&#10;
+ -Vector control&#10;
+ -1-shunt current detection method&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU board : RA6T2(R7FA6T2BD3CFP) CPU board (RTK0EMA270C00000BJ)&#10;
+ -Inverter board : MCI-LV-1&#10;
+ -Communication board : MC-COM&#10;
+ -Motor : R42BLD30L3&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -SW configuration&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN6979EJ0100
+"
+		jp="
+[概要]&#10;
+RA6T2マイクロコントローラでホールセンサを用いて永久磁石同期モータ(PMSM)を駆動するベクトル制御ソフトウェアです。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -ホールセンサフィードバック&#10;
+ -ベクトル制御&#10;
+ -1シャント抵抗電流検出方式&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUボード : RA6T2(R7FA6T2BD3CFP) CPUボード (RTK0EMA270C00000BJ)&#10;
+ -インバータボード : MCI-LV-1&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モーター : R42BLD30L3&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -SW configuration&#10;
+ -Analyzer&#10;
+&#10;
+[ドキュメント番号]&#10;
+ R01AN6979JJ0100
+"
+		/>
+	</SampleProject>
+</ZipFile>
