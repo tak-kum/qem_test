@@ -1,0 +1,162 @@
+    <?xml version="1.0" encoding="UTF-8"?>
+<ZipFile>
+	<Category en="Hall sensor feedback" jp="ホールセンサフィードバック" />
+	<Category en="120-degree conducting control" jp="120 度通電制御" />
+	<ZipDownloadUrl>/document/scd/120-degree-conducting-control-permanent-magnet-synchronous-motor-hall-sensors-mckmcb-ra-family/r01an6843xx0100-ra-hall-120.zip</ZipDownloadUrl>
+	<SampleProject>
+		<DeviceName>RA4T1</DeviceName>
+		<ProjectFolderName>RA4T1_MCILV1_SPM_HALL_120_E2S_V100</ProjectFolderName>
+		<ProjectName 
+		en="120-degree Conducting Control of Permanent Magnet Synchronous Motor with Hall Sensors" 
+		jp="永久磁石同期モータのホールセンサ利用120度制御" />
+		<ApplicationNoteUrl>/document/apn/120-degree-conducting-control-permanent-magnet-synchronous-motor-hall-sensors-mckmcb-ra-family/</ApplicationNoteUrl>
+		<Description 
+		en="
+[Description]&#10;
+This project is the 120-degree conducting control sample program of permanent magnetic synchronous motor (PMSM) using hall sensors based on the RA4T1 microcontroller.&#10;
+&#10;
+[Features, Target System]&#10;
+ -Hall sensor feedback&#10;
+ -120-degree conducting control&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU board : RA4T1(R7FA4T1BB3CFM) CPU board (RTK0EMA430C00000BJ)&#10;
+ -Inverter board : MCI-LV-1&#10;
+ -Communication board : MC-COM&#10;
+ -Motor : R42BLD30L3&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -SW configuration&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN6843EJ0100
+"
+		jp="
+[概要]&#10;
+RA4T1マイクロコントローラ(MCU)で、永久磁石同期モータ(PMSM)を駆動するホールセンサ利用120度通電制御ソフトウェアです。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -ホールセンサフィードバック&#10;
+ -120 度通電制御&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUボード : RA4T1(R7FA4T1BB3CFM) CPUボード (RTK0EMA430C00000BJ)&#10;
+ -インバータボード : MCI-LV-1&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モーター : R42BLD30L3&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -SW configuration&#10;
+ -Analyzer&#10;
+&#10;
+[ドキュメント番号]&#10;
+ R01AN6843JJ0100
+"
+		/>
+	</SampleProject>
+	<SampleProject>
+		<DeviceName>RA6T2</DeviceName>
+		<ProjectFolderName>RA6T2_MCILV1_SPM_HALL_120_E2S_V110</ProjectFolderName>
+		<ProjectName 
+		en="120-degree Conducting Control of Permanent Magnet Synchronous Motor with Hall Sensors" 
+		jp="永久磁石同期モータのホールセンサ利用120度制御" />
+		<ApplicationNoteUrl>/document/apn/120-degree-conducting-control-permanent-magnet-synchronous-motor-hall-sensors-mckmcb-ra-family/</ApplicationNoteUrl>
+		<Description 
+		en="
+[Description]&#10;
+This project is the 120-degree conducting control sample program of permanent magnetic synchronous motor (PMSM) using hall sensors based on the RA6T2 microcontroller.&#10;
+&#10;
+[Features, Target System]&#10;
+ -Hall sensor feedback&#10;
+ -120-degree conducting control&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU board : RA6T2(R7FA6T2BD3CFP) CPU board (RTK0EMA270C00000BJ)&#10;
+ -Inverter board : MCI-LV-1&#10;
+ -Communication board : MC-COM&#10;
+ -Motor : R42BLD30L3&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -SW configuration&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN6843EJ0100
+"
+		jp="
+[概要]&#10;
+RA6T2マイクロコントローラ(MCU)で、永久磁石同期モータ(PMSM)を駆動するホールセンサ利用120度通電制御ソフトウェアです。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -ホールセンサフィードバック&#10;
+ -120 度通電制御&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUボード : RA6T2(R7FA6T2BD3CFP) CPUボード (RTK0EMA270C00000BJ)&#10;
+ -インバータボード : MCI-LV-1&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モーター : R42BLD30L3&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -SW configuration&#10;
+ -Analyzer&#10;
+&#10;
+[ドキュメント番号]&#10;
+ R01AN6843JJ0100
+"
+		/>
+	</SampleProject>
+	<SampleProject>
+		<DeviceName>RA6T3</DeviceName>
+		<ProjectFolderName>RA6T3_MCILV1_SPM_HALL_120_E2S_V100</ProjectFolderName>
+		<ProjectName 
+		en="120-degree Conducting Control of Permanent Magnet Synchronous Motor with Hall Sensors" 
+		jp="永久磁石同期モータのホールセンサ利用120度制御" />
+		<ApplicationNoteUrl>/document/apn/120-degree-conducting-control-permanent-magnet-synchronous-motor-hall-sensors-mckmcb-ra-family/</ApplicationNoteUrl>
+		<Description 
+		en="
+[Description]&#10;
+This project is the 120-degree conducting control sample program of permanent magnetic synchronous motor (PMSM) using hall sensors based on the RA6T3 microcontroller.&#10;
+&#10;
+[Features, Target System]&#10;
+ -Hall sensor feedback&#10;
+ -120-degree conducting control&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU board : RA6T3(R7FA6T3BB3CFM) CPU board (RTK0EMA330C00000BJ)&#10;
+ -Inverter board : MCI-LV-1&#10;
+ -Communication board : MC-COM&#10;
+ -Motor : R42BLD30L3&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -SW configuration&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN6843EJ0100
+"
+		jp="
+[概要]&#10;
+RA6T3マイクロコントローラ(MCU)で、永久磁石同期モータ(PMSM)を駆動するホールセンサ利用120度通電制御ソフトウェアです。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -ホールセンサフィードバック&#10;
+ -120 度通電制御&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUボード : RA6T3(R7FA6T3BB3CFM) CPUボード (RTK0EMA330C00000BJ)&#10;
+ -インバータボード : MCI-LV-1&#10;
+ -通信ボード : MC-COM&#10;
+ -永久磁石同期モーター : R42BLD30L3&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -SW configuration&#10;
+ -Analyzer&#10;
+&#10;
+[ドキュメント番号]&#10;
+ R01AN6843JJ0100
+"
+		/>
+	</SampleProject>
+</ZipFile>
