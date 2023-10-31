@@ -38,6 +38,11 @@
 			<ProjectFolderName>RA6T2_MCILV1_SPM_LESS_120_E2S_V110</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6844xx0100-ra-sensorless-120.xml</ProjectUrl>
 		</Project>
+		<Project>
+			<ProjectFolderName>RA6T2_MCILV1_SPM_LESS_FOC_E2S_V110</ProjectFolderName>
+			<ProjectFolderName>RA6T2_MCILV1_SPM_LESS_FOC_TUNER_E2S_V110</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6839xx0100-ra-sensorless-foc.xml</ProjectUrl>
+		</Project>
 	</Kit>
 	<Kit>
 		<KitName en="Motor Control Evaluation System for RA Family - RA6T1 Group" jp="RAファミリ用モータ制御評価システム - RA6T1 グループ"/>
