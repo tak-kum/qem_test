@@ -6,7 +6,7 @@
 		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/BoardPictures/MCK-RA4T1.png</KitImageUrl>
 		<KitDescription en="The MCK-RA4T1 is a development kit that enables easy evaluation of motor control using permanent magnet synchronous motors (brushless DC motors)." jp="MCK-RA4T1は、永久磁石同期モーター(ブラシレスDCモーター)を用いたモーター制御を簡単に評価できる開発キットです。"/>
 		<Motor en="Brushless DC Motor (R42BLD30L3)" jp="ブラシレスDCモーター（R42BLD30L3）"/>
-		<HardwareInfo en="https://raw.githubusercontent.com/tak-kum/qem_test/POC5/BoardHardwareInfo/en/MCK-RA6T3-HardwareInfo.html" jp="https://raw.githubusercontent.com/tak-kum/qem_test/POC5/BoardHardwareInfo/jp/MCK-RA6T3-HardwareInfo.html" />
+		<HardwareInfo en="https://raw.githubusercontent.com/tak-kum/qem_test/POC5/BoardHardwareInfo/en/MCK-RA4T1-HardwareInfo.html" jp="https://raw.githubusercontent.com/tak-kum/qem_test/POC5/BoardHardwareInfo/jp/MCK-RA4T1-HardwareInfo.html" />
 		<Project>
 			<ProjectFolderName>RA4T1_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V100</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6840xx0100-ra-sensorless-foc-1shunt.xml</ProjectUrl>
