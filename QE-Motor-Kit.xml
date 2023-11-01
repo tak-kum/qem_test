@@ -6,7 +6,6 @@
 		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/BoardPictures/MCK-RA6T2.png</KitImageUrl>
 		<KitDescription en="The MCK-RA6T2 is a development kit that enables easy evaluation of motor control using permanent magnet synchronous motors (brushless DC motors)." jp="MCK-RA6T2は、永久磁石同期モーター(ブラシレスDCモーター)を用いたモーター制御を簡単に評価できる開発キットです。"/>
 		<Motor en="Brushless DC Motor (R42BLD30L3)" jp="ブラシレスDCモーター（R42BLD30L3）"/>
-		<Motor en="Brushless DC Motor2 (R42BLD30L3)" jp="ブラシレスDCモーター2（R42BLD30L3）"/>
 		<HardwareInfo en="https://raw.githubusercontent.com/tak-kum/qem_test/POC5/BoardHardwareInfo/en/MCK-RA6T2-HardwareInfo.html" jp="https://raw.githubusercontent.com/tak-kum/qem_test/POC5/BoardHardwareInfo/jp/MCK-RA6T2-HardwareInfo.html" />
 		<Project>
 			<ProjectFolderName>RA6T2_MCILV1_2SPM_LESS_FOC_E2S_V110</ProjectFolderName>
@@ -50,6 +49,40 @@
 		<Project>
 			<ProjectFolderName>RA6T2_MCILV1_SPM_IS_FOC_E2S_V110</ProjectFolderName>
 			<ProjectFolderName>RA6T2_MCILV1_SPM_IS_FOC_TUNER_E2S_V110</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6842xx0100-ra-inductive-foc.xml</ProjectUrl>
+		</Project>
+	</Kit>
+		<KitName en="MCK-RA6T3 Renesas Flexible Motor Control Kit for RA6T3 MCU Group" jp="MCK-RA6T3 Renesas Flexible Motor Control Kit for RA6T3 MCU Group"/>
+		<DeviceName>RA6T3</DeviceName>
+		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/BoardPictures/MCK-RA6T3.png</KitImageUrl>
+		<KitDescription en="The MCK-RA6T3 is a development kit that enables easy evaluation of motor control using permanent magnet synchronous motors (brushless DC motors)." jp="MCK-RA6T3は、永久磁石同期モーター(ブラシレスDCモーター)を用いたモーター制御を簡単に評価できる開発キットです。"/>
+		<Motor en="Brushless DC Motor (R42BLD30L3)" jp="ブラシレスDCモーター（R42BLD30L3）"/>
+		<HardwareInfo en="https://raw.githubusercontent.com/tak-kum/qem_test/POC5/BoardHardwareInfo/en/MCK-RA6T3-HardwareInfo.html" jp="https://raw.githubusercontent.com/tak-kum/qem_test/POC5/BoardHardwareInfo/jp/MCK-RA6T3-HardwareInfo.html" />
+		<Project>
+			<ProjectFolderName>RA6T3_MCILV1_SPM_LESS_FOC_1SHUNT_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6840xx0100-ra-sensorless-foc-1shunt.xml</ProjectUrl>
+		</Project>
+		<Project>
+			<ProjectFolderName>RA6T3_MCILV1_SPM_ENCD_FOC_E2S_V100</ProjectFolderName>
+			<ProjectFolderName>RA6T3_MCILV1_SPM_ENCD_FOC_TUNER_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6841xx0100-ra-encoder-foc.xml</ProjectUrl>
+		</Project>
+		<Project>
+			<ProjectFolderName>RA6T3_MCILV1_SPM_LESS_120_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6844xx0100-ra-sensorless-120.xml</ProjectUrl>
+		</Project>
+		<Project>
+			<ProjectFolderName>RA6T3_MCILV1_SPM_LESS_FOC_E2S_V100</ProjectFolderName>
+			<ProjectFolderName>RA6T3_MCILV1_SPM_LESS_FOC_TUNER_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6839xx0100-ra-sensorless-foc.xml</ProjectUrl>
+		</Project>
+		<Project>
+			<ProjectFolderName>RA6T3_MCILV1_SPM_HALL_120_E2S_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6843xx0100-ra-hall-120.xml</ProjectUrl>
+		</Project>
+		<Project>
+			<ProjectFolderName>RA6T3_MCILV1_SPM_IS_FOC_E2S_V100</ProjectFolderName>
+			<ProjectFolderName>RA6T3_MCILV1_SPM_IS_FOC_TUNER_E2S_V100</ProjectFolderName>
 			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6842xx0100-ra-inductive-foc.xml</ProjectUrl>
 		</Project>
 	</Kit>
