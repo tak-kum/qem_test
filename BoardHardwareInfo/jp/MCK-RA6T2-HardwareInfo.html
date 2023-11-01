@@ -24,18 +24,18 @@
 			<p style="font-size:100%;">
 				MCK-RA6T2は永久磁石同期モータ(ブラシレスDCモータ)を使ったモータ制御の評価を簡単に行うことができる開発キットです。
 				本製品と、ウェブサイトからダウンロードできるサンプルコードや
-				<a href="https://www.renesas.com/jp/ja/software-tool/qe-tools-particular-applicationsQE for Motor">QE for Motor</a>
+				<a href="https://www.renesas.com/jp/ja/software-tool/qe-motor-development-assistance-tool-motor-applications" target="_blank">QE for Motor</a>
 				を使うことで、
-				<a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra6t2-240mhz-arm-cortex-m33-trustzone-high-real-time-engine-motor-control">RA6T2</a>
+				<a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra6t2-240mhz-arm-cortex-m33-trustzone-high-real-time-engine-motor-control" target="_blank">RA6T2</a>
 				を用いたモータ制御評価をすぐに始めることができます。
 			</p>
 			<p style="font-size:100%;">
 				<div class="wrapper">
 					<div class="btn linkbtn">
-						<a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema270s00020bj-mck-ra6t2-renesas-flexible-motor-control-kit-ra6t2-mcu-group">製品情報</a>
+						<a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema270s00020bj-mck-ra6t2-renesas-flexible-motor-control-kit-ra6t2-mcu-group" target="_blank">製品情報</a>
 					</div>
 					<div class="btn linkbtn">
-						<a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema270s00020bj-mck-ra6t2-renesas-flexible-motor-control-kit-ra6t2-mcu-group#parametric_options">ご購入</a>
+						<a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema270s00020bj-mck-ra6t2-renesas-flexible-motor-control-kit-ra6t2-mcu-group#parametric_options" target="_blank">ご購入</a>
 					</div>
 				</div>
 			</p>
@@ -64,15 +64,15 @@
 		<thead>
 			<tr class="setuphead">
 			  <th style="background: white"></th>
-			  <th>磁石同期モーターの<br>センサレスベクトル制御</th>
-			  <th>エンコーダ付き永久磁石<br>同期モーター用ベクトル制御</th>
+			  <th width="180">永久磁石同期モーターの<br>センサレスベクトル制御/<br>120度通電制御</th>
+			  <th width="180">エンコーダ付き永久磁石<br>同期モーターのベクトル制御</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
 				<td class="setuphead">CPUボード</td>
 				<td colspan="2">
-				  <p>RA6T2(R7FA6T2BD3CFP) CPUボード ●</p>
+				  <p>RA6T2(R7FA6T2BD3CFP) CPUボード (*1)</p>
 				  <p>RTK0EMA270C00000BJ</p>
 				</td>
 			  </tr>
@@ -83,7 +83,7 @@
 				  <a href="https://www.renesas.com/jp/ja/products/power-power-management/fet-motor-drivers/rtk0em0000s04020bj-mci-lv-1-renesas-flexible-motor-control-inverter-board-low-voltage-48v10a-three-phase-bldcpmsm-motor" target="_blank">
 					MCI-LV-1
 				  </a>
-				  ●
+				  (*1)
 				  </p>
 				  <p>RTK0EM0000S04020BJ</p>
 				</td>
@@ -95,27 +95,81 @@
 				  <a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxc90s00000bj-mc-com-renesas-flexible-motor-control-communication-board" target="_blank">
 					  MC-COM
 				  </a>
-				  ●
+				  (*1)
 				  </p>
 				  <p>RTK0EMXC90S00000BJ</p>
 				</td>
 			  </tr>
 			  <tr>
 				<td class="setuphead">永久磁石同期モーター</td>
-				<td>R42BLD30L3 ●</td>
-				<td>BLY171D-24V-4000</td>
+				<td>R42BLD30L3 (*1)(*2)</td>
+				<td>BLY171D-24V-4000 (*3)</td>
 			  </tr>
 			  <tr>
 				<td class="setuphead">センサ</td>
 				<td>使用しません</td>
-				<td>AMT102-V</td>
+				<td>AMT102-V (*4)</td>
 			  </tr>
 		</tbody>
 		</table>
-		<p>●: MCK-RA6T2同梱品</p>
-		<p>R42BLD30L3 は、MOONS’社の製品です。</p>
-		<p>BLY171D-24V-4000 は、Anaheim Automation社の製品です。</p>
-		<p>AMT102-V は、CUI Devices 社の製品です。</p>
+
+		<table class="hwsetup">
+			<thead>
+				<tr class="setuphead">
+				  <th style="background: white"></th>
+				  <th width="180">永久磁石同期モーターの<br>ホールセンサ利用<br>ベクトル制御/120度通電制御</th>
+				  <th width="180">誘導センサ付き永久磁石<br>同期モーターのベクトル制御</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="setuphead">CPUボード</td>
+					<td colspan="2">
+					  <p>RA6T2(R7FA6T2BD3CFP) CPUボード (*1)</p>
+					  <p>RTK0EMA270C00000BJ</p>
+					</td>
+				  </tr>
+				  <tr>
+					<td class="setuphead">インバータボード</td>
+					<td colspan="2">
+					  <p>
+					  <a href="https://www.renesas.com/jp/ja/products/power-power-management/fet-motor-drivers/rtk0em0000s04020bj-mci-lv-1-renesas-flexible-motor-control-inverter-board-low-voltage-48v10a-three-phase-bldcpmsm-motor" target="_blank">
+						MCI-LV-1
+					  </a>
+					  (*1)
+					  </p>
+					  <p>RTK0EM0000S04020BJ</p>
+					</td>
+				  </tr>
+				  <tr>
+					<td class="setuphead">通信ボード</td>
+					<td colspan="2">
+					  <p>
+					  <a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rtk0emxc90s00000bj-mc-com-renesas-flexible-motor-control-communication-board" target="_blank">
+						  MC-COM
+					  </a>
+					  (*1)
+					  </p>
+					  <p>RTK0EMXC90S00000BJ</p>
+					</td>
+				  </tr>
+				  <tr>
+					<td class="setuphead">永久磁石同期モーター</td>
+					<td>R42BLD30L3 (*1)(*2)</td>
+					<td>BLY171D-24V-4000 (*3)</td>
+				  </tr>
+				  <tr>
+					<td class="setuphead">センサ</td>
+					<td>モータに内臓</td>
+					<td>誘導センサ IPS2200</td>
+				  </tr>
+			</tbody>
+			</table>
+	
+		<p>*1: MCK-RA6T2同梱品</p>
+		<p>*2: R42BLD30L3 は、MOONS’社の製品です。</p>
+		<p>*3: BLY171D-24V-4000 は、Anaheim Automation社の製品です。</p>
+		<p>*4: AMT102-V は、CUI Devices 社の製品です。</p>
 		<br>
 	</ul>
 	</p>
@@ -123,7 +177,7 @@
 	<h4>製品仕様</h4>
 	<p style="font-size:100%;">
 	<ul>
-		<h5>特徴</h5>
+		<h5>MCK-RA6T2</h5>
 		<ul>
 		<li>CPUボードにはモータ制御MCUとしてRA6T2を搭載</li>
 		<li>3相BLDCモータ用インバータボード(定格48V/10A)</li>
@@ -155,7 +209,7 @@
 	<h4>関連情報</h4>
 	<ul>
 		<h5>マイクロコンピュータ</h5>
-		<ul><a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra6t2-240mhz-arm-cortex-m33-trustzone-high-real-time-engine-motor-control" target="_blank">RA6T2 240MHz Arm® Cortex®-M33 TrustZone® モータ制御用高リアルタイムエンジン</a></ul>
+		<ul><a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra6t2-240mhz-arm-cortex-m33-trustzone-high-real-time-engine-motor-control" target="_blank">RA6T2 240MHz ArmR CortexR-M33 TrustZoneR モータ制御用高リアルタイムエンジン</a></ul>
 		<h5>ボード＆キット</h5>
 		<ul><a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema270s00020bj-mck-ra6t2-renesas-flexible-motor-control-kit-ra6t2-mcu-group" target="_blank">MCK-RA6T2 Renesas Flexible Motor Control Kit for RA6T2 MCU Group</a></ul>
 		<h5>開発ツール</h5>
