@@ -52,6 +52,7 @@
 			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6842xx0100-ra-inductive-foc.xml</ProjectUrl>
 		</Project>
 	</Kit>
+	<Kit>
 		<KitName en="MCK-RA6T3 Renesas Flexible Motor Control Kit for RA6T3 MCU Group" jp="MCK-RA6T3 Renesas Flexible Motor Control Kit for RA6T3 MCU Group"/>
 		<DeviceName>RA6T3</DeviceName>
 		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/BoardPictures/MCK-RA6T3.png</KitImageUrl>
