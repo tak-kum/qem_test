@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ZipFile>
 	<Category en="Initial position detection" jp="初期位置検出" />
+	<Category en="Sensorless feedback" jp="センサーレスフィードバック" />
 	<ZipDownloadUrl>/document/scd/sensorless-detection-initial-position-rotor-rev110-sample-code/an-r01an3596jj0110-motor.zip</ZipDownloadUrl>
 	<SampleProject>
 		<DeviceName>RL78/G1F</DeviceName>
@@ -16,13 +17,16 @@
 This project is the sample programs of sensorless detection of initial position of the rotor in a permanent magnetic synchronous motor using the RL78/G1F microcontroller.&#10;
 &#10;
 [Features, Target System]&#10;
- -Sensorless&#10;
+ -Sensorless feedback&#10;
  -Initial rotor position detection&#10;
 &#10;
 [Hardware Setup]&#10;
  -CPU card : RL78/G1F(R5F11BLEAFB) CPU card (RTK0EML240C03000BJ) or RL78/G1F CPU card T5103&#10;
  -Inverter board : 24V Inverter board(RTK0EM0001B00012BJ)&#10;
  -Permanent magnet synchronous motor : TG-55L&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -Analyzer&#10;
 &#10;
 [Document Number]&#10;
  R01AN3596EJ0110&#10;
@@ -32,13 +36,16 @@ This project is the sample programs of sensorless detection of initial position 
 RL78/G1F マイクロコントローラを使用し、永久磁石同期モータの回転子初期位置を検出するサンプルプログラムです。&#10;
 &#10;
 [機能、対象システム]&#10;
- -センサレス&#10;
+ -センサーレスフィードバック&#10;
  -初期位置を検出&#10;
 &#10;
 [対象ハードウェア構成]&#10;
  -CPUボード : RL78/G1F(R5F11BLEAFB) CPUカード(RTK0EML240C03000BJ) または RL78/G1F CPUカード T5103&#10;
  -インバータボード : 24V系インバータボード(RTK0EM0001B00012BJ)&#10;
  -永久磁石同期モーター : TG-55L&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -Analyzer&#10;
 &#10;
 [ドキュメント番号]&#10;
  R01AN3596JJ0110&#10;

@@ -24,6 +24,9 @@ This project is the sample programs driving a permanent magnetic synchronous mot
  -Inverter board : 24V Inverter board(RTK0EM0001B00012BJ)&#10;
  -Permanent magnet synchronous motor : TG-55L&#10;
 &#10;
+[Supported QE function(s)]&#10;
+ -Analyzer&#10;
+&#10;
 [Document Number]&#10;
  R01AN5114EJ0200&#10;
 "
@@ -39,6 +42,9 @@ RL78/G1Fマイクロコントローラを使用し、永久磁石同期モータ
  -CPUボード : RL78/G1F(R5F11BLEAFB) CPUカード(RTK0EML240C03000BJ) または RL78/G1F CPUカード T5103&#10;
  -インバータボード : 24V系インバータボード(RTK0EM0001B00012BJ)&#10;
  -永久磁石同期モーター : TG-55L&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -Analyzer&#10;
 &#10;
 [ドキュメント番号]&#10;
  R01AN5114JJ0200&#10;

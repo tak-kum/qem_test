@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ZipFile>
-	<Category en="Sensorless 120-degree conduction control" jp="センサレス120度通電制御" />
+	<Category en="Sensorless feedback" jp="センサーレスフィードバック" />
+	<Category en="120-degree conduction control" jp="120度通電制御" />
 	<ZipDownloadUrl>/document/scd/rl78g1f-sensorless-120-degree-conducting-control-permanent-magnetic-synchronous-motor-high-speed/r01an5630xx0100-rl78g1f-motor.zip</ZipDownloadUrl>
 	<SampleProject>
 		<DeviceName>RL78/G1F</DeviceName>
@@ -16,7 +17,7 @@
 This project is the sample programs for RL78/G1F microcontroller to drive a permanent magnet synchronous motor using high-speed rotation control by sensorless 120-degree conducting.&#10;
 &#10;
 [Features, Target System]&#10;
- -Sensorless&#10;
+ -Sensorless feedback&#10;
  -120-degree conducting control&#10;
  -High-speed rotation&#10;
 &#10;
@@ -33,7 +34,7 @@ This project is the sample programs for RL78/G1F microcontroller to drive a perm
 RL78/G1Fマイクロコントローラを使用し、永久磁石同期モータをセンサレス120度通電による高速回転制御で駆動するサンプルプログラムです。&#10;
 &#10;
 [機能、対象システム]&#10;
- -センサレス&#10;
+ -センサーレスフィードバック&#10;
  -120 度通電制御&#10;
  -高速回転制御&#10;
 &#10;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ZipFile>
-	<Category en="Sensorless speed control" jp="センサレス速度制御" />
+	<Category en="Sensorless feedback" jp="センサーレスフィードバック" />
 	<Category en="120-degree conduction control" jp="120度通電制御" />
 	<ZipDownloadUrl>/document/scd/rl78g1f-sensorless-speed-control-120-degree-conducting-controlled-permanent-magnetic-synchronous/r01an4502xx0200-rl78g1f-motor.zip</ZipDownloadUrl>
 	<SampleProject>
@@ -16,37 +16,43 @@
 This project is the sample programs driving a permanent magnetic synchronous motor in the 120-degree conducting method using the RL78/G1F microcontroller. Detection of initial rotor position is supported.
 &#10;
 [Note]&#10;
-This program requires a modification in the circuit of the 24V inverter board(RTK0EM0001B00012BJ). For details, please refer to the application note.
+This program requires a modification in the circuit of the 24V inverter board(RTK0EM0001B00012BJ). For details, please refer to the application note.&#10;
 &#10;
 [Features, Target System]&#10;
- -Sensorless
- -120-degree conducting control
- -Initial rotor position detection
+ -Sensorless feedback&#10;
+ -120-degree conducting control&#10;
+ -Initial rotor position detection&#10;
 &#10;
 [Hardware Setup]&#10;
- -CPU card : RL78/G1F(R5F11BLEAFB) CPU card (RTK0EML240C03000BJ) or RL78/G1F CPU card T5103
- -Inverter board : 24V Inverter board(RTK0EM0001B00012BJ)
- -Permanent magnet synchronous motor : TG-55L
+ -CPU card : RL78/G1F(R5F11BLEAFB) CPU card (RTK0EML240C03000BJ) or RL78/G1F CPU card T5103&#10;
+ -Inverter board : 24V Inverter board(RTK0EM0001B00012BJ)&#10;
+ -Permanent magnet synchronous motor : TG-55L&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -Analyzer&#10;
 &#10;
 [Document Number]&#10;
  R01AN4502EJ0200
 "
 		jp="
 [概要]&#10;
-RL78/G1F マイクロコントローラを使用し、永久磁石同期モータを120 度通電方式で駆動するサンプルプログラムです。回転子初期位置検出に対応しています。
+RL78/G1F マイクロコントローラを使用し、永久磁石同期モータを120 度通電方式で駆動するサンプルプログラムです。回転子初期位置検出に対応しています。&#10;
 &#10;
 [注意事項]&#10;
-本プログラムを24V系インバータボード(RTK0EM0001B00012BJ)で動作させるには、回路修正が必要となります。詳細はアプリケーションノートを参照してください。
+本プログラムを24V系インバータボード(RTK0EM0001B00012BJ)で動作させるには、回路修正が必要となります。詳細はアプリケーションノートを参照してください。&#10;
 &#10;
 [機能、対象システム]&#10;
- -センサレス
- -120 度通電制御
- -初期位置を検出
+ -センサーレスフィードバック&#10;
+ -120度通電制御&#10;
+ -初期位置を検出&#10;
 &#10;
 [対象ハードウェア構成]&#10;
- -CPUボード : RL78/G1F(R5F11BLEAFB) CPUカード(RTK0EML240C03000BJ) または RL78/G1F CPUカード T5103
- -インバータボード : 24V系インバータボード(RTK0EM0001B00012BJ)
- -永久磁石同期モーター : TG-55L
+ -CPUボード : RL78/G1F(R5F11BLEAFB) CPUカード(RTK0EML240C03000BJ) または RL78/G1F CPUカード T5103&#10;
+ -インバータボード : 24V系インバータボード(RTK0EM0001B00012BJ)&#10;
+ -永久磁石同期モーター : TG-55L&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -Analyzer&#10;
 &#10;
 [ドキュメント番号]&#10;
  R01AN4502JJ0200
