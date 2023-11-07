@@ -204,6 +204,23 @@
 		</Project>
 	</Kit>
 	<Kit>
+		<KitName en="RL78/G24 Motor Control Evaluation Kit" jp="RL78/G24 Motor Control Evaluation Kit" />
+		<DeviceName>RL78/G24</DeviceName>
+		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/BoardPictures/MCEK-RL78G24.png</KitImageUrl>
+		<KitDescription 
+			en="The RL78/G24 Motor Control Evaluation Kit is a development kit that enables easy evaluation of motor control using permanent magnet synchronous motors (brushless DC motors).
+                With this product and the sample code that can be downloaded from the website, you can start evaluating motor control using the RL78/G24 right away." 
+			jp="RL78/G24 Motor Control Evaluation Kitは、RL78/G24マイコンを搭載し、モータ制御を簡単に評価できる永久磁石同期モータ (ブラシレス DC モータ)制御評価キットです。
+                ルネサスのウェブサイトからダウンロードできるサンプルソフトウェアを使用して、すぐにモータ制御の評価を開始できます。"/>
+		<Motor en="Brushless DC Mortor (TG-55L-KA 24V)" jp="ブラシレスDCモーター (TG-55L-KA 24V)"/>
+		<HardwareInfo en="https://raw.githubusercontent.com/tak-kum/qem_test/POC5/BoardHardwareInfo/en/MCEK-RL78G24-HardwareInfo.html" jp="https://raw.githubusercontent.com/tak-kum/qem_test/POC5/BoardHardwareInfo/jp/MCEK-RL78G24-HardwareInfo.html" />
+		<Project>
+			<ProjectFolderName>RL78G24_MCEK_1S_LESS_FOC_E2S_CC_V100</ProjectFolderName>
+			<ProjectFolderName>RL78G24_MCEK_3S_LESS_FOC_E2S_CC_V100</ProjectFolderName>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an7036xx0100-rl78g24-motor.xml</ProjectUrl>
+		</Project>
+	</Kit>
+	<Kit>
 		<KitName en="RL78/G1F CPU Card and 24V inverter board(RTK0EM0001B00012BJ)" jp="RL78/G1F CPUカード ＋ 24V系インバータボード(RTK0EM0001B00012BJ)" />
 		<DeviceName>RL78/G1F</DeviceName>
 		<KitImageUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/BoardPictures/RSSK-RL78G1F.png</KitImageUrl>
