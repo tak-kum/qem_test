@@ -61,7 +61,7 @@ RL78/G24マイクロコントローラを使用した永久磁石同期モータ
 
 	<SampleProject>
 		<DeviceName>RL78/G24</DeviceName>
-		<ProjectFolderName>RL78G24_MCEK_1S_LESS_FOC_E2S_CC_V100</ProjectFolderName>
+		<ProjectFolderName>RL78G24_MCEK_3S_LESS_FOC_E2S_CC_V100</ProjectFolderName>
 	    <Category en="3-shunt current detection method" jp="3シャント抵抗電流検出方式" />
 		<ProjectName 
 		en="RL78/G24 Sensorless vector control for permanent magnetic synchronous motor (3-shunt)" 
