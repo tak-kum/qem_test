@@ -1,7 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DeviceFamilies>
 	<DeviceFamily>
+		<DeviceFamilyName>RA</DeviceFamilyName>
+		<DeviceSeries>
+			<DeviceSeriesName>RA4</DeviceSeriesName>
+			<Device>
+				<DeviceName>RA4T1</DeviceName>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6840xx0100-ra-sensorless-foc-1shunt.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6841xx0100-ra-encoder-foc.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6844xx0100-ra-sensorless-120.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6839xx0100-ra-sensorless-foc.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6843xx0100-ra-hall-120.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6842xx0100-ra-inductive-foc.xml</ProjectUrl>
+			</Device>
+		</DeviceSeries>
+		<DeviceSeriesName>RA6</DeviceSeriesName>
+			<Device>
+				<DeviceName>RA6T1</DeviceName>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an5558xx0111-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an5923xx0111-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6256xx0101-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6258xx0100-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6259xx0100-motor.xml</ProjectUrl>
+			</Device>
+			<Device>
+				<DeviceName>RA6T2</DeviceName>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6421xx0110-ra-sensorless-foc-2motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6466xx0110-ra-hall-foc.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6980xx0100-ra-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6979xx0100-ra-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6840xx0100-ra-sensorless-foc-1shunt.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6841xx0100-ra-encoder-foc.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6844xx0100-ra-sensorless-120.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6839xx0100-ra-sensorless-foc.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6843xx0100-ra-hall-120.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6842xx0100-ra-inductive-foc.xml</ProjectUrl>
+			</Device>
+			<Device>
+				<DeviceName>RA6T3</DeviceName>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6840xx0100-ra-sensorless-foc-1shunt.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6841xx0100-ra-encoder-foc.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6844xx0100-ra-sensorless-120.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6839xx0100-ra-sensorless-foc.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6843xx0100-ra-hall-120.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6842xx0100-ra-inductive-foc.xml</ProjectUrl>
+			</Device>
+		</DeviceSeries>
+	</DeviceFamily>
+	<DeviceFamily>
 		<DeviceFamilyName>RL78</DeviceFamilyName>
+		<DeviceSeries>
+			<DeviceSeriesName>G24</DeviceSeriesName>
+			<Device>
+				<DeviceName>RL78/G24</DeviceName>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an7036xx0100-rl78g24-motor.xml</ProjectUrl>
+			</Device>
+		</DeviceSeries>
 		<DeviceSeries>
 			<DeviceSeriesName>G1F</DeviceSeriesName>
 			<Device>
@@ -13,6 +67,17 @@
 				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an3992xx0220-rl78g1f-motor.xml</ProjectUrl>
 				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an4502xx0200-rl78g1f-motor.xml</ProjectUrl>
 				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an3991xx0200-motor.xml</ProjectUrl>
+			</Device>
+		</DeviceSeries>
+	</DeviceFamily>
+	<DeviceFamily>
+		<DeviceFamilyName>RX</DeviceFamilyName>
+		<DeviceSeries>
+			<DeviceSeriesName>RX200</DeviceSeriesName>
+			<Device>
+				<DeviceName>RX26T</DeviceName>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6857xx0100-rx-encoderFOC.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6858xx0100-rx-sensorlessFOC.xml</ProjectUrl>
 			</Device>
 		</DeviceSeries>
 	</DeviceFamily>
