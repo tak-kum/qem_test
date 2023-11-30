@@ -6,8 +6,55 @@
 	<SampleProject>
 		<DeviceName>RA6T1</DeviceName>
 		<ProjectFolderName>RA6T1_ESB_SPM_ENCD_FOC_E2S_V101</ProjectFolderName>
-		<ProjectName en="RA6T1 Vector control for permanent magnet synchronous motor with encoder" jp="RA6T1 エンコーダ付永久磁石同期モータ用ベクトル制御" />
-		<ApplicationNoteUrl>/document/apn/ra6t1-vector-control-permanent-magnet-synchronous-motor-encoder-implementation</ApplicationNoteUrl>
-		<Description en="This project is specific for RA6T1 permanent magnet synchronous motor with encoder feedback and vector control" jp="このプロジェクトは、エンコーダフィードバックとベクトル制御を備えた RA6T1 永久磁石同期モータに特化しています。" />
+		<ProjectName 
+		en="Vector control for permanent magnetic synchronous motor with encoder - AB incremental type encoder" 
+		jp="永久磁石同期モータのエンコーダ利用ベクトル制御 - AB 相インクリメンタル型エンコーダ" />
+		<ApplicationNoteUrl>/document/apn/ra6t1-vector-control-permanent-magnet-synchronous-motor-encoder-implementation/</ApplicationNoteUrl>
+		<Description 
+		en="
+[Description]&#10;
+This project is the sample program for a permanent magnetic synchronous motor drive with vector control using encoder based on Renesas RA6T1 microcontroller.&#10;
+&#10;
+[Features, Target System]&#10;
+ -Encoder feedback&#10;
+ -Vector control&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU card : RA6T1(R7FA6T1AD3CFP) CPU card (RTK0EMA170C00000BJ)&#10;
+ -Inverter board : 48V inverter board (RTK0EM0000B10020BJ)&#10;
+ -Motor : BLY171D-24V-4000&#10;
+ -Sensor : AMT102-V&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -SW configuration&#10;
+ -Tuner&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN5923EJ0111
+"
+		jp="
+[概要]&#10;
+RA6T1マイクロコントローラで永久磁石同期モータ(PMSM)を駆動するエンコーダ利用ベクトル制御ソフトウェアのサンプルプログラムです。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -エンコーダフィードバック&#10;
+ -ベクトル制御&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUカード : RA6T1(R7FA6T1AD3CFP) CPUカード (RTK0EMA170C00000BJ)&#10;
+ -インバータボード : 48V系インバータボード (RTK0EM0000B10020BJ)&#10;
+ -永久磁石同期モーター : BLY171D-24V-4000&#10;
+ -センサ : AMT102-V&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -SW configuration&#10;
+ -Tuner&#10;
+ -Analyzer&#10;
+&#10;
+[ドキュメント番号]&#10;
+ R01AN5923JJ0111
+"
+		/>
 	</SampleProject>
 </ZipFile>
