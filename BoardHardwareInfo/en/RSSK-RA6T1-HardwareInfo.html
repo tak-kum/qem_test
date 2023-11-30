@@ -2,33 +2,184 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://tak-kum.github.io/qem_test/BoardHardwareInfo/style.css" type="text/css">
+<!--<link rel="stylesheet" href="style.css" type="text/css">-->
 <meta name="title" content="Kit information">
 <title>Kit information</title>
 </head>
 <body>
-	<table border="1" cellpadding="5">
+
+	<h3><p>Motor Control Evaluation System for RA6T1 Group</p>
+		<p>RTK0EMA170S00020BJ</p>
+	</h3>
+
+	<table style="border:none;" cellpadding="5" >
 	  <tr>
-	  	<td nowrap>
+	  	<td>
 			<p>
-				<img src="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/Images/logo.png"  style="width:5cm" />
+				<img src="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardPictures/RSSK-RA6T1.png"  style="width:6cm" />
 			</p>
 		</td>
-		<td nowrap>
-			<h4>Board Information
-				<p style="font-size:100%;"><a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema170s00020bj-motor-control-evaluation-system-ra-family-ra6t1-group" target="_blank">RSSK-RA6T1</a></p>
-			</h4>
-		</td>
-		<td nowrap>
-			<h4>Part Number
-				<p style="font-size:100%;">RTK0EMA170S00020BJ</p>
-			</h4>
+	  	<td style="border:none;" >
+			<p style="font-size:100%;">
+				The Motor Control Evaluation System for RA Family - 
+				<a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra6t1-120mhz-arm-cortex-m4-assp-ra6-motor-control" target="_blank">
+				RA6T1</a>
+				Group is a low-voltage permanent magnet synchronous motor (brushless DC motor) solution that allows anyone to easily evaluate motor control. Start evaluating motor control immediately using the kit hardware and software available for download from the Renesas website.
+			</p>
+			<p style="font-size:100%;">
+				<div class="wrapper">
+					<div class="btn linkbtn">
+						<a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema170s00020bj-motor-control-evaluation-system-ra-family-ra6t1-group" target="_blank">Product Information</a>
+					</div>
+					<div class="btn linkbtn">
+						<a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema170s00020bj-motor-control-evaluation-system-ra-family-ra6t1-group#parametric_options" target="_blank">Order Now</a>
+					</div>
+				</div>
+			</p>
 		</td>
 	  </tr>
 	</table>
-	<h4>Hardare description
-		<p style="font-size:100%;">This kit designed for xxxx application</p> 
-	</h4>
+	<br>
+	
+	<h4>Hardware Setup</h4>
+	<p style="font-size:100%;">
+	<ul>
+		<p>
+			<img src="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/Images/RSSK-RA6T1_HW_e.png  style="width:15cm" />
+		</p>
+		<br>
+		For some sample programs, change the setup from the components included in Motor Control Evaluation System for RA6T1 Group as follows.
+		<br>
+		<table class="hwsetup">
+			<thead>
+				<tr class="setuphead">
+				  <th style="background: white"></th>
+				  <th>Sensorless Vector Control /<br>120-degree conducting control of a<br>Permanent Magnet Synchronous Motor</th>
+				  <th>Vector Control for Permanent Magnet <br>Synchronous Motor with Encoder</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="setuphead">CPU card</td>
+					<td colspan="2">
+						<p>RA6T1(R7FA6T1AD3CFP) CPU card (*1)</p>
+						<p>RTK0EMA170C00000BJ</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="setuphead">Inverter board</td>
+					<td colspan="2">
+						<p>48V inverter board (*1)</p>
+						<p>RTK0EM0000B10020BJ</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="setuphead">Permanent magnet <br>synchronous motor</td>
+					<td>TG-55L-KA (*1)(*2)</td>
+					<td>BLY171D-24V-4000 (*3)</td>
+				</tr>
+				<tr>
+					<td class="setuphead">Sensor</td>
+					<td>Not used</td>
+					<td>AMT102-V (*4)</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table class="hwsetup">
+			<thead>
+				<tr class="setuphead">
+				  <th style="background: white"></th>
+				  <th>120-degree conducting control<br>for Permanent Magnet Synchronous<br>Motor with Hall Sensor</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="setuphead">CPU card</td>
+					<td>
+						<p>RA6T1(R7FA6T1AD3CFP) CPU card (*1)</p>
+						<p>RTK0EMA170C00000BJ</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="setuphead">Inverter board</td>
+					<td>
+						<p>48V inverter board (*1)</p>
+						<p>RTK0EM0000B10020BJ</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="setuphead">Permanent magnet <br>synchronous motor</td>
+					<td>TG-55L-KA (*1)(*2)</td>
+				</tr>
+				<tr>
+					<td class="setuphead">Sensor</td>
+					<td>Mounted inside the motor</td>
+				</tr>
+			</tbody>
+			</table>
+	
+		<p>*1: Included in Motor Control Evaluation System for RA6T1 Group</p>
+		<p>*2: R42BLD30L3 is manufactured by MOONS’.</p>
+		<p>*3: BLY171D-24V-4000 is manufactured by Anaheim Automation.</p>
+		<p>*4: AMT102-V is manufactured by CUI Device.</p>
+		<br>
+	</ul>
+	</p>
+
+	<h4>Product Specification</h4>
+	<p style="font-size:100%;">
+	<ul>
+		<h5>Motor Control Evaluation System for RA6T1 Group</h5>
+		<ul>
+		<li>Permanent magnet synchronous motor (brushless DC motor)</li>
+		<li>Three-shunt current detection function</li>
+		<li>Supports Motor Control Development Support Tool </li>
+			<a href="https://www.renesas.com/us/en/software-tool/renesas-motor-workbench" target="_blank">Renesas Motor Workbench</a>
+		</li>
+		<li>Overcurrent protection function</li>
+		<li>By replacing the included CPU card with other CPU card, motor control with other MCU can be evaluated</li>
+		<li>Included items</li>
+		<ul>
+			<li>48V inverter board</li>
+			<li>RA6T1 CPU card</li>
+			<li>Permanent magnet synchronous motor</li>
+			<li>Cables</li>
+		</ul>
+		<br>
+		</ul>
+	</p>
+	</ul>
+	
+	<h4>References</h4>
+	<ul>
+		<h5>Microcontrollers</h5>
+		<ul><a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra6t1-120mhz-arm-cortex-m4-assp-ra6-motor-control" target="_blank">RA6T1 120MHz Arm® Cortex®-M4, ASSP of RA6 for Motor Control</a></ul>
+		<h5>Boards & Kits</h5>
+		<ul><a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema170s00020bj-motor-control-evaluation-system-ra-family-ra6t1-group" target="_blank">Motor Control Evaluation System for RA Family - RA6T1 Group</a></ul>
+		<h5>Development Tools</h5>
+		<ul><a href="https://www.renesas.com/us/en/software-tool/renesas-motor-workbench" target="_blank">Renesas Motor Workbench</a></ul>
+		<h5>Solutions</h5>
+		<ul><a href="https://www.renesas.com/us/en/application/key-technology/motor-control-robotics/motor-control-solutions" target="_blank">Renesas Motor and Inverter Control Solutions</a></ul>
+	</ul>
+
+	<h4>Documentation</h4>
+	<ul>
+		<h5>Microcontrollers</h5>
+		<ul><a href="https://www.renesas.com/us/en/document/dst/renesas-ra6t1-group-datasheet" target="_blank">RA6T1 Group Datasheet</a></ul>
+		<ul><a href="https://www.renesas.com/us/en/document/mat/renesas-ra6t1-group-users-manual-hardware" target="_blank">RA6T1 Group User's Manual: Hardware</a></ul>
+		<h5>Boards & Kit</h5>
+		<ul><a href="https://www.renesas.com/us/en/document/mat/motor-control-evaluation-system-ra-family-ra6t1-group-users-manual" target="_blank">Motor Control Evaluation System for RA Family - RA6T1 Group User's Manual</a></ul>
+		<ul><a href="https://www.renesas.com/us/en/document/qsg/motor-control-evaluation-system-ra-family-ra6t1-group-quick-start-guide" target="_blank">Motor Control Evaluation System for RA Family - RA6T1 Group Quick Start Guide</a></ul>
+		<h5>Development Tools</h5>
+		<ul><a href="https://www.renesas.com/us/en/document/qsg/motor-control-development-support-tool-renesas-motor-workbench-311-quick-start-guide" target="_blank">Motor Control Development Support Tool Renesas Motor Workbench 3.1.1 Quick Start Guide</a></ul>
+		<ul><a href="https://www.renesas.com/us/en/document/mat/motor-control-development-support-tool-renesas-motor-workbench-311-users-manual" target="_blank">Motor Control Development Support Tool Renesas Motor Workbench 3.1.1 User's Manual</a></ul>
+		<h5>Solutions</h5>
+		<ul><a href="https://www.renesas.com/us/en/document/bro/motor-solution-brochure" target="_blank">Renesas Motor Solutions Brochure</a></ul>
+	</ul>
+	<br>
+	<hr></hr>
+	<br>
  </body>
  </html>
-
