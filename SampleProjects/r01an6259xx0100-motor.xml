@@ -1,13 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ZipFile>
-	<Category en="Sensorless feedback" jp="センサーレスフィードバック" />
-	<Category en="120 degree control" jp="120度制御" />
+	<Category en="Sensorless feedback" jp="センサレスフィードバック" />
+	<Category en="120-degree conducting control" jp="120 度通電制御" />
 	<ZipDownloadUrl>/document/scd/ra6t1-sensorless-120-degree-conducting-control-permanent-magnetic-synchronous-motor-implementation/r01an6259xx0100-motor.zip</ZipDownloadUrl>
 	<SampleProject>
 		<DeviceName>RA6T1</DeviceName>
 		<ProjectFolderName>RA6T1_ESB_SPM_LESS_120_E2S_V100</ProjectFolderName>
-		<ProjectName en="RA6T1 Sensorless 120-degree conducting control of permanent magnetic synchronous motor" jp="RA6T1 永久磁石同期モータのセンサレス120度通電制御" />
-		<ApplicationNoteUrl>/document/apn/120-degree-conducting-control-permanent-magnetic-synchronous-motor-algorithm</ApplicationNoteUrl>
-		<Description en="This project is specific for RA6T1 permanent magnet synchronous motor with sensorless feedback and 120 Degree conducting control" jp="このプロジェクトは、センサーレスフィードバックと 120 度通電制御を備えた RA6T1 永久磁石同期モーターに特化しています。" />
+		<ProjectName 
+		en="Sensorless 120-degree Conducting Control of Permanent Magnet Synchronous Motor" 
+		jp="永久磁石同期モータのセンサレス120度通電制御" />
+		<ApplicationNoteUrl>/document/apn/ra6t1-sensorless-120-degree-conducting-control-permanent-magnetic-synchronous-motor-implementation/</ApplicationNoteUrl>
+		<Description 
+		en="
+[Description]&#10;
+This project is the sample program for a permanent magnetic synchronous motor drive with 120-degree conducting method based on Renesas RA6T1 microcontroller.&#10;
+&#10;
+[Features, Target System]&#10;
+ -Sensorless feedback&#10;
+ -120-degree conducting control&#10;
+&#10;
+[Hardware Setup]&#10;
+ -CPU card : RA6T1(R7FA6T1AD3CFP) CPU card (RTK0EMA170C00000BJ)&#10;
+ -Inverter board : 48V inverter board (RTK0EM0000B10020BJ)&#10;
+ -Motor : TG-55L-KA&#10;
+&#10;
+[Supported QE function(s)]&#10;
+ -SW configuration&#10;
+ -Analyzer&#10;
+&#10;
+[Document Number]&#10;
+ R01AN6259EJ0100
+"
+		jp="
+[概要]&#10;
+RA6T1マイクロコントローラで、永久磁石同期モータ(PMSM)を駆動するセンサレス120度通電制御ソフトウェアのサンプルプログラムです。&#10;
+&#10;
+[機能、対象システム]&#10;
+ -センサレスフィードバック&#10;
+ -120度通電制御&#10;
+&#10;
+[対象ハードウェア構成]&#10;
+ -CPUカード : RA6T1(R7FA6T1AD3CFP) CPUカード (RTK0EMA170C00000BJ)&#10;
+ -インバータボード : 48V系インバータボード (RTK0EM0000B10020BJ)&#10;
+ -永久磁石同期モーター : TG-55L-KA&#10;
+&#10;
+[サポートするQE機能]&#10;
+ -SW configuration&#10;
+ -Analyzer&#10;
+&#10;
+[ドキュメント番号]&#10;
+ R01AN6259JJ0100
+"
+		/>
 	</SampleProject>
 </ZipFile>
