@@ -14,7 +14,8 @@
 				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/POC5/SampleProjects/r01an6842xx0100-ra-inductive-foc.xml</ProjectUrl>
 			</Device>
 		</DeviceSeries>
-		<DeviceSeriesName>RA6</DeviceSeriesName>
+		<DeviceSeries>
+			<DeviceSeriesName>RA6</DeviceSeriesName>
 			<Device>
 				<DeviceName>RA6T1</DeviceName>
 				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an5558xx0111-motor.xml</ProjectUrl>
@@ -22,6 +23,7 @@
 				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6256xx0101-motor.xml</ProjectUrl>
 				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6258xx0100-motor.xml</ProjectUrl>
 				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an6259xx0100-motor.xml</ProjectUrl>
+				<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/main/SampleProjects/r01an5905xx0110-ra6t1-sensorless-foc-2motor.xml</ProjectUrl>
 			</Device>
 			<Device>
 				<DeviceName>RA6T2</DeviceName>
