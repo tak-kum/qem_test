@@ -2,33 +2,184 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://tak-kum.github.io/qem_test/BoardHardwareInfo/style.css" type="text/css">
+<!--<link rel="stylesheet" href="style.css" type="text/css">-->
 <meta name="title" content="Kit information">
 <title>Kit information</title>
 </head>
 <body>
-	<table border="1" cellpadding="5">
+
+	<h3><p>RA6T1グループ用モータ制御評価システム</p>
+		<p>RTK0EMA170S00020BJ</p>
+	</h3>
+
+	<table style="border:none;" cellpadding="5" >
 	  <tr>
-	  	<td nowrap>
+	  	<td>
 			<p>
-				<img src="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/Images/logo.png"  style="width:5cm" />
+				<img src="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardPictures/RSSK-RA6T1.png"  style="width:6cm" />
 			</p>
 		</td>
-		<td nowrap>
-			<h4>ボード情報
-				<p style="font-size:100%;"><a href="https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema170s00020bj-motor-control-evaluation-system-ra-family-ra6t1-group" target="_blank">RSSK-RA6T1</a></p>
-			</h4>
-		</td>
-		<td nowrap>
-			<h4>型名
-				<p style="font-size:100%;">RTK0EMA170S00020BJ</p>
-			</h4>
+	  	<td style="border:none;" >
+			<p style="font-size:100%;">
+				RA ファミリ、
+				<a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra6t1-120mhz-arm-cortex-m4-assp-ra6-motor-control" target="_blank">
+				RA6T1</a>
+				グループ用モータ制御評価システムは、誰でもモータ制御を簡単に評価できる低電圧永久磁石同期モータ (ブラシレス DC モータ) ソリューションです。 ルネサスのウェブサイトからダウンロードできるキットのハードウェアとソフトウェアを使用して、すぐにモータ制御の評価を開始できます。
+			</p>
+			<p style="font-size:100%;">
+				<div class="wrapper">
+					<div class="btn linkbtn">
+						<a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema170s00020bj-motor-control-evaluation-system-ra-family-ra6t1-group" target="_blank">製品情報</a>
+					</div>
+					<div class="btn linkbtn">
+						<a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema170s00020bj-motor-control-evaluation-system-ra-family-ra6t1-group#parametric_options" target="_blank">ご購入</a>
+					</div>
+				</div>
+			</p>
 		</td>
 	  </tr>
 	</table>
-	<h4>ハードウェアの説明
-		<p style="font-size:100%;">このキットはxxxxアプリケーション用に設計されています</p> 
-	</h4>
+	<br>
+
+	<h4>ハードウェア構成</h4>
+	<p style="font-size:100%;">
+	<ul>
+		<p>
+			<img src="https://raw.githubusercontent.com/tak-kum/qem_test/main/BoardHardwareInfo/RSSK-RA6T1_HW_j.png"  style="width:15cm" />
+		</p>
+		<br>
+		動作させるサンプルプログラムのモータ制御方式により、ハードウェアの構成をRA6T1グループ用モータ制御評価システムの同梱品から変更してください。
+		<br>
+		<table class="hwsetup">
+			<thead>
+				<tr class="setuphead">
+				  <th style="background: white"></th>
+				  <th width="180">永久磁石同期モーターの<br>センサレスベクトル制御/<br>120度通電制御</th>
+				  <th width="180">エンコーダ付き永久磁石<br>同期モーターのベクトル制御</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="setuphead">CPUカード</td>
+					<td colspan="2">
+						<p>RA6T1(R7FA6T1AD3CFP) CPUカード (*1)</p>
+						<p>RTK0EMA170C00000BJ</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="setuphead">インバータボード</td>
+					<td colspan="2">
+						<p>48V系インバータボード (*1)</p>
+						<p>RTK0EM0000B10020BJ</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="setuphead">永久磁石同期モーター</td>
+					<td>TG-55L-KA (*1)(*2)</td>
+					<td>BLY171D-24V-4000 (*3)</td>
+				</tr>
+				<tr>
+					<td class="setuphead">センサ</td>
+					<td>使用しません</td>
+					<td>AMT102-V (*4)</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table class="hwsetup">
+			<thead>
+				<tr class="setuphead">
+				  <th style="background: white"></th>
+				  <th width="180">永久磁石同期モーターの<br>ホールセンサ利用<br>120度通電制御</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="setuphead">CPUカード</td>
+					<td colspan="2">
+						<p>RA6T1(R7FA6T1AD3CFP) CPUカード (*1)</p>
+						<p>RTK0EMA170C00000BJ</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="setuphead">インバータボード</td>
+					<td colspan="2">
+					  <p>48V系インバータボード (*1)</p>
+					  <p>RTK0EM0000B10020BJ</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="setuphead">永久磁石同期モーター</td>
+					<td>TG-55L-KA (*1)(*2)</td>
+				</tr>
+				<tr>
+					<td class="setuphead">センサ</td>
+					<td>モータに内臓</td>
+				</tr>
+			</tbody>
+			</table>
+	
+		<p>*1: RA6T1グループ用モータ制御評価システム同梱品</p>
+		<p>*2: R42BLD30L3 は、MOONS’社の製品です。</p>
+		<p>*3: BLY171D-24V-4000 は、Anaheim Automation社の製品です。</p>
+		<p>*4: AMT102-V は、CUI Devices 社の製品です。</p>
+		<br>
+	</ul>
+	</p>
+	
+	<h4>製品仕様</h4>
+	<p style="font-size:100%;">
+	<ul>
+		<h5>RA6T1グループ用モータ制御評価システム</h5>
+		<ul>
+		<li>永久磁石同期モータ (ブラシレス DC モータ) 対応</li>
+		<li>3シャント電流検出機能搭載</li>
+		<li>モータ制御開発支援ツール
+			<a href="https://www.renesas.com/jp/ja/software-tool/renesas-motor-workbench" target="_blank">Renesas Motor Workbench</a>
+			に対応
+		</li>
+		<li>過電流保護機能搭載/li>
+		<li>付属の CPU カードを他の CPU カードに交換することで、他の MCU によるモータ制御を評価することができます</li>
+		<li>付属キットハードウェア</li>
+		<ul>
+			<li>48Vインバータボード</li>
+			<li>RA6T1 CPUカード</li>
+			<li>永久磁石同期モーター</li>
+			<li>ケーブル</li>
+		</ul>
+		</ul>
+	</ul>
+	</p>
+
+	<h4>関連情報</h4>
+	<ul>
+		<h5>マイクロコンピュータ</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ra6t1-120mhz-arm-cortex-m4-assp-ra6-motor-control" target="_blank">RA6T1 120MHz Arm® Cortex®-M4、モータ制御用RA6のASSP</a></ul>
+		<h5>ボード＆キット</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/ra-cortex-m-mcus/rtk0ema170s00020bj-motor-control-evaluation-system-ra-family-ra6t1-group" target="_blank">RAファミリのRA6T1グループ用モータ制御評価システム</a></ul>
+		<h5>開発ツール</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/software-tool/renesas-motor-workbench" target="_blank">Renesas Motor Workbench</a></ul>
+		<h5>ソリューション</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/application/key-technology/motor-control-robotics/motor-control-solutions" target="_blank">ルネサス モータ・インバータ制御ソリューション</a></ul>
+	</ul>
+
+	<h4>ドキュメント</h4>
+	<ul>
+		<h5>マイクロコンピュータ</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/document/dst/renesas-ra6t1-group-datasheet" target="_blank">RA6T1 グループ データシート</a></ul>
+		<ul><a href="https://www.renesas.com/jp/ja/document/mat/renesas-ra6t1-group-users-manual-hardware" target="_blank">RA6T1 グループ ユーザーズマニュアル ハードウェア編</a></ul>
+		<h5>ボード＆キット</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/document/mat/motor-control-evaluation-system-ra-family-ra6t1-group-users-manual" target="_blank">Motor Control Evaluation System for RA Family - RA6T1 Group ユーザーズマニュアル</a></ul>
+		<ul><a href="https://www.renesas.com/jp/ja/document/qsg/motor-control-evaluation-system-ra-family-ra6t1-group-quick-start-guide" target="_blank">Motor Control Evaluation System for RA Family - RA6T1 Group クイックスタートガイド</a></ul>
+		<h5>開発ツール</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/document/qsg/motor-control-development-support-tool-renesas-motor-workbench-311-quick-start-guide" target="_blank">モータ制御開発支援ツール Renesas Motor Workbench 3.1.1 クイックスタートガイド</a></ul>
+		<ul><a href="https://www.renesas.com/jp/ja/document/mat/motor-control-development-support-tool-renesas-motor-workbench-311-users-manual" target="_blank">モータ制御開発支援ツール Renesas Motor Workbench 3.1.1 ユーザーズマニュアル</a></ul>
+		<h5>ソリューション</h5>
+		<ul><a href="https://www.renesas.com/jp/ja/document/bro/motor-solution-brochure" target="_blank">ルネサス モータソリューションカタログ</a></ul>
+	</ul>
+	<br>
+	<hr></hr>
+	<br>
  </body>
  </html>
-
