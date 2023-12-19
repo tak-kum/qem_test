@@ -1,4 +1,4 @@
-﻿body {
+body.light {
 	background-color: #d6f2ff;
 	font-family: "Arial","メイリオ";
 	font-style: normal;
@@ -6,11 +6,12 @@
 	color: black;
 }
 
-@media (prefers-color-scheme: dark) {
-	body {
-	  background-color: #000;
-	  color: #fff;
-	}
+body.dark {
+	background-color: #fff;
+	font-family: "Arial","メイリオ";
+	font-style: normal;
+	font-size: 10pt;
+	color: white;
 }
 
 a {
