@@ -1,17 +1,9 @@
-body.light {
+body {
 	background-color: #d6f2ff;
 	font-family: "Arial","メイリオ";
 	font-style: normal;
 	font-size: 10pt;
 	color: black;
-}
-
-body.dark {
-	background-color: #fff;
-	font-family: "Arial","メイリオ";
-	font-style: normal;
-	font-size: 10pt;
-	color: white;
 }
 
 a {
