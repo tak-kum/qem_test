@@ -1,9 +1,16 @@
-﻿body {
-	background-color: white;
+body {
+	background-color: #d6f2ff
 	font-family: "Arial","メイリオ";
 	font-style: normal;
 	font-size: 10pt;
 	color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+	  background-color: #000;
+	  color: #fff;
+	}
 }
 
 a {
