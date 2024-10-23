@@ -32,6 +32,32 @@
         }
       ]
     },
+    "com.renesas.qe.tool.fsp-visu-package-v550": {
+      "type": "extractable",
+      "name": "FSP Visualization package",
+      "description": "FSP Visualization for Motor",
+      "category": "com.renesas.qe.tool",
+      "versionString": "5.5.0",
+      "file": "fsp-visu-resources-v550.zip",
+      "installSize": 1000,
+      "downloadInfo": {
+        "uri": "https://raw.githubusercontent.com/tak-kum/qem_test/main/fsp-visu-resources-v550.zip",
+        "size": 1089051,
+        "hash": "454977818ebe13df0a3428776f77d1134e8cd95ed653d699eb6a5f70d5404662332e6f4718fba770ce4453cc6d45d2539d24ca6087664edf6a9b9e9f8bb6f04c"
+      },
+      "filter": "(|(family=*ra;*))",
+      "extractSteps": [
+        {
+          "function": "EXTRACT",
+          "args": [
+            "zip",
+            "${packageFile}",
+            "${installDir}/QE_Motor/FSP/"
+          ],
+          "outVarName": "qeExtractLoc"
+        }
+      ]
+    },
     "com.renesas.qe.tool.configurator-visu-package-v11": {
       "type": "extractable",
       "name": "Configurator Visualization package",
