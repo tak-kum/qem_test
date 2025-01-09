@@ -38,7 +38,7 @@
       "description": "FSP Visualization for Motor",
       "category": "com.renesas.qe.tool",
       "versionString": "5.4.0.2",
-      "file": "fsp-visu-resources-v540.zip",
+      "file": "fsp-visu-resources-v540-v2.zip",
       "installSize": 1000,
       "downloadInfo": {
         "uri": "https://raw.githubusercontent.com/tak-kum/qem_test/main/fsp-visu-resources-v540-v2.zip",
