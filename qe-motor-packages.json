@@ -15,7 +15,7 @@
       "file": "fsp-visu-resources-v530.zip",
       "installSize": 1000,
       "downloadInfo": {
-        "uri": "http://tool-support.renesas.com/e2studio/qe/tools/fsp-visu-resources-v530.zip",
+        "uri": "https://raw.githubusercontent.com/tak-kum/qem_test/main//fsp-visu-resources-v530.zip",
         "size": 1089051,
         "hash": "179841c60b91b7761512d5efdd8e4efee66d9e4fc16b9779050171b0ea5c793657cb238e2075faeea5f0189c1c41dd864fdf0598ebc6a2e0972c01941bc92b76"
       },
