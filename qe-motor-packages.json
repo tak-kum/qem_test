@@ -1,4 +1,5 @@
 {
+{
   "categories": {
     "com.renesas.qe.tool": {
       "name": "QE tool",
@@ -93,9 +94,9 @@
       "file": "configurator-visu-package-v11.zip",
       "installSize": 1000,
       "downloadInfo": {
-        "uri": "http://tool-support.renesas.com/e2studio/qe/tools/configurator-visu-package-v11.zip",
+        "uri": "https://raw.githubusercontent.com/tak-kum/qem_test/main/configurator-visu-package-v11.zip",
         "size": 348271,
-        "hash": "cceeab602b0cfcc92274d9576830ff589bf33a78a0e017f093001667a9be577a55a3d242a7041f588715ac73d6d7df1d86f26c9209aa7959ac2330e331ee281c"
+        "hash": "720818f1f27c51a6d52354c4e78f7795ab58a9cf65fd4366b586a358a033cd89cf331928d62ff0cd6dabe1cb86206c2718117bd9ad6191a1bb411bf413ad1f6b"
       },
       "filter": "(|(family=*rx;*))",
       "extractSteps": [
