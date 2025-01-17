@@ -95,7 +95,7 @@
       "downloadInfo": {
         "uri": "https://raw.githubusercontent.com/tak-kum/qem_test/main/configurator-visu-package-v11.zip",
         "size": 348271,
-        "hash": "720818f1f27c51a6d52354c4e78f7795ab58a9cf65fd4366b586a358a033cd89cf331928d62ff0cd6dabe1cb86206c2718117bd9ad6191a1bb411bf413ad1f6b"
+        "hash": "79192dfe2c27a2370fc5032ede95d422a8f57ec0a8fcf99395f8ea4c7232f280a8b5a4bf95d6bc2ad50d543754acf6873733ee1e1a1cb7ddc7013abd1c23e384"
       },
       "filter": "(|(family=*rx;*))",
       "extractSteps": [
