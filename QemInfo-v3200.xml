@@ -46,6 +46,14 @@
       <system>Sensorless</system>
       <device>RX13T</device>
     </tuningFile>
+    
+    <tuningFile>
+      <rmtPath>mot_rmt/RX13T_MRSSK2_SPM_LESS_FOC_TUNER_RV100/RX13T_MRSSK2_SPM_LESS_FOC_TUNER_RV100.rmt</rmtPath>
+      <binPath>mot_rmt/RX13T_MRSSK2_SPM_LESS_FOC_TUNER_RV100/RX13T_MRSSK2_SPM_LESS_FOC_TUNER_RV100.mot</binPath>
+      <system>Test</system>
+      <device>RX13T</device>
+    </tuningFile>
+    
     <tuningFile>
       <rmtPath>mot_rmt/RX23T_MRSSK2_SPM_ENCD_FOC_TUNER_RV100/RX23T_MRSSK2_SPM_ENCD_FOC_TUNER_RV100.rmt</rmtPath>
       <binPath>mot_rmt/RX23T_MRSSK2_SPM_ENCD_FOC_TUNER_RV100/RX23T_MRSSK2_SPM_ENCD_FOC_TUNER_RV100.mot</binPath>
