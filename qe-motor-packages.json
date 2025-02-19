@@ -6,70 +6,18 @@
     }
   },
   "packages": {
-    "com.renesas.qe.tool.fsp-visu-package-v530-v2": {
+    "com.renesas.qe.tool.fsp-visu-package-v100": {
       "type": "extractable",
       "name": "FSP Visualization package",
       "description": "FSP Visualization for Motor",
       "category": "com.renesas.qe.tool",
-      "versionString": "5.3.0.2",
-      "file": "fsp-visu-resources-v530-v2.zip",
+      "versionString": "1.1.0",
+      "file": "fsp-visu-resources-v530.zip",
       "installSize": 1000,
       "downloadInfo": {
-        "uri": "https://raw.githubusercontent.com/tak-kum/qem_test/main/fsp-visu-resources-v530-v2.zip",
-        "size": 1149519,
-        "hash": "afc33a769b2c5751412b58563a1ce5baf53b033fbd9c4e37439025c0f3a1da268d7ee779296c2dbe8c8f30cf7ab2d142cb9d2b4f10db619c1d699589312f7e06"
-      },
-      "filter": "(|(family=*ra;*))",
-      "extractSteps": [
-        {
-          "function": "EXTRACT",
-          "args": [
-            "zip",
-            "${packageFile}",
-            "${installDir}/QE_Motor/FSP/"
-          ],
-          "outVarName": "qeExtractLoc"
-        }
-      ]
-    },
-    "com.renesas.qe.tool.fsp-visu-package-v540-v2": {
-      "type": "extractable",
-      "name": "FSP Visualization package",
-      "description": "FSP Visualization for Motor",
-      "category": "com.renesas.qe.tool",
-      "versionString": "5.4.0.2",
-      "file": "fsp-visu-resources-v540-v2.zip",
-      "installSize": 1000,
-      "downloadInfo": {
-        "uri": "https://raw.githubusercontent.com/tak-kum/qem_test/main/fsp-visu-resources-v540-v2.zip",
-        "size": 1089051,
-        "hash": "47c77f0e1c769cb9363c514270058c587ba936656d43407d1370ce3f8e609836a2b1b0b418c3fef9c779f75730589a9917c2b1a1ff9297f00986c57600a61827"
-      },
-      "filter": "(|(family=*ra;*))",
-      "extractSteps": [
-        {
-          "function": "EXTRACT",
-          "args": [
-            "zip",
-            "${packageFile}",
-            "${installDir}/QE_Motor/FSP/"
-          ],
-          "outVarName": "qeExtractLoc"
-        }
-      ]
-    },
-    "com.renesas.qe.tool.fsp-visu-package-v550": {
-      "type": "extractable",
-      "name": "FSP Visualization package",
-      "description": "FSP Visualization for Motor",
-      "category": "com.renesas.qe.tool",
-      "versionString": "5.5.0",
-      "file": "fsp-visu-resources-v550.zip",
-      "installSize": 1000,
-      "downloadInfo": {
-        "uri": "https://raw.githubusercontent.com/tak-kum/qem_test/main/fsp-visu-resources-v550.zip",
-        "size": 1089051,
-        "hash": "454977818ebe13df0a3428776f77d1134e8cd95ed653d699eb6a5f70d5404662332e6f4718fba770ce4453cc6d45d2539d24ca6087664edf6a9b9e9f8bb6f04c"
+        "uri": "http://tool-support.renesas.com/e2studio/qe/tools/fsp-visu-resources-v530.zip",
+        "size": 126052,
+        "hash": "179841c60b91b7761512d5efdd8e4efee66d9e4fc16b9779050171b0ea5c793657cb238e2075faeea5f0189c1c41dd864fdf0598ebc6a2e0972c01941bc92b76"
       },
       "filter": "(|(family=*ra;*))",
       "extractSteps": [
@@ -93,9 +41,9 @@
       "file": "configurator-visu-package-v11.zip",
       "installSize": 1000,
       "downloadInfo": {
-        "uri": "https://raw.githubusercontent.com/tak-kum/qem_test/main/configurator-visu-package-v11.zip",
+        "uri": "http://tool-support.renesas.com/e2studio/qe/tools/configurator-visu-package-v11.zip",
         "size": 348271,
-        "hash": "014817598d2d1373d1153fc3e0cd594168d38a06c034fc947a67c5f51f2b2812d111dfb77ec9d080601190b6edd42d82061103139150975afa813592aaecac5a"
+        "hash": "cceeab602b0cfcc92274d9576830ff589bf33a78a0e017f093001667a9be577a55a3d242a7041f588715ac73d6d7df1d86f26c9209aa7959ac2330e331ee281c"
       },
       "filter": "(|(family=*rx;*))",
       "extractSteps": [
@@ -105,6 +53,58 @@
             "zip",
             "${packageFile}",
             "${installDir}/QE_Motor/Configurator/"
+          ],
+          "outVarName": "qeExtractLoc"
+        }
+      ]
+    },
+    "com.renesas.qe.tool.tuning-package": {
+      "type": "extractable",
+      "name": "Tuning Program Package",
+      "description": "Tuning Program",
+      "category": "com.renesas.qe.tool",
+      "versionString": "2",
+      "file": "rmw-tuning-resources-test-v2.zip",
+      "installSize": 1000,
+      "downloadInfo": {
+        "uri": "http://tool-support.renesas.com/e2studio/qe/tools/rmw-tuning-resources-test-v2.zip",
+        "size": 18768314,
+        "hash": "f1a47a03d33b1861134278ecb3e46a4776737f0dbfe54af9b46fa7a0fd24be0846fe277b3f9ace18b68ab67cca4ff485ac2e442f7e6fcc1c97bc478146ea13c4"
+      },
+      "filter": "(|(family=*rx;*)(family=*ra;*)(family=*rl78;*))",
+      "extractSteps": [
+        {
+          "function": "EXTRACT",
+          "args": [
+            "zip",
+            "${packageFile}",
+            "${installDir}/QE_Motor/RMW/"
+          ],
+          "outVarName": "qeExtractLoc"
+        }
+      ]
+    },
+    "com.renesas.qe.tool.tuning-package-v3120": {
+      "type": "extractable",
+      "name": "Tuning Program Package",
+      "description": "Tuning Program",
+      "category": "com.renesas.qe.tool",
+      "versionString": "3.1.2.0",
+      "file": "rmw-tuning-resources-v3120.zip",
+      "installSize": 1000,
+      "downloadInfo": {
+        "uri": "https://raw.githubusercontent.com/renesas/qe-tools/refs/heads/main/qe_motor/TuningResources/rmw-tuning-resources-v3120.zip",
+        "size": 15530323,
+        "hash": "778a61b1c72caf53157b739fbf88cc6258418a93f3caa967b3de38cb0bb55a2ceeecc97487d138acfa58e1f5346a1eb35580262f20654ee552beb5ebd2efafe1"
+      },
+      "filter": "(|(family=*rx;*)(family=*ra;*)(family=*rl78;*))",
+      "extractSteps": [
+        {
+          "function": "EXTRACT",
+          "args": [
+            "zip",
+            "${packageFile}",
+            "${installDir}/QE_Motor/RMW/"
           ],
           "outVarName": "qeExtractLoc"
         }
