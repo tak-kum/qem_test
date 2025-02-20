@@ -84,7 +84,7 @@
         }
       ]
     },
-    "com.renesas.qe.tool.tuning-package-v3120": {
+    "com.renesas.qe.tool.tuning-package-v3200": {
       "type": "extractable",
       "name": "Tuning Program Package",
       "description": "Tuning Program",
