@@ -41,6 +41,12 @@
       <device>RA6T2</device>
     </tuningFile>
     <tuningFile>
+      <rmtPath>mot_rmt/RA6T2_MCILV1_SPM_LESS_FOC_TUNER_E2S_V100/RA6T2_MCILV1_SPM_LESS_FOC_TUNER_V100.rmt</rmtPath>
+      <binPath>mot_rmt/RA6T2_MCILV1_SPM_LESS_FOC_TUNER_E2S_V100/RA6T2_MCILV1_SPM_LESS_FOC_TUNER_E2S_V100.hex</binPath>
+      <system>120_degree</system>
+      <device>RA6T2</device>
+    </tuningFile>
+    <tuningFile>
       <rmtPath>mot_rmt/RX13T_MRSSK2_SPM_LESS_FOC_TUNER_RV100/RX13T_MRSSK2_SPM_LESS_FOC_TUNER_RV100.rmt</rmtPath>
       <binPath>mot_rmt/RX13T_MRSSK2_SPM_LESS_FOC_TUNER_RV100/RX13T_MRSSK2_SPM_LESS_FOC_TUNER_RV100.mot</binPath>
       <system>Sensorless</system>
