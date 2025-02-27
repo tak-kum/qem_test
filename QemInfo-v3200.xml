@@ -99,6 +99,38 @@
       <device>RX24U</device>
     </tuningFile>
     <tuningFile>
+      <rmtPath>mot_rmt/RX26T_MCBA_MCILV1_SPM_ENCD_FOC_TUNER_V100/RX26T_MCBA_MCILV1_SPM_ENCD_FOC_TUNER_V100.rmt</rmtPath>
+      <binPath>mot_rmt/RX26T_MCBA_MCILV1_SPM_ENCD_FOC_TUNER_V100/RX26T_MCBA_MCILV1_SPM_ENCD_FOC_TUNER_V100.mot</binPath>
+      <system>Encoder</system>
+      <device>RX26T</device>
+    </tuningFile>
+    <tuningFile>
+      <rmtPath>mot_rmt/RX26T_MCBA_MCILV1_SPM_LESS_FOC_TUNER_V110/RX26T_MCBA_MCILV1_SPM_LESS_FOC_TUNER_V110.rmt</rmtPath>
+      <binPath>mot_rmt/RX26T_MCBA_MCILV1_SPM_LESS_FOC_TUNER_V110/RX26T_MCBA_MCILV1_SPM_LESS_FOC_TUNER_V110.mot</binPath>
+      <system>Sensorless</system>
+      <device>RX26T</device>
+    </tuningFile>
+    <tuningFile>
+      <rmtPath>mot_rmt/RX26T_MCBC_MCILV1_SPM_ENCD_FOC_TUNER_V100/RX26T_MCBC_MCILV1_SPM_ENCD_FOC_TUNER_V100.rmt</rmtPath>
+      <binPath>mot_rmt/RX26T_MCBC_MCILV1_SPM_ENCD_FOC_TUNER_V100/RX26T_MCBC_MCILV1_SPM_ENCD_FOC_TUNER_V100.mot</binPath>
+      <system>Encoder_RX26T48K</system>
+      <device>RX26T</device>
+    </tuningFile>
+    <tuningFile>
+      <rmtPath>mot_rmt/RX26T_MCBC_MCILV1_SPM_LESS_FOC_TUNER_V100/RX26T_MCBC_MCILV1_SPM_LESS_FOC_TUNER_V100.rmt</rmtPath>
+      <binPath>mot_rmt/RX26T_MCBC_MCILV1_SPM_LESS_FOC_TUNER_V100/RX26T_MCBC_MCILV1_SPM_LESS_FOC_TUNER_V100.mot</binPath>
+      <system>Sensorless_RX26T48K</system>
+      <device>RX26T</device>
+    </tuningFile>
+  
+    <tuningFile>
+      <rmtPath>mot_rmt/RX26T_MCBC_MCILV1_SPM_LESS_FOC_TUNER_V100/RX26T_MCBC_MCILV1_SPM_LESS_FOC_TUNER_V100.rmt</rmtPath>
+      <binPath>mot_rmt/RX26T_MCBC_MCILV1_SPM_LESS_FOC_TUNER_V100/RX26T_MCBC_MCILV1_SPM_LESS_FOC_TUNER_V100.mot</binPath>
+      <system>Sensorless_RX26T32PIN</system>
+      <device>RX26T</device>
+    </tuningFile>
+  
+    <tuningFile>
       <rmtPath>mot_rmt/RX66T_MRSSK2_SPM_ENCD_FOC_TUNER_RV100/RX66T_MRSSK2_SPM_ENCD_FOC_TUNER_RV100.rmt</rmtPath>
       <binPath>mot_rmt/RX66T_MRSSK2_SPM_ENCD_FOC_TUNER_RV100/RX66T_MRSSK2_SPM_ENCD_FOC_TUNER_RV100.mot</binPath>
       <system>Encoder</system>
