@@ -4,6 +4,14 @@
     <qeInterface>1.1.0</qeInterface>
   </qeCommunication>
   <tunerFiles>
+
+    <tuningFile>
+      <rmtPath>mot_rmt/RA4T1_MCILV1_SPM_LESS_FOC_TUNER_V100/RA4T1_MCILV1_SPM_LESS_FOC_TUNER_V100.rmt</rmtPath>
+      <binPath>mot_rmt/RA4T1_MCILV1_SPM_LESS_FOC_TUNER_V100/RA4T1_MCILV1_SPM_LESS_FOC_TUNER_V100.hex</binPath>
+      <system>Sensorless</system>
+      <device>RA2T1</device>
+    </tuningFile>
+
     <tuningFile>
       <rmtPath>mot_rmt/RA4T1_MCILV1_SPM_ENCD_FOC_TUNER_V100/RA4T1_MCILV1_SPM_ENCD_FOC_TUNER_V100.rmt</rmtPath>
       <binPath>mot_rmt/RA4T1_MCILV1_SPM_ENCD_FOC_TUNER_V100/RA4T1_MCILV1_SPM_ENCD_FOC_TUNER_V100.hex</binPath>
