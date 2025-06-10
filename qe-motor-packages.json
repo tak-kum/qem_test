@@ -16,8 +16,8 @@
       "installSize": 1000,
       "downloadInfo": {
         "uri": "https://raw.githubusercontent.com/tak-kum/qem_test/main/fsp-visu-resources-v530.zip",
-        "size": 123616,
-        "hash": "afc33a769b2c5751412b58563a1ce5baf53b033fbd9c4e37439025c0f3a1da268d7ee779296c2dbe8c8f30cf7ab2d142cb9d2b4f10db619c1d699589312f7e06"
+        "size": 126052,
+        "hash": "179841c60b91b7761512d5efdd8e4efee66d9e4fc16b9779050171b0ea5c793657cb238e2075faeea5f0189c1c41dd864fdf0598ebc6a2e0972c01941bc92b76"
       },
       "filter": "(|(family=*ra;*))",
       "extractSteps": [
