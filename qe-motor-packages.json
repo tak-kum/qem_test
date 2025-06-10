@@ -6,7 +6,7 @@
     }
   },
   "packages": {
-    "com.renesas.qe.tool.fsp-visu-package-v110": {
+    "com.renesas.qe.tool.fsp-visu-package-v530": {
       "type": "extractable",
       "name": "FSP Visualization package",
       "description": "FSP Visualization for Motor",
