@@ -90,7 +90,7 @@
       "description": "Tuning Program",
       "category": "com.renesas.qe.tool",
       "versionString": "3.2.0.0",
-      "file": "rmw-tuning-resources-v3120.zip",
+      "file": "rmw-tuning-resources-v3200.zip",
       "installSize": 1000,
       "downloadInfo": {
         "uri": "https://raw.githubusercontent.com/tak-kum/qem_test/main/rmw-tuning-resources-v3200.zip",
