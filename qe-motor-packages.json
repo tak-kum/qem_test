@@ -110,13 +110,13 @@
         }
       ]
     },
-    "com.renesas.qe.tool.guide-package-v150-v3": {
+    "com.renesas.qe.tool.guide-package-v160-v3": {
       "type": "extractable",
       "name": "Guide Info Package",
       "description": "Guide Info",
       "category": "com.renesas.qe.tool",
-      "versionString": "1.5.0.3",
-      "file": "guide-package-v150-v3.zip",
+      "versionString": "1.6.0.3",
+      "file": "guide-package-v160-v3.zip",
       "installSize": 1000,
       "downloadInfo": {
         "uri": "https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/GuideInfo/guide-package-v150-v3.zip",
