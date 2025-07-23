@@ -110,7 +110,7 @@
         }
       ]
     },
-    "com.renesas.qe.tool.guide-package-v150-v2": {
+    "com.renesas.qe.tool.guide-package-v160-v2": {
       "type": "extractable",
       "name": "Guide Info Package",
       "description": "Guide Info",
