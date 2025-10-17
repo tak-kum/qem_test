@@ -146,8 +146,8 @@
       "installSize": 1000,
       "downloadInfo": {
         "uri": "https://raw.githubusercontent.com/tak-kum/qem_test/main/guide-package-v151-v2.zip",
-        "size": 16764828,
-        "hash": "0ae0b720b2066b8c995d22f8fd34e9d892f6e75a7c6753c037b3386df0ace20cd2a4a5e8d37be18f05a28964474c51ce8e35f0eb5442a3a2e594ee75dedb95e0"
+        "size": 16768240,
+        "hash": "629d210ce72780d2d421f546d28ad1218ad06a43280d7957f35db777804cd57003f8875adfe2b4c39aae87ef432a3e45938cdb5a221271eff40e884330261924"
       },
       "filter": "(|(family=*rx;*)(family=*ra;*)(family=*rl78;*))",
       "extractSteps": [
@@ -164,6 +164,7 @@
     }
   }
 }
+
 
 
 
