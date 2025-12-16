@@ -6,7 +6,7 @@
   
   <motor_parameter>
     <NUMBER_OF_POLE_PAIRS id="mtr_pp">4</NUMBER_OF_POLE_PAIRS>
-    <RESISTANCE id="mtr_r">1.3f</RESISTANCE>
+    <RESISTANCE id="mtr_r">1.6f</RESISTANCE>
     <D_AXIS_INDUCTANCE id="mtr_ld">0.0013f</D_AXIS_INDUCTANCE>
     <Q_AXIS_INDUCTANCE id="mtr_lq">0.0013f</Q_AXIS_INDUCTANCE>
     <MAGNETIC_FLUX id="mtr_m">0.01119f</MAGNETIC_FLUX>
