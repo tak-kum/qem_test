@@ -2,7 +2,7 @@
 <configuration>
   <date id="date">2025-12-16 12:12</date>
   <name id="name">High speed settings2</name>
-  <target id="target">Sensor-less vector</target>
+  <target id="target">Sensor-less Vector Control</target>
   
   <motor_parameter>
     <NUMBER_OF_POLE_PAIRS id="mtr_pp">6</NUMBER_OF_POLE_PAIRS>
