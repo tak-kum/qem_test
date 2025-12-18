@@ -3,14 +3,15 @@
   <date id="date">2025-10-11 16:25</date>
   <name id="name">High speed setting 1</name>
   <target id="target">Sensor-less Vector Control</target>
-  
-  <motor_parameter>
-    <NUMBER_OF_POLE_PAIRS id="mtr_pp">4</NUMBER_OF_POLE_PAIRS>
-    <RESISTANCE id="mtr_r">1.6f</RESISTANCE>
-    <D_AXIS_INDUCTANCE id="mtr_ld">0.0013f</D_AXIS_INDUCTANCE>
-    <Q_AXIS_INDUCTANCE id="mtr_lq">0.0013f</Q_AXIS_INDUCTANCE>
-    <MAGNETIC_FLUX id="mtr_m">0.01119f</MAGNETIC_FLUX>
-    <ROTOR_INERTIA id="mtr_j">0.000003666f</ROTOR_INERTIA>
-    <NOMINAL_CURRENT id="mtr_nominal_current">1.67f</NOMINAL_CURRENT>
-  </motor_parameter>
+  <control_parameter>
+    <CP_CURRENT_OMEGA id="speed_omega">300.0</CP_CURRENT_OMEGA>
+    <CP_CURRENT_ZETA id="speed_zeta">1.0</CP_CURRENT_ZETA>
+    <CP_SPEED_OMEGA id="obs_omega">5.0</CP_SPEED_OMEGA>
+    <CP_SPEED_ZETA id="obs_zeta">1.0</CP_SPEED_ZETA>
+    <CP_E_OBS_OMEGA id="e_obs_omega">200.0</CP_E_OBS_OMEGA>
+    <CP_E_OBS_ZETA id="e_obs_zeta">1.0</CP_E_OBS_ZETA>
+    <CP_PLL_EST_OMEGA id="pll_est_omega">20.0</CP_PLL_EST_OMEGA>
+    <CP_PLL_EST_ZETA id="pll_est_zeta">1.0</CP_PLL_EST_ZETA>
+    <CP_OL_ID_REF id="id_ref">1.636259</CP_OL_ID_REF>
+  </control_parameter>
 </configuration>
