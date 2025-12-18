@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
-  <date id="date">2025-10-11 16:25</date>
-  <name id="name">High speed setting 1</name>
+  <date id="date">2025-10-16 12:12</date>
+  <name id="name">High speed setting 2</name>
   <target id="target">Sensor-less Vector Control</target>
   <control_parameter>
     <CP_CURRENT_OMEGA id="speed_omega">300.0</CP_CURRENT_OMEGA>
