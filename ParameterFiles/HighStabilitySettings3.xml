@@ -12,10 +12,10 @@
     <CP_E_OBS_ZETA id="e_obs_zeta">1.0</CP_E_OBS_ZETA>
     <CP_PLL_EST_OMEGA id="pll_est_omega">20.0</CP_PLL_EST_OMEGA>
     <CP_PLL_EST_ZETA id="pll_est_zeta">1.0</CP_PLL_EST_ZETA>
-    <CP_ID_DOWN_SPEED_RPM id="down_speed_rpm">828.5638</CP_ID_DOWN_SPEED_RPM>
-    <CP_ID_UP_SPEED_RPM id="up_speed_rpm">552.3759</CP_ID_UP_SPEED_RPM>
-    <CP_MAX_SPEED_RPM id="max_speed_rpm">2761.879</CP_MAX_SPEED_RPM>
-    <CP_OVERSPEED_LIMIT_RPM id="overspeed_limit_rpm">4142.819</CP_OVERSPEED_LIMIT_RPM>
-    <CP_OL_ID_REF id="ref_id">1.636259</CP_OL_ID_REF>
+    <CP_ID_DOWN_SPEED_RPM id="id_down_speed_rpm">828.5638</CP_ID_DOWN_SPEED_RPM>
+    <CP_ID_UP_SPEED_RPM id="id_up_speed_rpm">552.3759</CP_ID_UP_SPEED_RPM>
+    <CP_MAX_SPEED_RPM id="maximum_speed_rpm">2761.879</CP_MAX_SPEED_RPM>
+    <CP_OVERSPEED_LIMIT_RPM id="overspeed_limit">4142.819</CP_OVERSPEED_LIMIT_RPM>
+    <CP_OL_ID_REF id="id_ref">1.636259</CP_OL_ID_REF>
   </control_parameter>
 </configuration>
