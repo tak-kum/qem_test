@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <date id="date">2025-12-10 16:25</date>
+  <name id="name">One setting 1</name>
+  <target id="target">Sensor-less Vector Control</target>
+  <control_parameter>
+    <CP_CURRENT_OMEGA id="speed_omega">301.0</CP_CURRENT_OMEGA>
+  </control_parameter>
+</configuration>
