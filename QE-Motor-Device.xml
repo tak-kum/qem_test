@@ -6,8 +6,10 @@
 			<DeviceSeriesName>RA2</DeviceSeriesName>
 			<Device>
 				<DeviceName>RA2T1</DeviceName>
-				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an7813xx0100-ra2t1-sensorless-foc.xml</ProjectUrl>
-				<ProjectUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an7891xx0100-ra2t1-120-degree.xml</ProjectUrl>
+				<ProjectOrgUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an7813xx0100-ra2t1-sensorless-foc.xml</ProjectOrgUrl>
+				<ProjectOrgUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an7891xx0100-ra2t1-120-degree.xml</ProjectOrgUrl>
+				<ProjectUrl>>https://raw.githubusercontent.com/tak-kum/qem_test/refs/heads/main/SampleProjects/r01an7813xx0100-ra2t1-sensorless-foc.xml</ProjectUrl>
+				<ProjectUrl>>https://raw.githubusercontent.com/tak-kum/qem_test/refs/heads/main/SampleProjects/r01an7891xx0100-ra2t1-120-degree.xml</ProjectUrl>
 			</Device>
 		</DeviceSeries>
 		<DeviceSeries>
