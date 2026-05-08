@@ -12,12 +12,12 @@
 			<ProjectFolderName>RA2T1_MCILV1_PM_LESS_FOC_1S_E2S_V100</ProjectFolderName>
 			<ProjectFolderName>RA2T1_MCILV1_PM_LESS_FOC_3S_E2S_V100</ProjectFolderName>
 			<ProjectOrgUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an7813xx0100-ra2t1-sensorless-foc.xml</ProjectOrgUrl>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/refs/heads/main/r01an7813xx0100-ra2t1-sensorless-foc.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/refs/heads/main/SampleProjects/r01an7813xx0100-ra2t1-sensorless-foc.xml</ProjectUrl>
 		</Project>
 		<Project>
 			<ProjectFolderName>RA2T1_MCILV1_PM_120_E2S_V100</ProjectFolderName>
 			<ProjectOrgUrl>https://raw.githubusercontent.com/renesas/qe-tools/main/qe_motor/SampleProjects/r01an7891xx0100-ra2t1-120-degree.xml</ProjectOrgUrl>
-			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/refs/heads/main/r01an7891xx0100-ra2t1-120-degree.xml</ProjectUrl>
+			<ProjectUrl>https://raw.githubusercontent.com/tak-kum/qem_test/refs/heads/main/SampleProjects/r01an7891xx0100-ra2t1-120-degree.xml</ProjectUrl>
 		</Project>
 	</Kit>
 	<Kit>
