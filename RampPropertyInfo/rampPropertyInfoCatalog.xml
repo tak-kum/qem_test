@@ -2,7 +2,7 @@
 <RampPropertyCatalog>
     <Info>
         <SupportedFspVersion>6.6.0</SupportedFspVersion>
-        <Url>https://raw.githubusercontent.com/tak-kum/qem_test/refs/heads/main/RampPropertyInfo/rampPropertyInfo_fsp6.6.0_v0.0.1.json</Url>
+        <Url>https://raw.githubusercontent.com/tak-kum/qem_test/refs/heads/main/RampPropertyInfo/rampPropertyInfo_fsp6.6.0_v0.0.2.json</Url>
     </Info>
     <Info>
         <SupportedFspVersion>6.4.0</SupportedFspVersion>
