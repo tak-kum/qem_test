@@ -1079,7 +1079,7 @@
                 },
                 {
                   "propertyId": "module.middleware.motor_algorithm.f_over_current",
-                  "value": "3.3F"
+                  "value": "3.2F"
                 },
                 {
                   "propertyId": "module.middleware.motor_algorithm.voltage_comp_v1",
@@ -1121,7 +1121,7 @@
                 },
                 {
                   "propertyId": "module.driver.adc.sampling_table_id_0",
-                  "value": "30"
+                  "value": "10"
                 },
                 {
                   "propertyId": "module.driver.adc.sample_and_hold_enable_mask",
